@@ -44,7 +44,7 @@ def analyze_garment_with_lmstudio(
 RULES:
 - "analyzed_garment": A one-line detailed description of the main garment shown in the image. Include color, fabric, and style.
 - "pairing_attributes": A JSON array of highly specific, standalone physical descriptors (e.g., exact color, fabric type, pattern, cut, garment type) optimized for vector embedding search to find a pairing in a wardrobe database. NEVER use relative words like "matching", "complementary", "similar", or "this".
-- "category": State the type of garment needed to complete the look (e.g., "Lehenga", "Dupatta", "Palazzo", "Churidar", "Salwar").
+- "category": State the exact category of the CURRENT garment (e.g., "Kurti", "Lehenga", "Palazzo", "Saree", "Dress", "Jeans", "Blazer", "Top").
 - Output ONLY raw, unformatted JSON.
 - STRICT REQUIREMENT: Do not use Markdown, do not use ```json code blocks, and do not include any conversational text.
 
@@ -105,7 +105,7 @@ def process_wardrobe_folder(
     
     persona_path = Path(persona_folder)
     wardrobe_path = persona_path / "wardrobe-compressed"
-    full_body_path = persona_path / "full-body-compressed.png"
+    full_body_path = persona_path / "full-body.png"
     
     if not wardrobe_path.exists():
         print(f"Error: Wardrobe folder not found at {wardrobe_path}")

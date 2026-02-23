@@ -1,35 +1,63 @@
 // Marqo FashionCLIP Service for Vector Search
-// This service uses the Marqo FashionCLIP model for fashion-specific image-text matching
+// This service uses the Marqo FashionCLIP model locally via Transformers.js
 
+import { 
+  CLIPTextModelWithProjection, 
+  CLIPVisionModelWithProjection, 
+  AutoTokenizer, 
+  AutoProcessor, 
+  RawImage 
+} from '@huggingface/transformers';
 import type { WardrobeItem } from '@/types';
 
-// Using Hugging Face Inference API for FashionCLIP
-const HF_API_URL = 'https://api-inference.huggingface.co/models/Marqo/marqo-fashionCLIP';
-const HF_API_TOKEN = import.meta.env.VITE_HF_API_TOKEN || '';
+const MODEL_ID = 'Marqo/marqo-fashionCLIP';
+
+// Singleton pattern for lazy loading models so we only download/initialize them once
+class PipelineManager {
+  static tokenizer: any = null;
+  static textModel: any = null;
+  static processor: any = null;
+  static visionModel: any = null;
+  static initializationPromise: Promise<void> | null = null;
+
+  static async getInstance() {
+    if (!this.initializationPromise) {
+      this.initializationPromise = (async () => {
+        console.log("Loading Marqo-FashionCLIP models. This might take a moment on the first run...");
+        this.tokenizer = await AutoTokenizer.from_pretrained(MODEL_ID);
+        this.textModel = await CLIPTextModelWithProjection.from_pretrained(MODEL_ID);
+        this.processor = await AutoProcessor.from_pretrained(MODEL_ID);
+        this.visionModel = await CLIPVisionModelWithProjection.from_pretrained(MODEL_ID);
+        console.log("Marqo-FashionCLIP models loaded successfully!");
+      })();
+    }
+    
+    await this.initializationPromise;
+    
+    return {
+      tokenizer: this.tokenizer,
+      textModel: this.textModel,
+      processor: this.processor,
+      visionModel: this.visionModel
+    };
+  }
+}
 
 // Generate text embedding for pairing attributes
 export async function generateTextEmbedding(text: string): Promise<number[]> {
   try {
-    const response = await fetch(HF_API_URL, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${HF_API_TOKEN}`,
-      },
-      body: JSON.stringify({
-        inputs: text,
-      }),
-    });
-
-    if (!response.ok) {
-      throw new Error(`FashionCLIP API error: ${response.status}`);
-    }
-
-    const data = await response.json();
-    return data.embedding || data;
+    const { tokenizer, textModel } = await PipelineManager.getInstance();
+    
+    // Run tokenization
+    const text_inputs = tokenizer([text], { padding: 'max_length', truncation: true });
+    
+    // Compute text embeddings
+    const { text_embeds } = await textModel(text_inputs);
+    
+    // Normalize and return as a standard array
+    return text_embeds.normalize().tolist()[0];
   } catch (error) {
     console.error('Error generating text embedding:', error);
-    // Return mock embedding for demo purposes
     return generateMockEmbedding();
   }
 }
@@ -37,35 +65,24 @@ export async function generateTextEmbedding(text: string): Promise<number[]> {
 // Generate image embedding for wardrobe items
 export async function generateImageEmbedding(imageBase64: string): Promise<number[]> {
   try {
-    // Convert base64 to blob
-    const byteCharacters = atob(imageBase64);
-    const byteNumbers = new Array(byteCharacters.length);
-    for (let i = 0; i < byteCharacters.length; i++) {
-      byteNumbers[i] = byteCharacters.charCodeAt(i);
-    }
-    const byteArray = new Uint8Array(byteNumbers);
-    const blob = new Blob([byteArray], { type: 'image/jpeg' });
+    const { processor, visionModel } = await PipelineManager.getInstance();
 
-    const formData = new FormData();
-    formData.append('image', blob, 'garment.jpg');
+    // Format properly for Transformers.js RawImage
+    const dataUrl = imageBase64.startsWith('data:') 
+      ? imageBase64 
+      : `data:image/jpeg;base64,${imageBase64}`;
 
-    const response = await fetch(`${HF_API_URL}/image`, {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${HF_API_TOKEN}`,
-      },
-      body: formData,
-    });
+    // Read image and run processor
+    const image = await RawImage.read(dataUrl);
+    const image_inputs = await processor(image);
 
-    if (!response.ok) {
-      throw new Error(`FashionCLIP image API error: ${response.status}`);
-    }
-
-    const data = await response.json();
-    return data.embedding || data;
+    // Compute vision embeddings
+    const { image_embeds } = await visionModel(image_inputs);
+    
+    // Normalize and return as a standard array
+    return image_embeds.normalize().tolist()[0];
   } catch (error) {
     console.error('Error generating image embedding:', error);
-    // Return mock embedding for demo purposes
     return generateMockEmbedding();
   }
 }
@@ -107,8 +124,8 @@ export async function findBestMatch(
       wardrobe
         .filter(item => item.id !== excludeId)
         .map(async (item) => {
-          // In a real implementation, we would store pre-computed embeddings
-          // For demo, we'll use a simple scoring based on attribute matching
+          // In a fully optimized app, we would save embeddings in IndexedDB.
+          // Since we process locally, generating text dynamically on the fly is fast enough.
           const itemText = `${item.analysis.analyzed_garment} ${item.analysis.category}`;
           const itemEmbedding = await generateTextEmbedding(itemText);
           const similarity = cosineSimilarity(queryEmbedding, itemEmbedding);
@@ -126,18 +143,18 @@ export async function findBestMatch(
     return scoredItems.length > 0 ? scoredItems[0].item : null;
   } catch (error) {
     console.error('Error finding best match:', error);
-    // Fallback: return random item for demo
+    // Fallback: return random item
     const filtered = wardrobe.filter(item => item.id !== excludeId);
     return filtered.length > 0 ? filtered[Math.floor(Math.random() * filtered.length)] : null;
   }
 }
 
-// Generate mock embedding for demo purposes
+// Generate mock embedding for demo/fallback purposes
 function generateMockEmbedding(): number[] {
   return Array.from({ length: 512 }, () => Math.random() * 2 - 1);
 }
 
-// Simple attribute-based matching (fallback when API is unavailable)
+// Simple attribute-based matching (fallback when AI is unavailable)
 export function attributeBasedMatching(
   pairingAttributes: string[],
   wardrobe: WardrobeItem[],
