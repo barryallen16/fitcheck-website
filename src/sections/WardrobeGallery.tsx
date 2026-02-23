@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Trash2, Eye, Sparkles, Shirt } from "lucide-react";
+import { useState, useEffect } from "react";
+import { Trash2, Eye, Sparkles, Shirt, Link } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -10,8 +10,9 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import type { WardrobeItem } from "@/types";
+import type { WardrobeItem, OutfitRecommendation } from "@/types";
 import { removeWardrobeItem } from "@/services/storageService";
+import { getAllRecommendations } from "@/services/recommendationService";
 
 interface WardrobeGalleryProps {
   items: WardrobeItem[];
@@ -23,6 +24,12 @@ export function WardrobeGallery({
   onItemsChange,
 }: WardrobeGalleryProps) {
   const [selectedItem, setSelectedItem] = useState<WardrobeItem | null>(null);
+  const [outfitHistory, setOutfitHistory] = useState<OutfitRecommendation[]>([]);
+
+  // Corrected useEffect: Only one instance, passing the 'items' array
+  useEffect(() => {
+    setOutfitHistory(getAllRecommendations(items));
+  }, [items]);
 
   const handleDelete = (id: string) => {
     removeWardrobeItem(id);
@@ -31,7 +38,6 @@ export function WardrobeGallery({
 
   const getCategoryColor = (category: string): string => {
     const colors: Record<string, string> = {
-      // Ethnic
       Kurti: "bg-rose-100 text-rose-700",
       Lehenga: "bg-purple-100 text-purple-700",
       Dupatta: "bg-pink-100 text-pink-700",
@@ -41,23 +47,25 @@ export function WardrobeGallery({
       Saree: "bg-red-100 text-red-700",
       Sherwani: "bg-indigo-100 text-indigo-700",
       Anarkali: "bg-teal-100 text-teal-700",
-
-      // Western
       Dress: "bg-fuchsia-100 text-fuchsia-700",
       Gown: "bg-fuchsia-100 text-fuchsia-700",
       Skirt: "bg-cyan-100 text-cyan-700",
       Jeans: "bg-sky-100 text-sky-700",
       Pants: "bg-emerald-100 text-emerald-700",
-      Blazer: "bg-slate-100 text-slate-700",
-      Jacket: "bg-slate-100 text-slate-700",
-      Camisole: "bg-orange-100 text-orange-700",
-      Top: "bg-lime-100 text-lime-700",
-      Tunic: "bg-emerald-100 text-emerald-700",
       Shirt: "bg-blue-100 text-blue-700",
-      Cape: "bg-violet-100 text-violet-700",
     };
     return colors[category] || "bg-gray-100 text-gray-700";
   };
+  
+  // Find all items that have been paired with the currently selected item
+  const pairedGarments = selectedItem ? outfitHistory.reduce((acc, rec) => {
+    if (rec.topGarment.id === selectedItem.id) {
+      if (!acc.some((i) => i.id === rec.bottomGarment.id)) acc.push(rec.bottomGarment);
+    } else if (rec.bottomGarment.id === selectedItem.id) {
+      if (!acc.some((i) => i.id === rec.topGarment.id)) acc.push(rec.topGarment);
+    }
+    return acc;
+  }, [] as WardrobeItem[]) : [];
 
   if (items.length === 0) {
     return (
@@ -102,7 +110,6 @@ export function WardrobeGallery({
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
 
-                {/* Actions */}
                 <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
                   <Button
                     variant="destructive"
@@ -117,11 +124,8 @@ export function WardrobeGallery({
                   </Button>
                 </div>
 
-                {/* Category Badge */}
                 <div className="absolute bottom-2 left-2">
-                  <Badge
-                    className={`text-xs ${getCategoryColor(item.analysis.category)}`}
-                  >
+                  <Badge className={`text-xs ${getCategoryColor(item.analysis.category)}`}>
                     {item.analysis.category}
                   </Badge>
                 </div>
@@ -157,54 +161,46 @@ export function WardrobeGallery({
 
               <div className="space-y-3">
                 <div>
-                  <h4 className="text-sm font-medium text-muted-foreground">
-                    Description
-                  </h4>
-                  <p className="text-sm">
-                    {selectedItem.analysis.analyzed_garment}
-                  </p>
+                  <h4 className="text-sm font-medium text-muted-foreground">Description</h4>
+                  <p className="text-sm">{selectedItem.analysis.analyzed_garment}</p>
                 </div>
 
+                {/* NEW: Pairs Well With Section */}
+                {pairedGarments.length > 0 && (
+                  <div>
+                    <h4 className="text-sm font-medium text-muted-foreground flex items-center gap-1 mb-2">
+                      <Link className="h-3 w-3" /> AI Stylist Pairing History
+                    </h4>
+                    <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-thin">
+                      {pairedGarments.map((g) => (
+                        <div key={g.id} className="flex-shrink-0 w-16 h-16 rounded-md overflow-hidden border-2 border-muted hover:border-violet-300 transition-colors">
+                          <img
+                            src={g.imageUrl}
+                            alt="Paired garment"
+                            className="object-cover w-full h-full"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
                 <div>
-                  <h4 className="text-sm font-medium text-muted-foreground">
-                    Category
-                  </h4>
-                  <Badge
-                    className={getCategoryColor(selectedItem.analysis.category)}
-                  >
+                  <h4 className="text-sm font-medium text-muted-foreground">Category</h4>
+                  <Badge className={getCategoryColor(selectedItem.analysis.category)}>
                     {selectedItem.analysis.category}
                   </Badge>
                 </div>
 
                 <div>
-                  <h4 className="text-sm font-medium text-muted-foreground">
-                    Pairing Attributes
-                  </h4>
+                  <h4 className="text-sm font-medium text-muted-foreground">Pairing Attributes</h4>
                   <div className="flex flex-wrap gap-1 mt-1">
-                    {selectedItem.analysis.pairing_attributes.map(
-                      (attr, idx) => (
-                        <Badge key={idx} variant="outline" className="text-xs">
-                          {attr}
-                        </Badge>
-                      ),
-                    )}
+                    {selectedItem.analysis.pairing_attributes.map((attr, idx) => (
+                      <Badge key={idx} variant="outline" className="text-xs">
+                        {attr}
+                      </Badge>
+                    ))}
                   </div>
-                </div>
-
-                <div>
-                  <h4 className="text-sm font-medium text-muted-foreground">
-                    Added On
-                  </h4>
-                  <p className="text-sm">
-                    {new Date(selectedItem.uploadedAt).toLocaleDateString(
-                      "en-IN",
-                      {
-                        day: "numeric",
-                        month: "long",
-                        year: "numeric",
-                      },
-                    )}
-                  </p>
                 </div>
               </div>
             </div>

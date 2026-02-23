@@ -1,267 +1,196 @@
-// Recommendation Engine Service
+// src/services/recommendationService.ts
+import { generateStylistRecommendationGroq } from "./groqService";
 import type { WardrobeItem, OutfitRecommendation, WeatherData } from "@/types";
-import { findBestMatch, attributeBasedMatching } from "./fashionCLIPService";
 
-// Generate daily outfit recommendation
-export async function generateDailyRecommendation(
-  wardrobe: WardrobeItem[],
-  weather: WeatherData,
-  usedItems: string[] = [],
-): Promise<OutfitRecommendation | null> {
-  if (wardrobe.length < 2) {
-    return null;
-  }
+// Lightweight interface for LocalStorage (NO base64 images)
+interface StoredRecommendation {
+  id: string;
+  topGarmentId: string;
+  bottomGarmentId: string;
+  colorLogic: string;
+  silhouetteLogic: string;
+  occasion: string;
+  weather: string;
+  createdAt: string;
+}
 
-  // Filter out recently used items
-  const availableItems = wardrobe.filter(
-    (item) => !usedItems.includes(item.id),
-  );
-  const itemsToConsider =
-    availableItems.length >= 2 ? availableItems : wardrobe;
+// --- HISTORY MANAGEMENT ---
 
-  // Select a random top garment (Kurti, Top, etc.)
-  // 1. Top categories (Added Shirt, Cape, Dress, etc.)
-  const topCategories = [
-    "Kurti",
-    "Top",
-    "Saree",
-    "Sherwani",
-    "Blazer",
-    "Jacket",
-    "Camisole",
-    "Tunic",
-    "Shirt",
-    "Cape",
-    "Dress",
-  ];
-
-  // ... scroll down to bottom fallback ...
-  // 2. Add Western bottoms (further down in the file)
-  const topItems = itemsToConsider.filter((item) =>
-    topCategories.some((cat) =>
-      item.analysis.category.toLowerCase().includes(cat.toLowerCase()),
-    ),
-  );
-
-  if (topItems.length === 0) {
-    // Fallback: use any item as top
-    topItems.push(...itemsToConsider);
-  }
-
-  const selectedTop = topItems[Math.floor(Math.random() * topItems.length)];
-
-  // Find matching bottom using FashionCLIP or fallback
-  let matchingBottom: WardrobeItem | null = null;
-
+export function getAllRecommendations(wardrobe: WardrobeItem[]): OutfitRecommendation[] {
   try {
-    matchingBottom = await findBestMatch(
-      selectedTop.analysis.pairing_attributes,
-      itemsToConsider,
-      selectedTop.id,
-    );
-  } catch (error) {
-    console.log("Falling back to attribute-based matching");
-    // Fallback matching
+    const historyJson = localStorage.getItem("fitcheck-all-recommendations");
+    if (!historyJson) return [];
 
-    // 2. Bottom categories (Added Pants, Jeans, Skirt)
-    const bottomCategories = [
-      "Palazzo",
-      "Churidar",
-      "Salwar",
-      "Lehenga",
-      "Bottom",
-      "Skirt",
-      "Jeans",
-      "Pants",
-    ];
-    for (const category of bottomCategories) {
-      matchingBottom = attributeBasedMatching(
-        selectedTop.analysis.pairing_attributes,
-        itemsToConsider,
-        category,
-        selectedTop.id,
-      );
-      if (matchingBottom) break;
-    }
-  }
+    const storedHistory: StoredRecommendation[] = JSON.parse(historyJson);
 
-  // If no match found, pick any other item
-  if (!matchingBottom) {
-    const otherItems = itemsToConsider.filter(
-      (item) => item.id !== selectedTop.id,
-    );
-    if (otherItems.length > 0) {
-      matchingBottom =
-        otherItems[Math.floor(Math.random() * otherItems.length)];
-    }
-  }
+    // Re-hydrate full objects by matching IDs with the actual wardrobe
+    return storedHistory.map(stored => {
+      const top = wardrobe.find(w => w.id === stored.topGarmentId);
+      const bottom = wardrobe.find(w => w.id === stored.bottomGarmentId);
 
-  if (!matchingBottom) {
-    return null;
-  }
-
-  // Generate recommendation logic
-  const colorLogic = generateColorLogic(
-    selectedTop.analysis.analyzed_garment,
-    matchingBottom.analysis.analyzed_garment,
-  );
-
-  const silhouetteLogic = generateSilhouetteLogic(
-    selectedTop.analysis.category,
-    matchingBottom.analysis.category,
-  );
-
-  return {
-    id: `rec-${Date.now()}`,
-    topGarment: selectedTop,
-    bottomGarment: matchingBottom,
-    colorLogic,
-    silhouetteLogic,
-    occasion: getOccasionFromOutfit(selectedTop, matchingBottom),
-    weather: weather.recommendation,
-    createdAt: new Date(),
-  };
-}
-
-// Generate color coordination logic
-function generateColorLogic(topDesc: string, bottomDesc: string): string {
-  const topColors = extractColors(topDesc);
-  const bottomColors = extractColors(bottomDesc);
-
-  const colorCombos: Record<string, string> = {
-    "red-gold": "Red and gold create a classic festive combination.",
-    "blue-silver": "Blue and silver offer an elegant, cool-toned pairing.",
-    "green-gold": "Green and gold evoke natural beauty and prosperity.",
-    "pink-white": "Pink and white create a soft, feminine aesthetic.",
-    "maroon-beige": "Maroon and beige balance richness with subtlety.",
-    "black-gold": "Black and gold provide a sophisticated, timeless look.",
-    "yellow-orange":
-      "Yellow and orange create a vibrant, energetic combination.",
-  };
-
-  const key = `${topColors[0]}-${bottomColors[0]}`;
-  const reverseKey = `${bottomColors[0]}-${topColors[0]}`;
-
-  return (
-    colorCombos[key] ||
-    colorCombos[reverseKey] ||
-    "The colors complement each other beautifully, creating a harmonious look."
-  );
-}
-
-// Generate silhouette coordination logic
-function generateSilhouetteLogic(
-  topCategory: string,
-  bottomCategory: string,
-): string {
-  const combos: Record<string, string> = {
-    "Kurti-Palazzo":
-      "The flowing Palazzo balances the structured Kurti for elegant comfort.",
-    "Kurti-Churidar":
-      "The fitted Churidar accentuates the Kurti's length and detail.",
-    "Kurti-Salwar":
-      "Classic pairing offering traditional elegance and ease of movement.",
-    "Top-Lehenga":
-      "The flared Lehenga creates a dramatic silhouette with the fitted top.",
-    "Saree-": "The draped Saree offers timeless grace and versatility.",
-    "Sherwani-Churidar":
-      "The fitted Churidar complements the structured Sherwani perfectly.",
-  };
-
-  const key = `${topCategory}-${bottomCategory}`;
-  return (
-    combos[key] ||
-    "The silhouettes work together to create a balanced, flattering look."
-  );
-}
-
-// Extract colors from description
-function extractColors(description: string): string[] {
-  const colorList = [
-    "red",
-    "blue",
-    "green",
-    "yellow",
-    "orange",
-    "purple",
-    "pink",
-    "black",
-    "white",
-    "gold",
-    "silver",
-    "maroon",
-    "beige",
-    "brown",
-    "grey",
-    "gray",
-    "mustard",
-    "teal",
-    "navy",
-    "coral",
-    "peach",
-    "lavender",
-    "mint",
-    "crimson",
-    "charcoal",
-    "ivory",
-    "cream",
-    "turquoise",
-    "magenta",
-  ];
-
-  const desc_lower = description.toLowerCase();
-  return colorList.filter((color) => desc_lower.includes(color));
-}
-
-// Determine occasion from outfit
-function getOccasionFromOutfit(
-  top: WardrobeItem,
-  bottom: WardrobeItem,
-): string {
-  const combined =
-    `${top.analysis.analyzed_garment} ${bottom.analysis.analyzed_garment}`.toLowerCase();
-
-  if (
-    combined.includes("silk") ||
-    combined.includes("brocade") ||
-    combined.includes("zari")
-  ) {
-    return "Wedding, Festival, or Special Occasion";
-  }
-
-  if (combined.includes("cotton") || combined.includes("casual")) {
-    return "Daily Wear, Office, or Casual Outing";
-  }
-
-  if (combined.includes("embroidered") || combined.includes("sequin")) {
-    return "Party, Celebration, or Evening Event";
-  }
-
-  return "Versatile - Suitable for Multiple Occasions";
-}
-
-// Get recommendation history from localStorage
-export function getRecommendationHistory(): string[] {
-  try {
-    const history = localStorage.getItem("fitcheck-recommendation-history");
-    return history ? JSON.parse(history) : [];
+      if (top && bottom) {
+        return {
+          id: stored.id,
+          topGarment: top,
+          bottomGarment: bottom,
+          colorLogic: stored.colorLogic,
+          silhouetteLogic: stored.silhouetteLogic,
+          occasion: stored.occasion,
+          weather: stored.weather,
+          createdAt: new Date(stored.createdAt)
+        };
+      }
+      return null;
+    }).filter(Boolean) as OutfitRecommendation[]; // Remove any nulls if a garment was deleted
   } catch {
     return [];
   }
 }
 
-// Save recommendation to history
-export function saveRecommendationToHistory(recommendationId: string): void {
+export function saveRecommendationToHistory(rec: OutfitRecommendation): void {
   try {
-    const history = getRecommendationHistory();
-    history.push(recommendationId);
-    // Keep only last 7 days of history
-    const trimmed = history.slice(-14);
-    localStorage.setItem(
-      "fitcheck-recommendation-history",
-      JSON.stringify(trimmed),
+    const historyJson = localStorage.getItem("fitcheck-all-recommendations");
+    const history: StoredRecommendation[] = historyJson ? JSON.parse(historyJson) : [];
+    
+    // Check if this exact pair already exists
+    const exists = history.some(h => 
+      (h.topGarmentId === rec.topGarment.id && h.bottomGarmentId === rec.bottomGarment.id) ||
+      (h.topGarmentId === rec.bottomGarment.id && h.bottomGarmentId === rec.topGarment.id)
     );
+    
+    if (!exists) {
+      // Save ONLY the lightweight data
+      const lightRec: StoredRecommendation = {
+        id: rec.id,
+        topGarmentId: rec.topGarment.id,
+        bottomGarmentId: rec.bottomGarment.id,
+        colorLogic: rec.colorLogic,
+        silhouetteLogic: rec.silhouetteLogic,
+        occasion: rec.occasion,
+        weather: rec.weather,
+        createdAt: rec.createdAt.toISOString()
+      };
+      
+      history.push(lightRec);
+
+      // Keep only the last 50 outfits to guarantee we never hit quota again
+      if (history.length > 50) history.shift();
+
+      localStorage.setItem("fitcheck-all-recommendations", JSON.stringify(history));
+    }
   } catch (error) {
     console.error("Error saving recommendation history:", error);
+  }
+}
+
+// --- GENERATION PIPELINE ---
+
+export async function generateDailyRecommendation(
+  wardrobe: WardrobeItem[],
+  weather: WeatherData,
+): Promise<OutfitRecommendation | null> {
+  if (wardrobe.length < 2) {
+    return null;
+  }
+
+  // 1. Fetch lightweight history & re-hydrate
+  const pastRecommendations = getAllRecommendations(wardrobe);
+  
+  // 2. Format them into a list of forbidden pairs
+  const rejectedPairs = pastRecommendations.map(
+    rec => `${rec.topGarment.id}|${rec.bottomGarment.id}`
+  );
+
+  const inventoryPayload = wardrobe.map(item => ({
+    id: item.id,
+    category: item.analysis.category,
+    description: item.analysis.analyzed_garment
+  }));
+
+  try {
+    let stylistChoice = null;
+    let attempts = 0;
+    let isValidNewPair = false;
+
+    while (attempts < 2 && !isValidNewPair) {
+      // CALL GROQ API
+      stylistChoice = await generateStylistRecommendationGroq(inventoryPayload, weather, rejectedPairs);
+      
+      if (!stylistChoice) {
+        console.warn("API returned null (Rate limit or 503). Escaping to JS fallback...");
+        break; 
+      }
+
+      if (!stylistChoice.top_id || !stylistChoice.bottom_id) {
+        attempts++;
+        continue;
+      }
+
+      const proposedPair = `${stylistChoice.top_id}|${stylistChoice.bottom_id}`;
+      
+      if (!rejectedPairs.includes(proposedPair)) {
+        isValidNewPair = true;
+      } else {
+        console.warn(`Groq repeated pair ${proposedPair}. Retrying...`);
+        attempts++;
+      }
+    }
+
+    if (isValidNewPair && stylistChoice) {
+      const topGarment = wardrobe.find(i => i.id === stylistChoice.top_id);
+      const bottomGarment = wardrobe.find(i => i.id === stylistChoice.bottom_id);
+
+      if (topGarment && bottomGarment) {
+        return {
+          id: `rec-${Date.now()}`,
+          topGarment,
+          bottomGarment,
+          colorLogic: stylistChoice.colorLogic,
+          silhouetteLogic: stylistChoice.silhouetteLogic,
+          occasion: stylistChoice.occasion,
+          weather: weather.recommendation,
+          createdAt: new Date(),
+        };
+      }
+    }
+
+    throw new Error("API exhausted attempts. Triggering fallback.");
+
+  } catch (error) {
+    console.log("Activating JS Fallback Matcher...");
+
+    let fallbackTop: WardrobeItem | null = null;
+    let fallbackBottom: WardrobeItem | null = null;
+
+    for (const top of wardrobe) {
+      for (const bottom of wardrobe) {
+        if (top.id === bottom.id) continue; 
+        
+        const pairId = `${top.id}|${bottom.id}`;
+        const reversePairId = `${bottom.id}|${top.id}`; 
+
+        if (!rejectedPairs.includes(pairId) && !rejectedPairs.includes(reversePairId)) {
+          fallbackTop = top;
+          fallbackBottom = bottom;
+          break;
+        }
+      }
+      if (fallbackTop) break;
+    }
+
+    if (fallbackTop && fallbackBottom) {
+      return {
+        id: `rec-${Date.now()}-fallback`,
+        topGarment: fallbackTop,
+        bottomGarment: fallbackBottom,
+        colorLogic: "A fresh mix-and-match combination to explore your wardrobe's potential.",
+        silhouetteLogic: "An experimental pairing to discover new personal styles.",
+        occasion: "Casual Discovery",
+        weather: weather.recommendation,
+        createdAt: new Date(),
+      };
+    }
+
+    return null;
   }
 }

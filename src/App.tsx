@@ -7,7 +7,6 @@ import { Header } from '@/sections/Header';
 import { WardrobeUpload } from '@/sections/WardrobeUpload';
 import { WardrobeGallery } from '@/sections/WardrobeGallery';
 import { DailyRecommendation } from '@/sections/DailyRecommendation';
-import { PersonaSection } from '@/sections/PersonaSection';
 import { LMStudioStatus } from '@/sections/LMStudioStatus';
 
 import type { WardrobeItem, WeatherData } from '@/types';
@@ -101,10 +100,9 @@ function App() {
         </div>
 
         <Tabs defaultValue="recommendation" className="space-y-6">
-          <TabsList className="grid w-full grid-cols-3">
+          <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="recommendation">Daily Outfit</TabsTrigger>
             <TabsTrigger value="wardrobe">My Wardrobe</TabsTrigger>
-            <TabsTrigger value="persona">Persona</TabsTrigger>
           </TabsList>
 
           {/* Daily Recommendation Tab */}
@@ -129,13 +127,6 @@ function App() {
               </div>
             </div>
           </TabsContent>
-
-          {/* Persona Tab */}
-          <TabsContent value="persona" className="space-y-6">
-            <div className="max-w-md mx-auto">
-              <PersonaSection />
-            </div>
-          </TabsContent>
         </Tabs>
       </main>
 
@@ -144,7 +135,7 @@ function App() {
         <div className="container text-center text-sm text-muted-foreground">
           <p>FitCheck - AI Fashion Stylist for Indian Ethnic Wear</p>
           <p className="mt-1">
-            Powered by Qwen3-VL, Marqo FashionCLIP & Gemini
+            Powered by Qwen3-VL & Gemini
           </p>
         </div>
       </footer>

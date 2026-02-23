@@ -1,5 +1,9 @@
 // LM Studio API Service for Garment Analysis
 import type { GarmentAnalysis } from '@/types';
+// Add this import at the top if it isn't there
+import type { WeatherData } from '@/types';
+
+// ... existing analyzeGarment and checkLMStudioHealth functions ...
 
 const LM_STUDIO_URL = 'http://localhost:1234/v1/chat/completions';
 
@@ -26,7 +30,7 @@ export async function analyzeGarment(imageBase64: string): Promise<GarmentAnalys
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'qwen3-vl-2b',
+        model: 'lmstudio-community/qwen3-vl-4b-instruct',
         messages: [
           {
             role: 'user',
@@ -44,7 +48,7 @@ export async function analyzeGarment(imageBase64: string): Promise<GarmentAnalys
             ],
           },
         ],
-        temperature: 0.3,
+        temperature: 0.6,
         max_tokens: 500,
       }),
     });
@@ -70,6 +74,83 @@ export async function analyzeGarment(imageBase64: string): Promise<GarmentAnalys
   }
 }
 
+export async function generateLocalStylistRecommendation(
+  wardrobeInventory: { id: string; category: string; description: string }[],
+  weather: WeatherData,
+  rejectedPairs: string[] = [] // <-- Add this new parameter
+) {
+  try {
+    // Format the rejected pairs into readable text for the LLM
+    const rejectedText = rejectedPairs.length > 0 
+      ? `\nPREVIOUSLY SUGGESTED PAIRS TO AVOID:\n${rejectedPairs.map(p => {
+          const [top, bottom] = p.split('|');
+          return `- Top ID: "${top}" paired with Bottom ID: "${bottom}"`;
+        }).join('\n')}\nCRITICAL RULE: You MUST NOT suggest any of the exact pairs listed above.`
+      : '';
+
+    const prompt = `You are an elite fashion stylist. Review the user's wardrobe inventory and current weather, and select the perfect 2-piece outfit strictly using the provided item IDs.
+
+CURRENT WEATHER: ${weather.temperature}°C, ${weather.condition}.
+WARDROBE INVENTORY: ${JSON.stringify(wardrobeInventory)}${rejectedText}
+
+RULES:
+1. Select exactly one 'top_id' and exactly one 'bottom_id' from the inventory.
+2. The combination must make sense aesthetically and for the weather.
+3. Output ONLY raw, valid JSON. Do not include markdown blocks (\`\`\`json). Do not add any conversational text.
+
+REQUIRED JSON FORMAT:
+{
+  "top_id": "string",
+  "bottom_id": "string",
+  "colorLogic": "string",
+  "silhouetteLogic": "string",
+  "occasion": "string"
+}
+
+RAW JSON OUTPUT:`;
+
+    const response = await fetch(LM_STUDIO_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'lmstudio-community/qwen3-vl-4b-instruct', // Or whatever model you have loaded in LM Studio
+        messages: [
+          {
+            role: 'system',
+            content: 'You are a JSON-only fashion stylist AI. You only output valid JSON.',
+          },
+          {
+            role: 'user',
+            content: prompt,
+          },
+        ],
+        temperature: 0.3, // Keep low for more deterministic JSON output
+        max_tokens: 500,
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error(`LM Studio API error: ${response.status}`);
+    }
+
+    const data = await response.json();
+    const content = data.choices[0]?.message?.content || '';
+    
+    // Use Regex to extract just the JSON part, in case the local model hallucinates extra text
+    const jsonMatch = content.match(/\{[\s\S]*\}/);
+    
+    if (jsonMatch) {
+      return JSON.parse(jsonMatch[0]);
+    }
+    
+    throw new Error('Failed to parse JSON from local model');
+  } catch (error) {
+    console.error('Error with local LM Studio stylist:', error);
+    return null;
+  }
+}
 // Health check for LM Studio
 export async function checkLMStudioHealth(): Promise<boolean> {
   try {

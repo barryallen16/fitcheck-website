@@ -6,8 +6,8 @@ const WEATHER_API_KEY = import.meta.env.VITE_WEATHER_API_KEY || '';
 
 // Default to Chennai
 const DEFAULT_CITY = 'Chennai';
-const DEFAULT_LAT = 13.0827;
-const DEFAULT_LON = 80.2707;
+const DEFAULT_LAT = 13.057268;
+const DEFAULT_LON = 80.193704;
 
 export async function getChennaiWeather(): Promise<WeatherData> {
   try {
