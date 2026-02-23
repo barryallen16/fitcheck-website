@@ -104,7 +104,7 @@ export async function generateDailyRecommendation(
   const inventoryPayload = wardrobe.map(item => ({
     id: item.id,
     category: item.analysis.category,
-    description: item.analysis.analyzed_garment
+    description: item.analysis.analyzed_garment 
   }));
 
   try {
