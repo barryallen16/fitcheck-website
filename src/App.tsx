@@ -11,7 +11,7 @@ import { PersonaSection } from '@/sections/PersonaSection';
 import { LMStudioStatus } from '@/sections/LMStudioStatus';
 
 import type { WardrobeItem, WeatherData } from '@/types';
-import { getWardrobe } from '@/services/storageService';
+import { getWardrobe, autoImportFromScript } from '@/services/storageService';
 import { getChennaiWeather } from '@/services/weatherService';
 import { checkLMStudioHealth } from '@/services/lmStudioService';
 
@@ -26,11 +26,14 @@ function App() {
     const loadData = async () => {
       setIsLoading(true);
       
-      // Load wardrobe
-      const savedWardrobe = getWardrobe();
+      // 1. Auto-import new items from the python script first!
+      await autoImportFromScript();
+      
+      // 2. Load wardrobe from IndexedDB
+      const savedWardrobe = await getWardrobe();
       setWardrobe(savedWardrobe);
       
-      // Load weather
+      // 3. Load weather
       try {
         const weatherData = await getChennaiWeather();
         setWeather(weatherData);
@@ -38,7 +41,7 @@ function App() {
         console.error('Failed to load weather:', error);
       }
       
-      // Check LM Studio
+      // 4. Check LM Studio
       const lmReady = await checkLMStudioHealth();
       setIsLMStudioReady(lmReady);
       
@@ -49,8 +52,8 @@ function App() {
   }, []);
 
   // Refresh wardrobe
-  const refreshWardrobe = useCallback(() => {
-    const savedWardrobe = getWardrobe();
+  const refreshWardrobe = useCallback(async () => {
+    const savedWardrobe = await getWardrobe();
     setWardrobe(savedWardrobe);
   }, []);
 
