@@ -1,11 +1,11 @@
 // src/services/groqService.ts
-import type { WeatherData } from '@/types';
+import type { WeatherData } from "@/types";
 
-const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
+const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 // Load keys and split by comma, cleaning up any whitespace
-const API_KEYS = (import.meta.env.VITE_GROQ_API_KEY || '')
-  .split(',')
+const API_KEYS = (import.meta.env.VITE_GROQ_API_KEY || "")
+  .split(",")
   .map((k: string) => k.trim())
   .filter(Boolean);
 
@@ -13,55 +13,73 @@ let currentKeyIndex = 0;
 
 // Helper function to handle API Key Spinning for Groq
 async function fetchWithKeySpinning(
-  baseUrl: string, 
-  options: RequestInit
+  baseUrl: string,
+  options: RequestInit,
 ): Promise<Response> {
   if (API_KEYS.length === 0) {
-    throw new Error('No Groq API keys provided in environment variables.');
+    throw new Error("No Groq API keys provided in environment variables.");
   }
 
   let attempts = 0;
-  
+
   while (attempts < API_KEYS.length) {
     const key = API_KEYS[currentKeyIndex];
-    
+
     // Groq uses Bearer token authorization in the headers
     const headers = new Headers(options.headers);
-    headers.set('Authorization', `Bearer ${key}`);
-    
+    headers.set("Authorization", `Bearer ${key}`);
+
     const response = await fetch(baseUrl, {
       ...options,
-      headers
+      headers,
     });
-    
+
     // If we hit a rate limit (429), spin to the next key
     if (response.status === 429) {
-      console.warn(`Groq API Key at index ${currentKeyIndex} rate-limited. Spinning to next key...`);
+      console.warn(
+        `Groq API Key at index ${currentKeyIndex} rate-limited. Spinning to next key...`,
+      );
       currentKeyIndex = (currentKeyIndex + 1) % API_KEYS.length;
       attempts++;
-      continue; 
+      continue;
     }
-    
+
     // Return immediately on success or other errors
     return response;
   }
 
-  throw new Error('All Groq API keys have exceeded their rate limits.');
+  throw new Error("All Groq API keys have exceeded their rate limits.");
 }
+
+// Helper to wait randomly between 12-18 seconds
+const waitRandomly = (): Promise<void> => {
+  const minMs = 12000;
+  const maxMs = 18000;
+  const delay = Math.floor(Math.random() * (maxMs - minMs + 1)) + minMs;
+
+  console.log(`Waiting for ${(delay / 1000).toFixed(2)} seconds...`);
+
+  return new Promise((resolve) => setTimeout(resolve, delay));
+};
 
 // LLM Stylist Recommendation powered by Groq (openai/gpt-oss-120b)
 export async function generateStylistRecommendationGroq(
   wardrobeInventory: { id: string; category: string; description: string }[],
   weather: WeatherData,
-  rejectedPairs: string[] = [] 
+  rejectedPairs: string[] = [],
 ) {
   try {
-    const rejectedText = rejectedPairs.length > 0 
-      ? `\n\nPREVIOUSLY SUGGESTED PAIRS TO AVOID:\n${rejectedPairs.map(p => {
-          const [top, bottom] = p.split('|');
-          return `- Top ID: "${top}" paired with Bottom ID: "${bottom}"`;
-        }).join('\n')}\nCRITICAL RULE: You MUST NOT suggest any of the exact pairs listed above. Pick a new, unique combination.`
-      : '';
+    const rejectedText =
+      rejectedPairs.length > 0
+        ? `\n\nPREVIOUSLY SUGGESTED PAIRS TO AVOID:\n${rejectedPairs
+            .map((p) => {
+              const [top, bottom] = p.split("|");
+              return `- Top ID: "${top}" paired with Bottom ID: "${bottom}"`;
+            })
+            .join(
+              "\n",
+            )}\nCRITICAL RULE: You MUST NOT suggest any of the exact pairs listed above. Pick a new, unique combination.`
+        : "";
 
     const systemInstruction = `You are an elite fashion stylist specializing in Indian ethnic wear. 
 Your task is to review a user's exact wardrobe inventory and current weather conditions, and select the perfect 2-piece outfit combinations strictly using the provided item IDs.
@@ -86,15 +104,15 @@ JSON FORMAT:
 WARDROBE INVENTORY: ${JSON.stringify(wardrobeInventory)}${rejectedText}`;
 
     const response = await fetchWithKeySpinning(GROQ_API_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         model: "openai/gpt-oss-120b",
         messages: [
           { role: "system", content: systemInstruction },
-          { role: "user", content: prompt }
+          { role: "user", content: prompt },
         ],
-        temperature: 1.0, 
+        temperature: 1.0,
         response_format: { type: "json_object" }, // Enforces pure JSON output on Groq
       }),
     });
@@ -102,12 +120,17 @@ WARDROBE INVENTORY: ${JSON.stringify(wardrobeInventory)}${rejectedText}`;
     if (!response.ok) throw new Error(`Groq API error: ${response.status}`);
     const data = await response.json();
     const content = data.choices?.[0]?.message?.content;
-    
-    if (!content) throw new Error('Empty response from Groq');
-    
+
+    if (!content) throw new Error("Empty response from Groq");
+
+    // PROPERLY AWAIT THE DELAY HERE
+    console.log("Process started. Calling Groq...");
+    await waitRandomly();
+    console.log("Process resumed! Returning data to UI.");
+
     return JSON.parse(content);
   } catch (error) {
-    console.error('Error generating stylist recommendation with Groq:', error);
+    console.error("Error generating stylist recommendation with Groq:", error);
     return null;
   }
 }

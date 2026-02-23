@@ -129,16 +129,6 @@ function App() {
           </TabsContent>
         </Tabs>
       </main>
-
-      {/* Footer */}
-      <footer className="border-t mt-12 py-6">
-        <div className="container text-center text-sm text-muted-foreground">
-          <p>FitCheck - AI Fashion Stylist for Indian Ethnic Wear</p>
-          <p className="mt-1">
-            Powered by Qwen3-VL & Gemini
-          </p>
-        </div>
-      </footer>
     </div>
   );
 }

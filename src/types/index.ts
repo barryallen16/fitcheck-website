@@ -1,11 +1,10 @@
 // Types for FitCheck Application
 
 export interface GarmentAnalysis {
+  summary: string;           // NEW
   analyzed_garment: string;
-  pairing_attributes: string[];
   category: string;
 }
-
 export interface WardrobeItem {
   id: string;
   imageUrl: string;
