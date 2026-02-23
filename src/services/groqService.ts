@@ -1,45 +1,56 @@
+// src/services/groqService.ts
 import type { WeatherData } from '@/types';
 
-// Updated to the latest 2.5 Flash models based on the new documentation
-const GEMINI_TEXT_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
+const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
-const API_KEYS = (import.meta.env.VITE_GEMINI_API_KEY || '')
+// Load keys and split by comma, cleaning up any whitespace
+const API_KEYS = (import.meta.env.VITE_GROQ_API_KEY || '')
   .split(',')
   .map((k: string) => k.trim())
   .filter(Boolean);
 
 let currentKeyIndex = 0;
 
+// Helper function to handle API Key Spinning for Groq
 async function fetchWithKeySpinning(
   baseUrl: string, 
   options: RequestInit
 ): Promise<Response> {
   if (API_KEYS.length === 0) {
-    throw new Error('No Gemini API keys provided in environment variables.');
+    throw new Error('No Groq API keys provided in environment variables.');
   }
 
   let attempts = 0;
   
   while (attempts < API_KEYS.length) {
     const key = API_KEYS[currentKeyIndex];
-    const url = `${baseUrl}?key=${key}`;
     
-    const response = await fetch(url, options);
+    // Groq uses Bearer token authorization in the headers
+    const headers = new Headers(options.headers);
+    headers.set('Authorization', `Bearer ${key}`);
     
+    const response = await fetch(baseUrl, {
+      ...options,
+      headers
+    });
+    
+    // If we hit a rate limit (429), spin to the next key
     if (response.status === 429) {
-      console.warn(`Gemini API Key at index ${currentKeyIndex} rate-limited. Spinning to next key...`);
+      console.warn(`Groq API Key at index ${currentKeyIndex} rate-limited. Spinning to next key...`);
       currentKeyIndex = (currentKeyIndex + 1) % API_KEYS.length;
       attempts++;
       continue; 
     }
     
+    // Return immediately on success or other errors
     return response;
   }
 
-  throw new Error('All Gemini API keys have exceeded their rate limits.');
+  throw new Error('All Groq API keys have exceeded their rate limits.');
 }
 
-export async function generateStylistRecommendation(
+// LLM Stylist Recommendation powered by Groq (openai/gpt-oss-120b)
+export async function generateStylistRecommendationGroq(
   wardrobeInventory: { id: string; category: string; description: string }[],
   weather: WeatherData,
   rejectedPairs: string[] = [] 
@@ -66,35 +77,37 @@ JSON FORMAT:
 {
   "top_id": "string",
   "bottom_id": "string",
-  "colorLogic": "string (Why these colors work)",
-  "silhouetteLogic": "string (Why these shapes/garments work together)",
+  "colorLogic": "string",
+  "silhouetteLogic": "string",
   "occasion": "string"
 }`;
 
     const prompt = `CURRENT WEATHER: ${weather.temperature}°C, ${weather.condition}. 
 WARDROBE INVENTORY: ${JSON.stringify(wardrobeInventory)}${rejectedText}`;
 
-    const response = await fetchWithKeySpinning(GEMINI_TEXT_API_URL, {
+    const response = await fetchWithKeySpinning(GROQ_API_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        system_instruction: { parts: [{ text: systemInstruction }] },
-        contents: [{ role: 'user', parts: [{ text: prompt }] }],
-        generationConfig: {
-          temperature: 1.2, // High temp for creative combinations
-          responseMimeType: "application/json", 
-        },
+        model: "openai/gpt-oss-120b",
+        messages: [
+          { role: "system", content: systemInstruction },
+          { role: "user", content: prompt }
+        ],
+        temperature: 1.0, 
+        response_format: { type: "json_object" }, // Enforces pure JSON output on Groq
       }),
     });
 
-    if (!response.ok) throw new Error(`Gemini API error: ${response.status}`);
+    if (!response.ok) throw new Error(`Groq API error: ${response.status}`);
     const data = await response.json();
-    const content = data.candidates?.[0]?.content?.parts?.[0]?.text;
+    const content = data.choices?.[0]?.message?.content;
     
-    if (!content) throw new Error('Empty response from Gemini');
+    if (!content) throw new Error('Empty response from Groq');
+    
     return JSON.parse(content);
   } catch (error) {
-    console.error('Error generating stylist recommendation:', error);
+    console.error('Error generating stylist recommendation with Groq:', error);
     return null;
   }
 }

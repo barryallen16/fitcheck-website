@@ -1,9 +1,8 @@
 // Storage Service for Wardrobe Data using IndexedDB
 import { get, set, del } from 'idb-keyval';
-import type { WardrobeItem, PersonaData } from '@/types';
+import type { WardrobeItem } from '@/types';
 
 const WARDROBE_KEY = 'fitcheck-wardrobe';
-const PERSONA_KEY = 'fitcheck-persona';
 
 // Save wardrobe item
 export async function saveWardrobeItem(item: WardrobeItem): Promise<void> {
@@ -52,34 +51,6 @@ export async function clearWardrobe(): Promise<void> {
   }
 }
 
-// Save persona data (full-body image)
-export async function savePersonaData(personaData: PersonaData): Promise<void> {
-  try {
-    await set(PERSONA_KEY, personaData);
-  } catch (error) {
-    console.error('Error saving persona data:', error);
-  }
-}
-
-// Get persona data
-export async function getPersonaData(): Promise<PersonaData | null> {
-  try {
-    const data = await get<PersonaData>(PERSONA_KEY);
-    if (!data) return null;
-    
-    return {
-      ...data,
-      wardrobe: data.wardrobe?.map((item: WardrobeItem) => ({
-        ...item,
-        uploadedAt: new Date(item.uploadedAt),
-      })) || [],
-    };
-  } catch (error) {
-    console.error('Error getting persona data:', error);
-    return null;
-  }
-}
-
 // Auto Import from Python Script Output
 export async function autoImportFromScript(): Promise<void> {
   try {
@@ -91,38 +62,21 @@ export async function autoImportFromScript(): Promise<void> {
     // Import wardrobe if it exists in the file
     if (data.wardrobe && Array.isArray(data.wardrobe)) {
       const formattedWardrobe = data.wardrobe.map((item: any) => {
-        // FIX 1: The python script uses 'imageBase64', but the frontend needs 'imageUrl'
         const rawImage = item.imageBase64 || item.imageUrl || item.image;
         let formattedImage = rawImage;
         
         // Add the prefix if it's missing
         if (rawImage && !rawImage.startsWith('data:')) {
-          // Defaulting to jpeg; the browser will render it regardless of actual original type
           formattedImage = `data:image/jpeg;base64,${rawImage}`;
         }
 
         return {
           ...item,
-          imageUrl: formattedImage, // Map it to the property the UI actually uses
+          imageUrl: formattedImage, 
         };
       });
 
       await set(WARDROBE_KEY, formattedWardrobe);
-    }
-
-    // Import full-body persona image if it exists
-    if (data.fullBodyImage) {
-      // FIX 2: Explicitly type the fallback object to satisfy TypeScript
-      const persona: PersonaData = (await get<PersonaData>(PERSONA_KEY)) || { 
-        wardrobe: [], 
-        fullBodyImage: null 
-      };
-      
-      persona.fullBodyImage = data.fullBodyImage.startsWith('data:')
-        ? data.fullBodyImage
-        : 'data:image/png;base64,' + data.fullBodyImage;
-      
-      await set(PERSONA_KEY, persona);
     }
     
     console.log('Successfully auto-imported wardrobe to IndexedDB.');
@@ -130,6 +84,7 @@ export async function autoImportFromScript(): Promise<void> {
     console.error('Auto-import failed:', error);
   }
 }
+
 // Convert file to base64
 export function fileToBase64(file: File): Promise<string> {
   return new Promise((resolve, reject) => {
