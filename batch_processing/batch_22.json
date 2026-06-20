@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "WhiteKhadiKurta",
+    "bottom_label": "OffWhiteCottonPajama",
+    "colorLogic": "Clean whites feel fresh in Mumbai humidity and look instantly festive for Ganpati season.",
+    "silhouetteLogic": "Straight khadi kurta over a relaxed pajama keeps airflow high and movement easy in crowds.",
+    "occasion": "Ganpati darshan & daytime puja"
+  },
+  {
+    "top_label": "WhiteKhadiKurta",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "A tonal white-on-white pairing looks coastal, crisp, and monsoon-appropriate.",
+    "silhouetteLogic": "The straight kurta balances the relaxed linen trouser seat for a polished-yet-breathable line.",
+    "occasion": "family lunch after aarti"
+  },
+  {
+    "top_label": "WhiteKhadiKurta",
+    "bottom_label": "NavySilkDhotiBottom",
+    "colorLogic": "Bright white against deep navy creates a classic high-contrast festive palette.",
+    "silhouetteLogic": "The kurta’s straight fall complements the dhoti’s crisp pleats for a sharp traditional-fusion silhouette.",
+    "occasion": "evening aarti & pandal hopping"
+  },
+  {
+    "top_label": "WhiteKhadiKurta",
+    "bottom_label": "GreyTravelJoggers",
+    "colorLogic": "White with light grey feels modern and understated while still looking clean for the season.",
+    "silhouetteLogic": "A breathable kurta elevates quick-dry joggers for rain-friendly, all-night comfort.",
+    "occasion": "visarjan logistics / moving between venues"
+  },
+  {
+    "top_label": "MintLinenKurta",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Mint and white reads airy and soothing—perfect against overcast monsoon skies.",
+    "silhouetteLogic": "Relaxed linen-on-linen drapes lightly and stays comfortable even with humidity spikes.",
+    "occasion": "daytime pandal visits"
+  },
+  {
+    "top_label": "MintLinenKurta",
+    "bottom_label": "StoneCottonChinos",
+    "colorLogic": "Mint with stone beige gives a refined, minimal palette that still feels festive-clean.",
+    "silhouetteLogic": "The relaxed kurta pairs best with tapered chinos to keep the overall shape neat.",
+    "occasion": "smart-casual Ganpati dinner"
+  },
+  {
+    "top_label": "MintLinenKurta",
+    "bottom_label": "OffWhiteCottonPajama",
+    "colorLogic": "Mint and off-white feels classic, light, and very Mumbai-in-September.",
+    "silhouetteLogic": "The pajama’s ease offsets the kurta’s side slits for comfortable movement and ventilation.",
+    "occasion": "society aarti"
+  },
+  {
+    "top_label": "CobaltCottonShortKurta",
+    "bottom_label": "StoneCottonChinos",
+    "colorLogic": "Cobalt pops crisply against stone beige for a youthful festive contrast.",
+    "silhouetteLogic": "A short kurta works best with tapered chinos for a sharp Indo-western proportion.",
+    "occasion": "pandal hopping with friends"
+  },
+  {
+    "top_label": "CobaltCottonShortKurta",
+    "bottom_label": "OliveChinos",
+    "colorLogic": "Cobalt and olive create a bold, modern color-block that still feels grounded.",
+    "silhouetteLogic": "Rolled sleeves plus slim-taper chinos keep it agile for humid, rainy streets.",
+    "occasion": "evening darshan rounds"
+  },
+  {
+    "top_label": "CobaltCottonShortKurta",
+    "bottom_label": "LightWashJeans",
+    "colorLogic": "Cobalt with light denim reads bright, casual, and monsoon-friendly.",
+    "silhouetteLogic": "The short kurta length aligns well with relaxed jeans for an easy, youthful silhouette.",
+    "occasion": "casual Ganpati visits & errands"
+  },
+  {
+    "top_label": "CobaltCottonShortKurta",
+    "bottom_label": "NavyDrawstringShorts",
+    "colorLogic": "Cobalt and navy stay in the same blue family for a clean tonal look.",
+    "silhouetteLogic": "Short kurta + above-knee shorts keeps it airy for sticky humidity and at-home festivities.",
+    "occasion": "home puja / modak making"
+  },
+  {
+    "top_label": "SandPathaniKurtaTop",
+    "bottom_label": "KhakiCargoTrousers",
+    "colorLogic": "Sand and khaki give a rugged monochrome that hides splashes during light rain.",
+    "silhouetteLogic": "The Pathani shape pairs naturally with relaxed cargos for crowd-friendly utility comfort.",
+    "occasion": "visarjan day (outdoor)"
+  },
+  {
+    "top_label": "SandPathaniKurtaTop",
+    "bottom_label": "BlackTechJoggers",
+    "colorLogic": "Sand with black creates a sharp contrast that looks intentional and city-ready.",
+    "silhouetteLogic": "A straight Pathani top balances tapered water-repellent joggers for monsoon practicality.",
+    "occasion": "rainy evening pandal hopping"
+  },
+  {
+    "top_label": "SandPathaniKurtaTop",
+    "bottom_label": "DarkIndigoJeans",
+    "colorLogic": "Sand beige softens dark indigo for a smart-casual, evening-appropriate palette.",
+    "silhouetteLogic": "The kurta’s straight hem works cleanly over straight jeans for a simple fusion profile.",
+    "occasion": "dinner after darshan"
+  },
+  {
+    "top_label": "SaffronAngrakhaKurta",
+    "bottom_label": "OffWhiteCottonPajama",
+    "colorLogic": "Saffron with off-white is a classic festive combination that feels bright even in overcast light.",
+    "silhouetteLogic": "The wrap/tie angrakha adds interest up top while the pajama keeps the base breezy.",
+    "occasion": "aarti evening"
+  },
+  {
+    "top_label": "SaffronAngrakhaKurta",
+    "bottom_label": "CreamSilkDhotiBottom",
+    "colorLogic": "Warm saffron with creamy silk reads ceremonial and elevated without looking heavy.",
+    "silhouetteLogic": "Angrakha wrap lines enhance the torso while the pre-stitched dhoti gives crisp festive structure.",
+    "occasion": "special Ganpati puja at temple"
+  },
+  {
+    "top_label": "SaffronAngrakhaKurta",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Saffron pops against white for a clean, celebratory look that photographs well in daylight.",
+    "silhouetteLogic": "Straight linen trousers keep the statement angrakha balanced and comfortable in humidity.",
+    "occasion": "daytime darshan & family gathering"
+  },
+  {
+    "top_label": "IndigoAjrakhShirt",
+    "bottom_label": "StoneCottonChinos",
+    "colorLogic": "Indigo Ajrakh with stone beige creates an artisanal, refined contrast.",
+    "silhouetteLogic": "The slim shirt with tapered chinos looks sharp while staying breathable for monsoon weather.",
+    "occasion": "smart-casual pandal visits"
+  },
+  {
+    "top_label": "IndigoAjrakhShirt",
+    "bottom_label": "CharcoalPleatedTrousers",
+    "colorLogic": "Indigo and charcoal feel deep, elegant, and weather-friendly for a humid evening.",
+    "silhouetteLogic": "Pleated airy-weave trousers add polish and room for movement in crowded venues.",
+    "occasion": "evening dinner / formal puja visit"
+  },
+  {
+    "top_label": "IndigoAjrakhShirt",
+    "bottom_label": "DarkIndigoJeans",
+    "colorLogic": "Tonal indigo keeps it sleek while the Ajrakh print adds texture and depth.",
+    "silhouetteLogic": "A slim shirt and straight dark denim create a clean fusion silhouette with minimal fuss.",
+    "occasion": "night pandal circuit"
+  },
+  {
+    "top_label": "IndigoAjrakhShirt",
+    "bottom_label": "BlackSlimJeans",
+    "colorLogic": "Indigo print against black reads crisp and night-ready.",
+    "silhouetteLogic": "The shirt’s slim fit pairs best with clean black denim for a sharp, urban fusion profile.",
+    "occasion": "post-darshan drinks / after-party"
+  },
+  {
+    "top_label": "IvoryPoplinShirt",
+    "bottom_label": "NavyTailoredTrousers",
+    "colorLogic": "Ivory and navy is a timeless smart combination that stays crisp in photos.",
+    "silhouetteLogic": "A structured shirt with ankle-length tailored trousers gives a polished Indo-western base.",
+    "occasion": "formal dinner during Ganpati week"
+  },
+  {
+    "top_label": "IvoryPoplinShirt",
+    "bottom_label": "CharcoalPleatedTrousers",
+    "colorLogic": "Ivory brightens charcoal for understated monsoon sophistication.",
+    "silhouetteLogic": "Pleated trousers add comfort and airflow while the poplin shirt keeps the look sharp.",
+    "occasion": "office-to-pandal evening"
+  },
+  {
+    "top_label": "IvoryPoplinShirt",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Ivory-on-white gives a luxe minimal, coastal Mumbai palette.",
+    "silhouetteLogic": "Crisp up top with relaxed linen below keeps you cool while looking elevated.",
+    "occasion": "daytime hosted puja"
+  },
+  {
+    "top_label": "SeaGreenResortShirt",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Sea-green with white feels fresh, coastal, and perfect for humid rain-washed evenings.",
+    "silhouetteLogic": "The relaxed camp-collar shirt pairs well with easy straight linen for airy comfort.",
+    "occasion": "sunset darshan & dinner"
+  },
+  {
+    "top_label": "SeaGreenResortShirt",
+    "bottom_label": "LightWashJeans",
+    "colorLogic": "Sea-green and light denim reads breezy and casual without looking sloppy.",
+    "silhouetteLogic": "A relaxed shirt over relaxed jeans keeps movement easy for long hours outdoors.",
+    "occasion": "casual pandal hopping"
+  },
+  {
+    "top_label": "SeaGreenResortShirt",
+    "bottom_label": "NavyDrawstringShorts",
+    "colorLogic": "Sea-green with navy gives a clean, nautical palette suited to Mumbai.",
+    "silhouetteLogic": "The resort shirt drape works best with shorts for maximum ventilation in sticky weather.",
+    "occasion": "at-home festivities / quick neighbourhood visit"
+  },
+  {
+    "top_label": "CharcoalPiquePolo",
+    "bottom_label": "GreyTravelJoggers",
+    "colorLogic": "Charcoal and grey keep it sleek and practical for sudden drizzle.",
+    "silhouetteLogic": "A tailored polo elevates quick-dry joggers into a neat monsoon-ready city look.",
+    "occasion": "errands between pandals"
+  },
+  {
+    "top_label": "CharcoalPiquePolo",
+    "bottom_label": "StoneCottonChinos",
+    "colorLogic": "Charcoal with stone beige is polished and understated for humid days.",
+    "silhouetteLogic": "The fitted polo balances tapered chinos for a clean smart-casual silhouette.",
+    "occasion": "workday evening darshan"
+  },
+  {
+    "top_label": "CharcoalPiquePolo",
+    "bottom_label": "BlackTechJoggers",
+    "colorLogic": "Charcoal and black create a sleek, rain-friendly monochrome.",
+    "silhouetteLogic": "The structured polo keeps the look sharp while water-repellent joggers handle wet streets.",
+    "occasion": "rainy-night city run"
+  },
+  {
+    "top_label": "WhiteGraphicGaneshaTee",
+    "bottom_label": "BlackTechJoggers",
+    "colorLogic": "White and black gives strong contrast, letting the tonal Ganesha print feel intentional.",
+    "silhouetteLogic": "Relaxed tee with tapered tech joggers is ideal for humid comfort with monsoon practicality.",
+    "occasion": "late-night pandal hopping"
+  },
+  {
+    "top_label": "WhiteGraphicGaneshaTee",
+    "bottom_label": "LightWashJeans",
+    "colorLogic": "White with light denim keeps the vibe fresh and daytime-casual.",
+    "silhouetteLogic": "A relaxed tee and easy jeans work for long walking hours without overheating.",
+    "occasion": "daytime darshan & street food stop"
+  },
+  {
+    "top_label": "WhiteGraphicGaneshaTee",
+    "bottom_label": "KhakiCargoTrousers",
+    "colorLogic": "White brightens utilitarian khaki, keeping it festive-casual rather than purely rugged.",
+    "silhouetteLogic": "The tee stays airy while cargos provide pocket utility for phone/keys in crowds.",
+    "occasion": "visarjan prep & crowd navigation"
+  },
+  {
+    "top_label": "WhiteGraphicGaneshaTee",
+    "bottom_label": "NavyDrawstringShorts",
+    "colorLogic": "White and navy is a clean, classic combo that feels neat even when casual.",
+    "silhouetteLogic": "Tee + shorts is the most breathable option for humid at-home festivities.",
+    "occasion": "home aarti / hosting friends"
+  },
+  {
+    "top_label": "NavySeersuckerShirt",
+    "bottom_label": "StoneCottonChinos",
+    "colorLogic": "Navy-and-white stripes with stone chinos reads preppy and monsoon-smart.",
+    "silhouetteLogic": "Seersucker’s puckered texture lifts off the skin, staying comfortable in humidity with tapered chinos.",
+    "occasion": "smart-casual dinner after darshan"
+  },
+  {
+    "top_label": "NavySeersuckerShirt",
+    "bottom_label": "CharcoalPleatedTrousers",
+    "colorLogic": "Deep navy with charcoal is sophisticated and evening-appropriate without feeling heavy.",
+    "silhouetteLogic": "The airy seersucker shirt balances pleated trousers for a polished, sweat-friendly silhouette.",
+    "occasion": "semi-formal Ganpati gathering"
+  },
+  {
+    "top_label": "NavySeersuckerShirt",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Navy-and-white with white linen looks crisp and coastal—perfect for Mumbai rains.",
+    "silhouetteLogic": "Relaxed linen trousers keep the look breathable while the shirt stays structured.",
+    "occasion": "day function / society event"
+  },
+  {
+    "top_label": "OliveUtilityOvershirt",
+    "bottom_label": "BlackTechJoggers",
+    "colorLogic": "Olive with black feels urban and rain-ready.",
+    "silhouetteLogic": "A light overshirt adds coverage for breezy drizzle while tech joggers keep the lower half practical.",
+    "occasion": "rainy evening commute to pandal"
+  },
+  {
+    "top_label": "OliveUtilityOvershirt",
+    "bottom_label": "KhakiCargoTrousers",
+    "colorLogic": "Olive and khaki stay in the same earthy family—great for monsoon utility styling.",
+    "silhouetteLogic": "Overshirt structure plus relaxed cargos creates a functional silhouette for crowded streets.",
+    "occasion": "visarjan day (outdoor walking)"
+  },
+  {
+    "top_label": "StoneLinenShacket",
+    "bottom_label": "GreyTravelJoggers",
+    "colorLogic": "Stone and grey neutrals keep it minimal and elevated for humid evenings.",
+    "silhouetteLogic": "The linen shacket gives light layering without bulk; joggers keep it comfortable and quick-dry.",
+    "occasion": "late-evening chai stop after pandals"
+  },
+  {
+    "top_label": "BlackNehruBandi",
+    "bottom_label": "NavyTailoredTrousers",
+    "colorLogic": "Black with navy reads sharp and festive-formal without being flashy.",
+    "silhouetteLogic": "The bandi’s structured torso pairs perfectly with tailored trousers for a clean, elevated silhouette.",
+    "occasion": "evening aarti (dressy)"
+  },
+  {
+    "top_label": "BlackNehruBandi",
+    "bottom_label": "CreamSilkDhotiBottom",
+    "colorLogic": "Black against creamy silk looks striking and ceremonial.",
+    "silhouetteLogic": "A structured Nehru bandi balances the dhoti’s pleats for a modern traditional statement.",
+    "occasion": "special Ganpati puja / temple visit"
+  },
+  {
+    "top_label": "TaupeTechRainShell",
+    "bottom_label": "GreyTravelJoggers",
+    "colorLogic": "Taupe and grey create a muted monsoon palette that looks intentional even in rain.",
+    "silhouetteLogic": "A packable rain shell over quick-dry joggers is the most practical silhouette for light showers and humidity.",
+    "occasion": "pandal hopping in light rain"
+  },
+  {
+    "top_label": "ClassicWhiteKurtaDhotiSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "All-white is the iconic, devotional Ganpati immersion palette—clean and impactful.",
+    "silhouetteLogic": "The included pre-stitched dhoti keeps pleats crisp and fuss-free during long outdoor rituals.",
+    "occasion": "Ganpati visarjan"
+  },
+  {
+    "top_label": "IvoryKurtaPajamaSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Soft ivory looks elegant and serene—perfect for daytime celebrations in humid weather.",
+    "silhouetteLogic": "A simple kurta-pajama set stays breathable and comfortable for extended puja hours.",
+    "occasion": "society puja & lunch"
+  },
+  {
+    "top_label": "BlackPathaniSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "All-black feels sleek and night-appropriate, especially for city pandals.",
+    "silhouetteLogic": "The Pathani silhouette gives relaxed ease while still looking put-together for evening outings.",
+    "occasion": "night pandal hopping"
+  },
+  {
+    "top_label": "NavyLinenSuitSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Navy linen looks formal yet season-appropriate, with a cool, rain-friendly depth.",
+    "silhouetteLogic": "Unstructured linen tailoring keeps it breathable for Mumbai humidity while staying sharp.",
+    "occasion": "formal invite / hosted Ganpati dinner"
+  },
+  {
+    "top_label": "TealPrintedCoOrdSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Teal with micro-print feels festive, modern, and lively against monsoon skies.",
+    "silhouetteLogic": "The relaxed co-ord proportions are comfortable for travel between pandals without looking sloppy.",
+    "occasion": "pandal-to-dinner day"
+  },
+  {
+    "top_label": "WineKurtaBandiSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Wine reads rich and celebratory for evening functions, especially under warm lighting.",
+    "silhouetteLogic": "The coordinated kurta-bandi-churidar set gives a sharp, layered look while staying streamlined.",
+    "occasion": "evening aarti to dinner transition"
+  },
+  {
+    "top_label": "PearlWhiteSherwaniSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Pearl white with tonal embroidery looks premium and ceremonial without loud colour.",
+    "silhouetteLogic": "A lightweight sherwani with churidar creates a formal festive silhouette best for short, special appearances.",
+    "occasion": "VIP darshan / formal family event"
+  }
+]

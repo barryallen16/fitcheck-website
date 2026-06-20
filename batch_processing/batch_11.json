@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "WalnutSilkKurta",
+    "bottom_label": "CharcoalFlannel Trousers",
+    "colorLogic": "Warm walnut brown contrasts softly with charcoal grey for an autumn‑rich palette.",
+    "silhouetteLogic": "Semi‑fitted kurta over tapered flannel trousers creates a sleek, layered silhouette perfect for a breezy evening.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "WalnutSilkKurta",
+    "bottom_label": "KhakiTwillChinos",
+    "colorLogic": "Walnut brown pairs with muted khaki for an earthy, balanced look.",
+    "silhouetteLogic": "Kurta’s length sits nicely over slim chinos, giving a smart‑casual vibe.",
+    "occasion": "weekend brunch"
+  },
+  {
+    "top_label": "WalnutSilkKurta",
+    "bottom_label": "IndigoSelvedgeJeans",
+    "colorLogic": "Rich walnut deepens the classic indigo denim for a sophisticated contrast.",
+    "silhouetteLogic": "Knee‑length kurta with straight jeans offers a relaxed yet refined silhouette.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "DustyBlueLinenShirt",
+    "bottom_label": "CharcoalFlannel Trousers",
+    "colorLogic": "Dusty blue cools the deep charcoal, creating a calm, muted palette.",
+    "silhouetteLogic": "Relaxed linen shirt over flannel trousers gives a comfortable, layered look.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "DustyBlueLinenShirt",
+    "bottom_label": "KhakiTwillChinos",
+    "colorLogic": "Dusty blue with khaki yields a soft, natural combination.",
+    "silhouetteLogic": "Shirt’s relaxed fit pairs with tapered chinos for a breezy, polished silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "DustyBlueLinenShirt",
+    "bottom_label": "IndigoSelvedgeJeans",
+    "colorLogic": "Dusty blue complements indigo denim for a classic, cool contrast.",
+    "silhouetteLogic": "Linen shirt over straight jeans creates a laid‑back yet put‑together look.",
+    "occasion": "city stroll"
+  },
+  {
+    "top_label": "CranberryVelvetBlouse",
+    "bottom_label": "CharcoalFlannel Trousers",
+    "colorLogic": "Cranberry red against charcoal grey offers a deep, luxurious contrast.",
+    "silhouetteLogic": "Fitted velvet blouse with tapered flannel trousers balances elegance and comfort.",
+    "occasion": "evening reception"
+  },
+  {
+    "top_label": "CranberryVelvetBlouse",
+    "bottom_label": "KhakiTwillChinos",
+    "colorLogic": "Cranberry brightens the warm khaki for a festive yet grounded look.",
+    "silhouetteLogic": "Blouse’s sleek silhouette pairs with slim chinos for a smart‑casual vibe.",
+    "occasion": "cocktail brunch"
+  },
+  {
+    "top_label": "CranberryVelvetBlouse",
+    "bottom_label": "IndigoSelvedgeJeans",
+    "colorLogic": "Cranberry and indigo create a rich, jewel‑tone pairing.",
+    "silhouetteLogic": "Velvet top with straight denim offers a stylish, balanced silhouette.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "CranberryVelvetBlouse",
+    "bottom_label": "NavySatinPalazzo",
+    "colorLogic": "Cranberry red pops against deep navy satin for a dramatic contrast.",
+    "silhouetteLogic": "Fitted blouse with flowing palazzo balances structure and drape.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "OliveWaxedJacket",
+    "bottom_label": "CharcoalFlannel Trousers",
+    "colorLogic": "Olive green grounds charcoal grey for a rugged, autumnal palette.",
+    "silhouetteLogic": "Waxed field jacket over flannel trousers creates a sturdy, layered silhouette.",
+    "occasion": "outdoor gathering"
+  },
+  {
+    "top_label": "OliveWaxedJacket",
+    "bottom_label": "KhakiTwillChinos",
+    "colorLogic": "Olive with khaki yields an earthy, cohesive look.",
+    "silhouetteLogic": "Jacket’s structured cut pairs with slim chinos for a smart‑casual vibe.",
+    "occasion": "weekend travel"
+  },
+  {
+    "top_label": "OliveWaxedJacket",
+    "bottom_label": "IndigoSelvedgeJeans",
+    "colorLogic": "Olive contrasts nicely with deep indigo for a balanced, rugged combo.",
+    "silhouetteLogic": "Field jacket over straight denim offers a classic, weather‑ready silhouette.",
+    "occasion": "casual evening"
+  },
+  {
+    "top_label": "OliveWaxedJacket",
+    "bottom_label": "OliveBrushedJoggers",
+    "colorLogic": "Monochromatic olive creates a sleek, tonal outfit perfect for breezy nights.",
+    "silhouetteLogic": "Jacket layered over joggers gives a relaxed yet protected silhouette.",
+    "occasion": "city walk"
+  },
+  {
+    "top_label": "ButterscotchCableKnit",
+    "bottom_label": "CharcoalFlannel Trousers",
+    "colorLogic": "Butterscotch yellow brightens charcoal grey for a warm‑autumn contrast.",
+    "silhouetteLogic": "Chunky knit sweater over tapered flannel trousers offers cozy, refined layering.",
+    "occasion": "cozy dinner"
+  },
+  {
+    "top_label": "ButterscotchCableKnit",
+    "bottom_label": "KhakiTwillChinos",
+    "colorLogic": "Butterscotch with khaki creates a soft, golden‑earthy palette.",
+    "silhouetteLogic": "Sweater’s relaxed fit pairs with slim chinos for a comfortable smart‑casual look.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "ButterscotchCableKnit",
+    "bottom_label": "IndigoSelvedgeJeans",
+    "colorLogic": "Butterscotch contrasts with indigo denim for a vibrant, autumnal vibe.",
+    "silhouetteLogic": "Chunky knit over straight jeans gives a relaxed yet stylish silhouette.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "ButterscotchCableKnit",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Butterscotch pairs with stone beige for a warm, neutral combination.",
+    "silhouetteLogic": "Sweater drapes over wide‑leg linen trousers, creating a breezy yet cozy silhouette.",
+    "occasion": "resort dinner"
+  },
+  {
+    "top_label": "MidnightBrocadeSherwani",
+    "bottom_label": "CharcoalFlannel Trousers",
+    "colorLogic": "Midnight blue against charcoal grey yields a deep, sophisticated contrast.",
+    "silhouetteLogic": "Rich sherwani over flannel trousers creates a regal, layered silhouette for formal events.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "MidnightBrocadeSherwani",
+    "bottom_label": "KhakiTwillChinos",
+    "colorLogic": "Midnight blue with khaki offers a balanced, muted palette.",
+    "silhouetteLogic": "Sherwani’s opulent fabric paired with slim chinos gives a modern formal look.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "MidnightBrocadeSherwani",
+    "bottom_label": "IndigoSelvedgeJeans",
+    "colorLogic": "Midnight blue deepens indigo denim for a monochromatic, elegant vibe.",
+    "silhouetteLogic": "Sherwani over straight jeans creates a luxe‑casual silhouette suitable for evening gatherings.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "MidnightBrocadeSherwani",
+    "bottom_label": "NavySatinPalazzo",
+    "colorLogic": "Midnight blue with navy satin offers a tonal, luxurious pairing.",
+    "silhouetteLogic": "Structured sherwani with flowing satin palazzo balances grandeur and movement.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "MidnightBrocadeSherwani",
+    "bottom_label": "PlumBrocadePalazzo",
+    "colorLogic": "Midnight blue contrasts with deep plum for a regal, jewel‑tone ensemble.",
+    "silhouetteLogic": "Sherwani’s rich texture paired with heavy brocade palazzo creates a dramatic, festive silhouette.",
+    "occasion": "grand celebration"
+  },
+  {
+    "top_label": "PowderBlueOxford",
+    "bottom_label": "CharcoalFlannel Trousers",
+    "colorLogic": "Powder blue softens charcoal grey for a crisp, understated contrast.",
+    "silhouetteLogic": "Tailored oxford shirt over flannel trousers offers a polished, office‑appropriate silhouette.",
+    "occasion": "business meeting"
+  },
+  {
+    "top_label": "PowderBlueOxford",
+    "bottom_label": "KhakiTwillChinos",
+    "colorLogic": "Powder blue with khaki creates a fresh, neutral palette.",
+    "silhouetteLogic": "Shirt’s slim fit pairs with tapered chinos for a smart‑casual look.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "PowderBlueOxford",
+    "bottom_label": "IndigoSelvedgeJeans",
+    "colorLogic": "Powder blue brightens indigo denim for a cool, classic combo.",
+    "silhouetteLogic": "Oxford shirt over straight jeans gives a refined yet relaxed silhouette.",
+    "occasion": "casual Friday"
+  },
+  {
+    "top_label": "PowderBlueOxford",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Powder blue with stone beige yields a soft, breezy contrast.",
+    "silhouetteLogic": "Shirt’s crispness balances the flowy wide‑leg linen trousers for a relaxed yet polished silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "MagentaMirrorKurti",
+    "bottom_label": "CharcoalFlannel Trousers",
+    "colorLogic": "Vibrant magenta against charcoal grey creates a striking, festive contrast.",
+    "silhouetteLogic": "A‑line kurti over tapered flannel trousers offers a balanced, contemporary silhouette.",
+    "occasion": "festival evening"
+  },
+  {
+    "top_label": "MagentaMirrorKurti",
+    "bottom_label": "KhakiTwillChinos",
+    "colorLogic": "Magenta brightens warm khaki for a lively, autumnal palette.",
+    "silhouetteLogic": "Kurti’s relaxed fit pairs with slim chinos for a smart‑casual vibe.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "MagentaMirrorKurti",
+    "bottom_label": "IndigoSelvedgeJeans",
+    "colorLogic": "Magenta and indigo sit opposite on the colour wheel, delivering a bold contrast.",
+    "silhouetteLogic": "Kurti with straight denim creates a festive yet laid‑back silhouette.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "MagentaMirrorKurti",
+    "bottom_label": "NavySatinPalazzo",
+    "colorLogic": "Magenta pops against deep navy satin for a dramatic, luxurious look.",
+    "silhouetteLogic": "Kurti’s structured cut balances the flowing palazzo for an elegant evening silhouette.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "SlateDenimTrucker",
+    "bottom_label": "CharcoalFlannel Trousers",
+    "colorLogic": "Slate grey with charcoal creates a sleek, monochrome ensemble.",
+    "silhouetteLogic": "Trucker jacket over flannel trousers offers a rugged yet refined silhouette.",
+    "occasion": "casual evening"
+  },
+  {
+    "top_label": "SlateDenimTrucker",
+    "bottom_label": "KhakiTwillChinos",
+    "colorLogic": "Slate grey contrasts gently with khaki for a balanced, earthy palette.",
+    "silhouetteLogic": "Jacket layered over chinos gives a smart‑casual look with a hint of edge.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "SlateDenimTrucker",
+    "bottom_label": "IndigoSelvedgeJeans",
+    "colorLogic": "Slate grey with indigo denim creates a cool, tonal combo.",
+    "silhouetteLogic": "Denim jacket over straight jeans offers a classic double‑denim silhouette.",
+    "occasion": "city stroll"
+  },
+  {
+    "top_label": "SlateDenimTrucker",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Slate grey softens stone beige for a subtle, sophisticated contrast.",
+    "silhouetteLogic": "Jacket’s structured fit pairs with breezy wide‑leg linen trousers for a relaxed yet polished look.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "PistachioGeorgetteDupattaTop",
+    "bottom_label": "CharcoalFlannel Trousers",
+    "colorLogic": "Pistachio green brightens charcoal grey for a fresh, autumnal contrast.",
+    "silhouetteLogic": "Dupatta‑style top drapes over tapered flannel trousers, creating a graceful, layered silhouette.",
+    "occasion": "engagement ceremony"
+  },
+  {
+    "top_label": "PistachioGeorgetteDupattaTop",
+    "bottom_label": "KhakiTwillChinos",
+    "colorLogic": "Pistachio with khaki yields an earthy, harmonious palette.",
+    "silhouetteLogic": "Flowy top over slim chinos balances elegance with comfort.",
+    "occasion": "smart brunch"
+  },
+  {
+    "top_label": "PistachioGeorgetteDupattaTop",
+    "bottom_label": "IndigoSelvedgeJeans",
+    "colorLogic": "Pistachio contrasts nicely with indigo denim for a vibrant look.",
+    "silhouetteLogic": "Dupatta top paired with straight jeans offers a chic, fusion silhouette.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "PistachioGeorgetteDupattaTop",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Pistachio green with stone beige creates a soft, natural combination.",
+    "silhouetteLogic": "Top’s drape over wide‑leg linen trousers gives a breezy, elegant silhouette.",
+    "occasion": "resort dinner"
+  },
+  {
+    "top_label": "CharcoalMerinoVneck",
+    "bottom_label": "CharcoalFlannel Trousers",
+    "colorLogic": "Monochromatic charcoal creates a sleek, modern winter look.",
+    "silhouetteLogic": "Slim V‑neck sweater over tapered flannel trousers offers a refined, layered silhouette.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "CharcoalMerinoVneck",
+    "bottom_label": "KhakiTwillChinos",
+    "colorLogic": "Charcoal with khaki provides a balanced, neutral contrast.",
+    "silhouetteLogic": "Sweater’s slim fit pairs with chinos for a smart‑casual silhouette.",
+    "occasion": "business lunch"
+  },
+  {
+    "top_label": "CharcoalMerinoVneck",
+    "bottom_label": "IndigoSelvedgeJeans",
+    "colorLogic": "Charcoal deepens indigo denim for a cool, understated palette.",
+    "silhouetteLogic": "V‑neck sweater over straight jeans creates a relaxed yet polished look.",
+    "occasion": "casual Friday"
+  },
+  {
+    "top_label": "CharcoalMerinoVneck",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Charcoal paired with stone beige yields a soft, sophisticated contrast.",
+    "silhouetteLogic": "Sweater layered over wide‑leg linen trousers offers a comfortable, elegant silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "RoyalBluePatolaSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Royal blue with red and gold motifs creates a regal, vibrant palette perfect for weddings.",
+    "silhouetteLogic": "Heavy pallu and rich silk drape give a majestic, traditional silhouette.",
+    "occasion": "grand wedding"
+  },
+  {
+    "top_label": "OliveLyocellJumpsuit",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Olive green utility jumpsuit offers a sleek, modern look for travel.",
+    "silhouetteLogic": "One‑piece silhouette with cinched waist provides a streamlined, comfortable fit.",
+    "occasion": "weekend travel"
+  },
+  {
+    "top_label": "WineFloorLengthAnarkali",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Wine red with gold sequins creates a luxurious, festive palette.",
+    "silhouetteLogic": "Floor‑length Anarkali with attached slim pants offers a dramatic, flowing silhouette.",
+    "occasion": "festive evening"
+  },
+  {
+    "top_label": "BlackJerseyWrapDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Black matte jersey gives a sleek, versatile base for day‑to‑night looks.",
+    "silhouetteLogic": "Wrap style with self‑tie waist creates a flattering, adjustable silhouette.",
+    "occasion": "office‑to‑dinner"
+  },
+  {
+    "top_label": "TealKanjeevaramSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Teal silk with gold border offers a rich, traditional South Indian palette.",
+    "silhouetteLogic": "Heavy silk drape and broad border give an elegant, ceremonial silhouette.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "RustBurnoutVelvetGown",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Rust orange burnout velvet creates a dramatic, evening‑ready hue.",
+    "silhouetteLogic": "Floor‑length gown with sheer sleeves and side slit offers a glamorous, flowing silhouette.",
+    "occasion": "evening reception"
+  },
+  {
+    "top_label": "CreamMulMulSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Cream mul‑mul provides a soft, understated elegance for daytime events.",
+    "silhouetteLogic": "Lightweight drape and subtle jamdani weave give a graceful, breezy silhouette.",
+    "occasion": "formal lunch"
+  }
+]

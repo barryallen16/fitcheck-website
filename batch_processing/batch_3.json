@@ -1,0 +1,674 @@
+[
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "EcruWideLegTrousers",
+    "colorLogic": "Indigo contrasts softly with the ecru, creating a calm, earthy palette.",
+    "silhouetteLogic": "A‑line kurta pairs with wide‑leg trousers for a breezy, balanced silhouette.",
+    "occasion": "office‑casual"
+  },
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "SlateGreyTaperedPants",
+    "colorLogic": "Indigo and slate grey sit next to each other on the colour wheel, giving a sophisticated harmony.",
+    "silhouetteLogic": "Fitted kurta with tapered pants creates a sleek, modern line.",
+    "occasion": "smart casual"
+  },
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "KhakiCargoTrousers",
+    "colorLogic": "Indigo deepens the neutral khaki for a grounded, travel‑ready look.",
+    "silhouetteLogic": "Relaxed kurta balances the utilitarian cargo pockets, keeping the outfit comfortable.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "OffWhiteChikanPalazzo",
+    "colorLogic": "Indigo against off‑white creates a crisp, traditional contrast.",
+    "silhouetteLogic": "A‑line kurta with flowing palazzo offers airy movement for hot weather.",
+    "occasion": "daytime brunch"
+  },
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "NavyCottonCulottes",
+    "colorLogic": "Indigo blends with navy for a tonal, monochromatic vibe.",
+    "silhouetteLogic": "Kurta’s length pairs with cropped culottes for a balanced proportion.",
+    "occasion": "casual weekend"
+  },
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "SandDuneLyocellJoggers",
+    "colorLogic": "Indigo anchors the sand‑dune hue, creating a subtle contrast.",
+    "silhouetteLogic": "Loose joggers add comfort while the kurta keeps the look polished.",
+    "occasion": "travel comfort"
+  },
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "MustardIkatSkirt",
+    "colorLogic": "Indigo and mustard are complementary, delivering a vibrant yet balanced look.",
+    "silhouetteLogic": "A‑line kurta with a mid‑calf skirt creates a graceful, feminine silhouette.",
+    "occasion": "arts market"
+  },
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "OliveLinenDhotiPants",
+    "colorLogic": "Indigo paired with olive gives an earthy, nature‑inspired palette.",
+    "silhouetteLogic": "Kurta’s structured cut balances the draped dhoti pants for a relaxed elegance.",
+    "occasion": "fusion family event"
+  },
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "PeachOrganzaSkirt",
+    "colorLogic": "Indigo deepens the soft peach, creating a gentle contrast.",
+    "silhouetteLogic": "Straight kurta with a flared organza skirt adds lightness and movement.",
+    "occasion": "daytime wedding"
+  },
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Indigo and magenta are opposite on the colour wheel, giving a festive pop.",
+    "silhouetteLogic": "Kurta’s clean line lets the lehenga’s flow take centre stage.",
+    "occasion": "sangeet"
+  },
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "TealPatialaSalwar",
+    "colorLogic": "Indigo with teal creates a cool, analogous colour scheme.",
+    "silhouetteLogic": "A‑line kurta balances the voluminous patiala drape for a regal silhouette.",
+    "occasion": "festive gathering"
+  },
+  {
+    "top_label": "IndigoIkatKurta",
+    "bottom_label": "CharcoalStretchTrousers",
+    "colorLogic": "Indigo against charcoal offers a modern, muted contrast.",
+    "silhouetteLogic": "Tailored stretch trousers keep the look sharp while the kurta stays relaxed.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "EcruWideLegTrousers",
+    "colorLogic": "Rust orange brightens the neutral ecru for a warm, inviting look.",
+    "silhouetteLogic": "Cropped blouse with wide‑leg trousers creates a balanced, airy silhouette.",
+    "occasion": "festive brunch"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "SlateGreyTaperedPants",
+    "colorLogic": "Rust and slate grey form a sophisticated, earthy pairing.",
+    "silhouetteLogic": "Fitted blouse with tapered pants gives a sleek, elegant line.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "KhakiCargoTrousers",
+    "colorLogic": "Rust complements khaki, creating a grounded, travel‑ready palette.",
+    "silhouetteLogic": "Cropped blouse balances the utilitarian cargo style for comfort.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "OffWhiteChikanPalazzo",
+    "colorLogic": "Rust against off‑white offers a classic, festive contrast.",
+    "silhouetteLogic": "Elegant blouse with flowing palazzo ensures breathability and movement.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "NavyCottonCulottes",
+    "colorLogic": "Rust pops against navy, delivering a vibrant yet refined look.",
+    "silhouetteLogic": "Cropped blouse with culottes creates a modern, balanced silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "SandDuneLyocellJoggers",
+    "colorLogic": "Rust adds warmth to the sand‑dune hue, forming a soft contrast.",
+    "silhouetteLogic": "Relaxed joggers keep the outfit comfortable while the blouse stays polished.",
+    "occasion": "travel comfort"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "MustardIkatSkirt",
+    "colorLogic": "Rust and mustard sit adjacent, creating a harmonious warm palette.",
+    "silhouetteLogic": "Cropped blouse with an A‑line skirt offers a feminine, balanced look.",
+    "occasion": "arts market"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "OliveLinenDhotiPants",
+    "colorLogic": "Rust contrasts nicely with olive, giving an earthy, festive feel.",
+    "silhouetteLogic": "Blouse’s fitted cut balances the draped dhoti pants for a relaxed elegance.",
+    "occasion": "family gathering"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "PeachOrganzaSkirt",
+    "colorLogic": "Rust deepens the soft peach, creating a warm, romantic contrast.",
+    "silhouetteLogic": "Cropped blouse with a flared organza skirt adds light movement.",
+    "occasion": "daytime wedding"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Rust and magenta are complementary, delivering a festive pop.",
+    "silhouetteLogic": "Blouse’s sleek line lets the lehenga’s flow dominate the silhouette.",
+    "occasion": "sangeet"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "TealPatialaSalwar",
+    "colorLogic": "Rust with teal creates a vibrant, complementary contrast.",
+    "silhouetteLogic": "Cropped blouse balances the voluminous patiala for a regal look.",
+    "occasion": "festive gathering"
+  },
+  {
+    "top_label": "RustChanderiBlouse",
+    "bottom_label": "CharcoalStretchTrousers",
+    "colorLogic": "Rust brightens the neutral charcoal, giving a modern edge.",
+    "silhouetteLogic": "Tailored stretch trousers keep the outfit sharp while the blouse stays elegant.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "EcruWideLegTrousers",
+    "colorLogic": "Ivory pairs softly with ecru for an ethereal, monochrome look.",
+    "silhouetteLogic": "Sheer shirt with wide‑leg trousers creates a light, floating silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "SlateGreyTaperedPants",
+    "colorLogic": "Ivory against slate grey offers a gentle, sophisticated contrast.",
+    "silhouetteLogic": "Tailored tapered pants keep the look crisp while the mul‑mul adds airiness.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "KhakiCargoTrousers",
+    "colorLogic": "Ivory brightens the earthy khaki for a fresh, relaxed palette.",
+    "silhouetteLogic": "Loose cargo trousers balance the delicate sheer shirt for comfort.",
+    "occasion": "travel day"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "OffWhiteChikanPalazzo",
+    "colorLogic": "Ivory and off‑white create a soft, tonal ensemble perfect for heat.",
+    "silhouetteLogic": "Flowy palazzo complements the airy mul‑mul shirt for a breezy silhouette.",
+    "occasion": "daytime brunch"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "NavyCottonCulottes",
+    "colorLogic": "Ivory provides a light contrast to deep navy, keeping the look balanced.",
+    "silhouetteLogic": "Culottes add structure while the sheer shirt maintains a light feel.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "SandDuneLyocellJoggers",
+    "colorLogic": "Ivory against sand‑dune creates a warm, neutral palette.",
+    "silhouetteLogic": "Joggers give relaxed comfort; the mul‑mul shirt keeps the look airy.",
+    "occasion": "travel comfort"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "MustardIkatSkirt",
+    "colorLogic": "Ivory softens the bold mustard, delivering a balanced spring look.",
+    "silhouetteLogic": "A‑line skirt adds feminine flow to the sheer shirt’s lightness.",
+    "occasion": "arts market"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "OliveLinenDhotiPants",
+    "colorLogic": "Ivory brightens the olive, creating a fresh, earthy contrast.",
+    "silhouetteLogic": "Dhoti pants drape gently, complementing the shirt’s delicate texture.",
+    "occasion": "family gathering"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "PeachOrganzaSkirt",
+    "colorLogic": "Ivory with peach yields a soft, romantic palette.",
+    "silhouetteLogic": "Flared organza skirt adds movement to the airy mul‑mul shirt.",
+    "occasion": "daytime wedding"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Ivory provides a neutral base for vibrant magenta, making it pop.",
+    "silhouetteLogic": "Lehenga’s flow balances the sheer shirt for a festive silhouette.",
+    "occasion": "sangeet"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "TealPatialaSalwar",
+    "colorLogic": "Ivory softens teal, creating a fresh, balanced contrast.",
+    "silhouetteLogic": "Patiala’s voluminous drape pairs with the light shirt for comfort.",
+    "occasion": "festive gathering"
+  },
+  {
+    "top_label": "IvoryMulmulShirt",
+    "bottom_label": "CharcoalStretchTrousers",
+    "colorLogic": "Ivory brightens charcoal, delivering a modern, clean look.",
+    "silhouetteLogic": "Stretch trousers keep the silhouette sharp while the shirt stays airy.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "EcruWideLegTrousers",
+    "colorLogic": "Sage green blends gently with ecru for a soft, nature‑inspired palette.",
+    "silhouetteLogic": "A‑line kurta with wide‑leg trousers creates a relaxed, breathable silhouette.",
+    "occasion": "office‑casual"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "SlateGreyTaperedPants",
+    "colorLogic": "Sage and slate grey form a muted, sophisticated combination.",
+    "silhouetteLogic": "Kurta’s relaxed fit pairs with tapered pants for a neat, modern line.",
+    "occasion": "smart casual"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "KhakiCargoTrousers",
+    "colorLogic": "Monochrome khaki tones create a utilitarian yet stylish look.",
+    "silhouetteLogic": "Both pieces are relaxed, ensuring comfort for travel or errands.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "OffWhiteChikanPalazzo",
+    "colorLogic": "Sage pairs with off‑white for a fresh, earthy contrast.",
+    "silhouetteLogic": "Kurta’s straight cut balances the flowing palazzo for breezy elegance.",
+    "occasion": "daytime brunch"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "NavyCottonCulottes",
+    "colorLogic": "Sage softens deep navy, creating a balanced, cool palette.",
+    "silhouetteLogic": "Culottes add structure while the kurta stays relaxed.",
+    "occasion": "casual weekend"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "SandDuneLyocellJoggers",
+    "colorLogic": "Sage with sand‑dune yields a muted, earthy harmony.",
+    "silhouetteLogic": "Joggers provide comfort; the kurta keeps the look polished.",
+    "occasion": "travel comfort"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "MustardIkatSkirt",
+    "colorLogic": "Sage and mustard are complementary, delivering a warm, vibrant look.",
+    "silhouetteLogic": "A‑line skirt adds feminine flow to the relaxed kurta.",
+    "occasion": "arts market"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "OliveLinenDhotiPants",
+    "colorLogic": "Sage blends with olive for an earthy, cohesive palette.",
+    "silhouetteLogic": "Dhoti pants drape softly, balancing the kurta’s structured cut.",
+    "occasion": "family gathering"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "PeachOrganzaSkirt",
+    "colorLogic": "Sage softens peach, creating a gentle springtime contrast.",
+    "silhouetteLogic": "Flared organza skirt adds light movement to the relaxed kurta.",
+    "occasion": "daytime wedding"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Sage grounds the vibrant magenta for a balanced festive look.",
+    "silhouetteLogic": "Lehenga’s flow offsets the kurta’s simple silhouette.",
+    "occasion": "sangeet"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "TealPatialaSalwar",
+    "colorLogic": "Sage and teal sit adjacent, forming a harmonious cool palette.",
+    "silhouetteLogic": "Kurta’s relaxed fit pairs with the voluminous patiala for regal comfort.",
+    "occasion": "festive gathering"
+  },
+  {
+    "top_label": "SageKhakiKurta",
+    "bottom_label": "CharcoalStretchTrousers",
+    "colorLogic": "Sage brightens the neutral charcoal, giving a modern contrast.",
+    "silhouetteLogic": "Stretch trousers keep the look sharp while the kurta stays relaxed.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "EcruWideLegTrousers",
+    "colorLogic": "Fuchsia pops against ecru, creating a vibrant yet balanced look.",
+    "silhouetteLogic": "Lightweight georgette top with wide‑leg trousers offers breezy elegance.",
+    "occasion": "festive brunch"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "SlateGreyTaperedPants",
+    "colorLogic": "Fuchsia contrasts sharply with slate grey for a bold statement.",
+    "silhouetteLogic": "Cropped top with tapered pants creates a sleek, modern silhouette.",
+    "occasion": "smart casual"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "KhakiCargoTrousers",
+    "colorLogic": "Fuchsia brightens the neutral khaki, delivering a lively travel look.",
+    "silhouetteLogic": "Relaxed top balances the utilitarian cargo style for comfort.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "OffWhiteChikanPalazzo",
+    "colorLogic": "Fuchsia against off‑white creates a fresh, festive contrast.",
+    "silhouetteLogic": "Flowy palazzo offsets the cropped top for a balanced silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "NavyCottonCulottes",
+    "colorLogic": "Fuchsia pops against navy, delivering a striking, modern palette.",
+    "silhouetteLogic": "Cropped top with culottes gives a sleek, summer‑ready look.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "SandDuneLyocellJoggers",
+    "colorLogic": "Fuchsia adds a vibrant splash to the sand‑dune hue.",
+    "silhouetteLogic": "Joggers provide comfort while the top keeps the outfit lively.",
+    "occasion": "travel comfort"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "MustardIkatSkirt",
+    "colorLogic": "Fuchsia and mustard are complementary, creating a bold festive duo.",
+    "silhouetteLogic": "Cropped top with A‑line skirt balances colour and silhouette.",
+    "occasion": "arts market"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "OliveLinenDhotiPants",
+    "colorLogic": "Fuchsia brightens olive, delivering an energetic contrast.",
+    "silhouetteLogic": "Dhoti pants drape softly, letting the vibrant top stand out.",
+    "occasion": "family gathering"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "PeachOrganzaSkirt",
+    "colorLogic": "Fuchsia with soft peach creates a playful, spring‑like palette.",
+    "silhouetteLogic": "Flared organza skirt adds movement to the cropped top.",
+    "occasion": "daytime wedding"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Fuchsia and magenta sit side‑by‑side for a vibrant, festive look.",
+    "silhouetteLogic": "Lehenga’s flow balances the cropped top’s boldness.",
+    "occasion": "sangeet"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "TealPatialaSalwar",
+    "colorLogic": "Fuchsia contrasts with teal, delivering a fresh, eye‑catching combo.",
+    "silhouetteLogic": "Patiala’s voluminous drape pairs with the cropped top for a balanced silhouette.",
+    "occasion": "festive gathering"
+  },
+  {
+    "top_label": "FuchsiaBandhaniTop",
+    "bottom_label": "CharcoalStretchTrousers",
+    "colorLogic": "Fuchsia brightens charcoal, creating a modern, bold look.",
+    "silhouetteLogic": "Stretch trousers keep the outfit sleek while the top stays lively.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "EcruWideLegTrousers",
+    "colorLogic": "Aqua blue pairs gently with ecru for a cool, calming palette.",
+    "silhouetteLogic": "Straight‑cut kurti with wide‑leg trousers offers relaxed elegance.",
+    "occasion": "office‑casual"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "SlateGreyTaperedPants",
+    "colorLogic": "Aqua contrasts softly with slate grey, creating a serene look.",
+    "silhouetteLogic": "Kurti’s clean line with tapered pants yields a polished silhouette.",
+    "occasion": "smart casual"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "KhakiCargoTrousers",
+    "colorLogic": "Aqua brightens the earthy khaki for a fresh travel outfit.",
+    "silhouetteLogic": "Relaxed kurti balances the functional cargo style.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "OffWhiteChikanPalazzo",
+    "colorLogic": "Aqua with off‑white creates a light, breezy contrast perfect for heat.",
+    "silhouetteLogic": "Flowy palazzo offsets the kurti’s straight cut for comfort.",
+    "occasion": "daytime brunch"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "NavyCottonCulottes",
+    "colorLogic": "Aqua and navy sit adjacent, forming a cool, harmonious duo.",
+    "silhouetteLogic": "Culottes add structure while the kurti stays relaxed.",
+    "occasion": "casual weekend"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "SandDuneLyocellJoggers",
+    "colorLogic": "Aqua adds a fresh pop to the sand‑dune tone.",
+    "silhouetteLogic": "Joggers provide comfort; the kurti keeps the look crisp.",
+    "occasion": "travel comfort"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "MustardIkatSkirt",
+    "colorLogic": "Aqua contrasts with mustard, delivering a vibrant, summer‑ready palette.",
+    "silhouetteLogic": "A‑line skirt balances the straight kurti for a feminine silhouette.",
+    "occasion": "arts market"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "OliveLinenDhotiPants",
+    "colorLogic": "Aqua brightens olive, creating a fresh, earthy contrast.",
+    "silhouetteLogic": "Dhoti pants drape softly, complementing the kurti’s clean lines.",
+    "occasion": "family gathering"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "PeachOrganzaSkirt",
+    "colorLogic": "Aqua with soft peach yields a gentle, spring‑like harmony.",
+    "silhouetteLogic": "Flared organza skirt adds movement to the straight kurti.",
+    "occasion": "daytime wedding"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Aqua and magenta are complementary, giving a lively festive look.",
+    "silhouetteLogic": "Lehenga’s flow balances the kurti’s structured silhouette.",
+    "occasion": "sangeet"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "TealPatialaSalwar",
+    "colorLogic": "Aqua pairs with teal for a cool, analogous colour scheme.",
+    "silhouetteLogic": "Patiala’s voluminous drape offsets the kurti’s straight cut for elegance.",
+    "occasion": "festive gathering"
+  },
+  {
+    "top_label": "AquaCottonKurti",
+    "bottom_label": "CharcoalStretchTrousers",
+    "colorLogic": "Aqua brightens charcoal, creating a modern, refreshing contrast.",
+    "silhouetteLogic": "Stretch trousers keep the look sharp while the kurti stays relaxed.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "EcruWideLegTrousers",
+    "colorLogic": "Pistachio green with ecru yields a soft, earthy palette.",
+    "silhouetteLogic": "A‑line kurti and wide‑leg trousers create a breezy, balanced silhouette.",
+    "occasion": "office‑casual"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "SlateGreyTaperedPants",
+    "colorLogic": "Pistachio contrasts gently with slate grey for a calm look.",
+    "silhouetteLogic": "Kurti’s relaxed fit pairs with tapered pants for a neat profile.",
+    "occasion": "smart casual"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "KhakiCargoTrousers",
+    "colorLogic": "Pistachio blends with khaki for an earthy, travel‑ready combination.",
+    "silhouetteLogic": "Relaxed kurti balances the functional cargo style.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "OffWhiteChikanPalazzo",
+    "colorLogic": "Pistachio with off‑white creates a fresh, light contrast.",
+    "silhouetteLogic": "Flowy palazzo offsets the kurti’s straight cut for comfort.",
+    "occasion": "daytime brunch"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "NavyCottonCulottes",
+    "colorLogic": "Pistachio softens deep navy, giving a balanced cool palette.",
+    "silhouetteLogic": "Culottes add structure while the kurti stays relaxed.",
+    "occasion": "casual weekend"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "SandDuneLyocellJoggers",
+    "colorLogic": "Pistachio complements sand‑dune for a muted, natural look.",
+    "silhouetteLogic": "Joggers provide comfort; the kurti keeps the outfit airy.",
+    "occasion": "travel comfort"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "MustardIkatSkirt",
+    "colorLogic": "Pistachio and mustard are complementary, delivering a vibrant summer vibe.",
+    "silhouetteLogic": "A‑line skirt balances the relaxed kurti for a feminine silhouette.",
+    "occasion": "arts market"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "OliveLinenDhotiPants",
+    "colorLogic": "Pistachio with olive creates a harmonious, earthy palette.",
+    "silhouetteLogic": "Dhoti pants drape softly, complementing the kurti’s relaxed cut.",
+    "occasion": "family gathering"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "PeachOrganzaSkirt",
+    "colorLogic": "Pistachio softens peach, giving a gentle springtime contrast.",
+    "silhouetteLogic": "Flared organza skirt adds light movement to the relaxed kurti.",
+    "occasion": "daytime wedding"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Pistachio grounds vibrant magenta for a balanced festive look.",
+    "silhouetteLogic": "Lehenga’s flow offsets the kurti’s simple silhouette.",
+    "occasion": "sangeet"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "TealPatialaSalwar",
+    "colorLogic": "Pistachio and teal sit adjacent, forming a cool, cohesive palette.",
+    "silhouetteLogic": "Patiala’s voluminous drape balances the relaxed kurti.",
+    "occasion": "festive gathering"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "CharcoalStretchTrousers",
+    "colorLogic": "Pistachio brightens charcoal, creating a modern, earthy contrast.",
+    "silhouetteLogic": "Stretch trousers keep the look sharp while the kurti stays relaxed.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "EcruWideLegTrousers",
+    "colorLogic": "Coral against ecru yields a warm, soft contrast perfect for heat.",
+    "silhouetteLogic": "Flowy dupatta top with wide‑leg trousers creates a breezy silhouette.",
+    "occasion": "festive brunch"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "SlateGreyTaperedPants",
+    "colorLogic": "Coral pops against slate grey for a lively yet balanced look.",
+    "silhouetteLogic": "Cropped dupatta top with tapered pants offers a sleek, modern line.",
+    "occasion": "smart casual"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "KhakiCargoTrousers",
+    "colorLogic": "Coral brightens neutral khaki, delivering a vibrant travel outfit.",
+    "silhouetteLogic": "Light dupatta top balances the utilitarian cargo style.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "OffWhiteChikanPalazzo",
+    "colorLogic": "Coral with off‑white creates a fresh, festive palette.",
+    "silhouetteLogic": "Flowy palazzo complements the dupatta’s drape for comfort.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "NavyCottonCulottes",
+    "colorLogic": "Coral contrasts with navy, delivering a striking, summer‑ready look.",
+    "silhouetteLogic": "Cropped dupatta top with culottes gives a sleek, breezy silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "SandDuneLyocellJoggers",
+    "colorLogic": "Coral adds a vibrant pop to the sand‑dune hue.",
+    "silhouetteLogic": "Joggers provide comfort while the dupatta top stays airy.",
+    "occasion": "travel comfort"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "MustardIkatSkirt",
+    "colorLogic": "Coral and mustard are complementary, creating a bold festive duo.",
+    "silhouetteLogic": "Dupatta top with A‑line skirt balances colour and silhouette.",
+    "occasion": "arts market"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "OliveLinenDhotiPants",
+    "colorLogic": "Coral brightens olive for an energetic, earthy contrast.",
+    "silhouetteLogic": "Dhoti pants drape softly, letting the dupatta’s flow shine.",
+    "occasion": "family gathering"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "PeachOrganzaSkirt",
+    "colorLogic": "Coral with peach creates a soft, warm spring palette.",
+    "silhouetteLogic": "Flared organza skirt adds light movement to the dupatta top.",
+    "occasion": "daytime wedding"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Coral and magenta sit side‑by‑side for a vibrant festive look.",
+    "silhouetteLogic": "Lehenga’s flow balances the dupatta’s drape for a graceful silhouette.",
+    "occasion": "sangeet"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "TealPatialaSalwar",
+    "colorLogic": "Coral contrasts with teal, delivering a fresh, eye‑catching combo.",
+    "silhouetteLogic": "Patiala’s voluminous drape pairs with the dupatta’s flow for balance.",
+    "occasion": "festive gathering"
+  },
+  {
+    "top_label": "CoralGeorgetteDupattaTop",
+    "bottom_label": "CharcoalStretchTrousers",
+    "colorLogic": "Coral brightens charcoal, creating a modern, lively contrast.",
+    "silhouetteLogic": "Stretch trousers keep the look sleek while the dupatta top stays airy.",
+    "occasion": "office‑formal"
+  }
+]

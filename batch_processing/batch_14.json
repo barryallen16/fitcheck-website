@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "TurmericTempleKurta",
+    "bottom_label": "BeigeLightweightChinos",
+    "colorLogic": "Turmeric yellow brightens neutral beige for a warm, sunny look.",
+    "silhouetteLogic": "Relaxed kurta over tapered chinos creates a breezy, smart‑casual silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "TurmericTempleKurta",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Turmeric pairs with stone‑beige for an earthy, coastal palette.",
+    "silhouetteLogic": "Loose kurta drapes over wide‑leg linen trousers, keeping the outfit airy.",
+    "occasion": "resort lunch"
+  },
+  {
+    "top_label": "SeafoamLinenShirt",
+    "bottom_label": "BeigeLightweightChinos",
+    "colorLogic": "Seafoam green softens beige for a fresh, beach‑ready contrast.",
+    "silhouetteLogic": "Boxy linen shirt with tapered chinos offers a polished yet breathable silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "SeafoamLinenShirt",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Seafoam green with stone beige creates a calm, muted coastal vibe.",
+    "silhouetteLogic": "Linen shirt over wide‑leg linen trousers gives a relaxed, resort‑ready silhouette.",
+    "occasion": "café brunch"
+  },
+  {
+    "top_label": "WineKasavuBlouse",
+    "bottom_label": "OffWhiteMunduBottomOnly",
+    "colorLogic": "Wine red contrasts with ivory/off‑white for a regal festive look.",
+    "silhouetteLogic": "Fitted blouse tucks into the traditional mundu, creating a classic Kerala silhouette.",
+    "occasion": "Onam ceremony"
+  },
+  {
+    "top_label": "WineKasavuBlouse",
+    "bottom_label": "CreamChanderiSalwar",
+    "colorLogic": "Wine red against cream offers a rich yet balanced colour pair.",
+    "silhouetteLogic": "Blouse with flowing cream salwar creates an elegant, festive silhouette.",
+    "occasion": "family dinner"
+  },
+  {
+    "top_label": "CharcoalDriReleasePolo",
+    "bottom_label": "NavyCigarettePants",
+    "colorLogic": "Charcoal grey with navy blue gives a sleek, understated contrast.",
+    "silhouetteLogic": "Performance polo with tailored cigarette pants provides a smart‑casual silhouette.",
+    "occasion": "evening outing"
+  },
+  {
+    "top_label": "CharcoalDriReleasePolo",
+    "bottom_label": "GreyDryFitJoggers",
+    "colorLogic": "Charcoal pairs with soft grey for a tonal, relaxed look.",
+    "silhouetteLogic": "Polo layered over joggers creates a comfortable, athleisure silhouette.",
+    "occasion": "travel day"
+  },
+  {
+    "top_label": "MagentaTempleJewelCropTop",
+    "bottom_label": "MagentaSilkPavadaiSkirt",
+    "colorLogic": "Magenta on magenta forms a bold, monochrome festive statement.",
+    "silhouetteLogic": "Fitted crop top with flared pavadai skirt balances sparkle and movement.",
+    "occasion": "South Indian wedding"
+  },
+  {
+    "top_label": "MagentaTempleJewelCropTop",
+    "bottom_label": "GoldKancheevaramLehenga",
+    "colorLogic": "Magenta pink against gold creates a luxurious, celebratory contrast.",
+    "silhouetteLogic": "Crop top’s sleek fit pairs with the heavy gold lehenga for a dramatic silhouette.",
+    "occasion": "reception"
+  },
+  {
+    "top_label": "CreamMadrasCottonShirt",
+    "bottom_label": "BeigeLightweightChinos",
+    "colorLogic": "Cream tones blend softly with beige for a subtle, warm palette.",
+    "silhouetteLogic": "Relaxed shirt over tapered chinos offers a comfortable, smart‑casual silhouette.",
+    "occasion": "casual office"
+  },
+  {
+    "top_label": "CreamMadrasCottonShirt",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Cream with stone beige creates a light, neutral look perfect for daytime.",
+    "silhouetteLogic": "Shirt’s relaxed fit with wide‑leg linen trousers gives a breezy, polished silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "TealCroiaKurti",
+    "bottom_label": "IndigoKalamkariPalazzo",
+    "colorLogic": "Teal blue contrasts with deep indigo for a rich, artistic pairing.",
+    "silhouetteLogic": "A‑line kurti over flowing palazzo balances colour and drape for a cultural vibe.",
+    "occasion": "art gallery visit"
+  },
+  {
+    "top_label": "TealCroiaKurti",
+    "bottom_label": "BeigeLightweightChinos",
+    "colorLogic": "Teal brightens neutral beige, creating a fresh summer contrast.",
+    "silhouetteLogic": "Kurti’s relaxed silhouette with tapered chinos offers a smart‑casual look.",
+    "occasion": "day outing"
+  },
+  {
+    "top_label": "CoralBambooTee",
+    "bottom_label": "WhiteLinenDrawstringShorts",
+    "colorLogic": "Coral pink pops against crisp white for a vibrant beach vibe.",
+    "silhouetteLogic": "Relaxed tee with linen shorts creates a breezy, resort‑ready silhouette.",
+    "occasion": "beach day"
+  },
+  {
+    "top_label": "CoralBambooTee",
+    "bottom_label": "OliveQuickDryShorts",
+    "colorLogic": "Coral contrasts with olive green for a lively, coastal‑adventure palette.",
+    "silhouetteLogic": "Tee’s soft drape over quick‑dry shorts gives a functional, casual silhouette.",
+    "occasion": "coastal walk"
+  },
+  {
+    "top_label": "GoldTissuePeplumBlouse",
+    "bottom_label": "GoldKancheevaramLehenga",
+    "colorLogic": "Gold on gold creates an opulent, monochrome festive look.",
+    "silhouetteLogic": "Structured peplum blouse balances the heavy drape of the gold lehenga for a regal silhouette.",
+    "occasion": "sangeet"
+  },
+  {
+    "top_label": "GoldTissuePeplumBlouse",
+    "bottom_label": "MagentaSilkPavadaiSkirt",
+    "colorLogic": "Gold accents brighten magenta for a striking festive contrast.",
+    "silhouetteLogic": "Peplum flare adds structure to the flowing pavadai skirt, creating a balanced silhouette.",
+    "occasion": "festive dinner"
+  },
+  {
+    "top_label": "OliveFishermanVest",
+    "bottom_label": "BeigeLightweightChinos",
+    "colorLogic": "Olive green grounds neutral beige for an earthy, travel‑ready palette.",
+    "silhouetteLogic": "Utility vest over tapered chinos offers a functional, smart‑casual silhouette.",
+    "occasion": "weekend travel"
+  },
+  {
+    "top_label": "OliveFishermanVest",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Olive pairs with stone beige for a subtle, coastal‑inspired look.",
+    "silhouetteLogic": "Vest’s relaxed fit over wide‑leg linen trousers creates a breezy, layered silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "PeachCutdanaKaftan",
+    "bottom_label": "WhiteLinenDrawstringShorts",
+    "colorLogic": "Peach softens crisp white for a gentle, sun‑kissed palette.",
+    "silhouetteLogic": "Flowy kaftan over relaxed shorts gives an effortless resort silhouette.",
+    "occasion": "resort evening"
+  },
+  {
+    "top_label": "PeachCutdanaKaftan",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Peach with stone beige creates a warm, understated contrast.",
+    "silhouetteLogic": "Kaftan’s drape over wide‑leg linen trousers offers a graceful, breezy silhouette.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "IndigoKalamkariKurta",
+    "bottom_label": "IndigoKalamkariPalazzo",
+    "colorLogic": "Matching indigo creates a cohesive, artistic monochrome look.",
+    "silhouetteLogic": "Straight kurta with wide‑leg palazzo balances structure and flow for a cultural silhouette.",
+    "occasion": "cultural event"
+  },
+  {
+    "top_label": "IndigoKalamkariKurta",
+    "bottom_label": "BeigeLightweightChinos",
+    "colorLogic": "Indigo contrasts gently with beige for a balanced, neutral palette.",
+    "silhouetteLogic": "Kurta’s relaxed fit over tapered chinos offers a smart‑casual silhouette.",
+    "occasion": "day outing"
+  },
+  {
+    "top_label": "BlackRibCropTank",
+    "bottom_label": "BlackCottonLeggings",
+    "colorLogic": "Monochromatic black creates a sleek, night‑time vibe.",
+    "silhouetteLogic": "Fitted crop tank with stretch leggings gives a streamlined, urban silhouette.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "BlackRibCropTank",
+    "bottom_label": "GreyDryFitJoggers",
+    "colorLogic": "Black with soft grey offers a subtle, modern contrast.",
+    "silhouetteLogic": "Crop tank layered over joggers creates a comfortable athleisure silhouette.",
+    "occasion": "casual errands"
+  },
+  {
+    "top_label": "IvoryMunduKurta",
+    "bottom_label": "OffWhiteMunduBottomOnly",
+    "colorLogic": "Ivory and off‑white provide a pure, traditional look.",
+    "silhouetteLogic": "Short kurta paired with the classic mundu creates a timeless Kerala silhouette.",
+    "occasion": "temple visit"
+  },
+  {
+    "top_label": "IvoryMunduKurta",
+    "bottom_label": "CreamChanderiSalwar",
+    "colorLogic": "Ivory brightens the cream silk for an elegant, soft contrast.",
+    "silhouetteLogic": "Kurta’s simple cut with flowing salwar gives a refined festive silhouette.",
+    "occasion": "family celebration"
+  },
+  {
+    "top_label": "RustOversizedHoodie",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Rust orange against stone beige creates a warm, earthy evening palette.",
+    "silhouetteLogic": "Oversized hoodie with wide‑leg linen trousers offers a relaxed yet polished silhouette.",
+    "occasion": "evening lounge"
+  },
+  {
+    "top_label": "RustOversizedHoodie",
+    "bottom_label": "BeigeLightweightChinos",
+    "colorLogic": "Rust pairs with neutral beige for a cozy, daytime look.",
+    "silhouetteLogic": "Hoodie over tapered chinos creates a comfortable, smart‑casual silhouette.",
+    "occasion": "casual dinner"
+  },
+  {
+    "top_label": "SapphireIkatKurti",
+    "bottom_label": "BeigeLightweightChinos",
+    "colorLogic": "Sapphire blue brightens beige for a striking yet balanced contrast.",
+    "silhouetteLogic": "Semi‑fitted kurti over tapered chinos gives a polished, ethnic‑fusion silhouette.",
+    "occasion": "day outing"
+  },
+  {
+    "top_label": "SapphireIkatKurti",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Sapphire with stone beige creates a cool, grounded palette.",
+    "silhouetteLogic": "Kurti’s structured cut paired with wide‑leg linen trousers offers a breezy, elegant silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "LemonEyeletBlouse",
+    "bottom_label": "WhiteLinenDrawstringShorts",
+    "colorLogic": "Lemon yellow pops against crisp white for a sunny, fresh look.",
+    "silhouetteLogic": "Eyelet blouse with relaxed shorts creates a light, weekend silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "LemonEyeletBlouse",
+    "bottom_label": "BeigeLightweightChinos",
+    "colorLogic": "Lemon yellow softens beige for a gentle, warm contrast.",
+    "silhouetteLogic": "Blouse’s delicate detail with tapered chinos offers a smart‑casual silhouette.",
+    "occasion": "casual day"
+  },
+  {
+    "top_label": "NavyNeopreneVest",
+    "bottom_label": "OliveQuickDryShorts",
+    "colorLogic": "Navy blue contrasts with olive green for a sporty, coastal vibe.",
+    "silhouetteLogic": "Neoprene vest over quick‑dry shorts provides a functional, active silhouette.",
+    "occasion": "water sport"
+  },
+  {
+    "top_label": "NavyNeopreneVest",
+    "bottom_label": "BlackBoardShorts",
+    "colorLogic": "Navy with black creates a sleek, modern contrast.",
+    "silhouetteLogic": "Vest layered over board shorts gives a streamlined, beach‑activity silhouette.",
+    "occasion": "beach activity"
+  },
+  {
+    "top_label": "CreamKasavuMunduSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Cream kasavu with gold border radiates traditional elegance for Onam.",
+    "silhouetteLogic": "Full saree drape with golden pallu creates a graceful, ceremonial silhouette.",
+    "occasion": "Onam celebration"
+  },
+  {
+    "top_label": "TealKancheevaramSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Teal silk with gold peacock border offers a regal South Indian wedding palette.",
+    "silhouetteLogic": "Heavy silk drape and vibrant pallu give a majestic, festive silhouette.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "BlackRacerbackMaxiDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Sleek black jersey with racerback creates a modern, night‑time look.",
+    "silhouetteLogic": "Flowing maxi dress with side ruching offers an elegant, evening silhouette.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "MustardKalankariDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Mustard kalamkari prints give a vibrant, artisan‑chic vibe.",
+    "silhouetteLogic": "Shirt‑dress with belt and three‑quarter sleeves provides a structured yet relaxed silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "RubyPattuPavadai",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Ruby red silk with gold border creates a striking festive palette.",
+    "silhouetteLogic": "Half‑saree drape with matching blouse offers a traditional, celebratory silhouette.",
+    "occasion": "festive ceremony"
+  },
+  {
+    "top_label": "OliveJumpsuitLinen",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Olive linen gives a cool, travel‑ready look for coastal outings.",
+    "silhouetteLogic": "Wide‑leg jumpsuit with cinched waist provides a relaxed, stylish silhouette.",
+    "occasion": "weekend travel"
+  },
+  {
+    "top_label": "WhiteMulMulSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Pure white mul‑mul with subtle red‑gold border offers minimalist elegance.",
+    "silhouetteLogic": "Lightweight drape creates a graceful, everyday festive silhouette.",
+    "occasion": "daily wear"
+  },
+  {
+    "top_label": "CoralWrapMidiDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Coral pink with flutter sleeves gives a fresh, feminine vibe.",
+    "silhouetteLogic": "Wrap midi dress with pockets offers a flattering, casual‑elegant silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "TealCroiaKurti",
+    "bottom_label": "TealCroiaDhotiPants",
+    "colorLogic": "Matching teal creates a harmonious, monochrome ensemble.",
+    "silhouetteLogic": "Kurti’s A‑line cut pairs with draped dhoti pants for a balanced fusion silhouette.",
+    "occasion": "fusion dinner"
+  },
+  {
+    "top_label": "MagentaTempleJewelCropTop",
+    "bottom_label": "BlackCottonLeggings",
+    "colorLogic": "Magenta against black offers a bold, night‑time contrast.",
+    "silhouetteLogic": "Crop top’s fitted silhouette with sleek leggings creates a sleek, modern look.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "GoldTissuePeplumBlouse",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Gold accents brighten stone beige for an elegant daytime palette.",
+    "silhouetteLogic": "Peplum blouse adds structure to the flowing linen trousers, giving a polished silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "OliveFishermanVest",
+    "bottom_label": "OliveQuickDryShorts",
+    "colorLogic": "Monochromatic olive creates a cohesive, travel‑ready look.",
+    "silhouetteLogic": "Utility vest over quick‑dry shorts offers a functional, relaxed silhouette.",
+    "occasion": "coastal adventure"
+  },
+  {
+    "top_label": "RustHandloomCulottes",
+    "bottom_label": "CoralBambooTee",
+    "colorLogic": "Rust orange with coral pink yields a warm, artistic contrast.",
+    "silhouetteLogic": "Wide‑leg culottes with relaxed tee create a comfortable, boho silhouette.",
+    "occasion": "artistic brunch"
+  },
+  {
+    "top_label": "NavyCigarettePants",
+    "bottom_label": "WhiteLinenDrawstringShorts",
+    "colorLogic": "Navy blue contrasts sharply with crisp white for a fresh, nautical vibe.",
+    "silhouetteLogic": "Tailored cigarette pants paired with relaxed shorts give a modern, layered silhouette.",
+    "occasion": "casual day"
+  }
+]

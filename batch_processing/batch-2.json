@@ -1,0 +1,674 @@
+[
+  {
+    "top_label": "OliveKhadiKurta",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Olive green pairs with neutral beige for an earthy, understated look.",
+    "silhouetteLogic": "The semi‑fitted kurta sits neatly over the tapered chinos, creating a clean, smart‑casual line.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "OliveKhadiKurta",
+    "bottom_label": "MaroonSilkPalazzo",
+    "colorLogic": "Olive balances the deep maroon, giving a rich yet grounded palette.",
+    "silhouetteLogic": "A fitted kurta contrasts with the wide‑leg palazzo, offering comfort and drama.",
+    "occasion": "evening gallery opening"
+  },
+  {
+    "top_label": "OliveKhadiKurta",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "Olive and turquoise create a fresh, complementary colour block.",
+    "silhouetteLogic": "The kurta’s structured cut is softened by the high‑waist culottes’ airy drape.",
+    "occasion": "creative weekend gathering"
+  },
+  {
+    "top_label": "OliveKhadiKurta",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Olive with sand‑coloured linen yields a warm, desert‑inspired harmony.",
+    "silhouetteLogic": "Relaxed kurta flows over the breezy palazzo for a comfortable summer silhouette.",
+    "occasion": "daytime brunch"
+  },
+  {
+    "top_label": "OliveKhadiKurta",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Olive against crisp white creates a clean, high‑contrast look.",
+    "silhouetteLogic": "The kurta’s semi‑fitted silhouette aligns with the straight‑leg pants for a sharp profile.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "OliveKhadiKurta",
+    "bottom_label": "PeachLaceSkirt",
+    "colorLogic": "Olive muted by soft peach gives a gentle, spring‑like palette.",
+    "silhouetteLogic": "Kurta’s length pairs with the knee‑length lace skirt for a balanced feminine silhouette.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "OliveKhadiKurta",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Olive and gold together feel regal yet earthy.",
+    "silhouetteLogic": "The dhoti’s fluid drape adds movement to the structured kurta.",
+    "occasion": "festive family function"
+  },
+  {
+    "top_label": "OliveKhadiKurta",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Olive with turquoise offers a vibrant, complementary contrast.",
+    "silhouetteLogic": "Tailored jodhpuri pants give a crisp base that highlights the kurta’s clean lines.",
+    "occasion": "formal wedding"
+  },
+  {
+    "top_label": "OliveKhadiKurta",
+    "bottom_label": "GreyJoggers",
+    "colorLogic": "Olive muted by soft grey creates a relaxed, urban vibe.",
+    "silhouetteLogic": "Joggers add comfort while the kurta maintains a polished top half.",
+    "occasion": "travel‑ready casual"
+  },
+  {
+    "top_label": "OliveKhadiKurta",
+    "bottom_label": "BlackTechCargo",
+    "colorLogic": "Olive with black gives a sleek, utilitarian contrast.",
+    "silhouetteLogic": "Cargo pockets add practicality; the kurta keeps the look refined.",
+    "occasion": "monsoon outing"
+  },
+  {
+    "top_label": "MaroonSilkShirt",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Deep maroon against beige creates a warm, balanced contrast.",
+    "silhouetteLogic": "Slim shirt pairs with tapered chinos for a sharp, modern silhouette.",
+    "occasion": "evening gallery opening"
+  },
+  {
+    "top_label": "MaroonSilkShirt",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Maroon enriched by sand‑tone linen offers an elegant earth‑tone duo.",
+    "silhouetteLogic": "The fitted shirt contrasts with the flowing palazzo for graceful movement.",
+    "occasion": "festive dinner"
+  },
+  {
+    "top_label": "MaroonSilkShirt",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Maroon with crisp white yields a classic, high‑contrast look.",
+    "silhouetteLogic": "Tailored white pants keep the outfit sleek and office‑appropriate.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "MaroonSilkShirt",
+    "bottom_label": "PeachLaceSkirt",
+    "colorLogic": "Maroon deepens the soft peach, creating a romantic contrast.",
+    "silhouetteLogic": "Slim shirt with a lace‑trimmed skirt balances masculine and feminine lines.",
+    "occasion": "brunch date"
+  },
+  {
+    "top_label": "MaroonSilkShirt",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Maroon and gold together feel luxurious and celebratory.",
+    "silhouetteLogic": "The dhoti’s drape adds regal fluidity to the structured shirt.",
+    "occasion": "festive family gathering"
+  },
+  {
+    "top_label": "MaroonSilkShirt",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Turquoise provides a cool counterpoint to warm maroon for a balanced palette.",
+    "silhouetteLogic": "Tailored jodhpuri pants give a formal base that highlights the shirt’s sheen.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "MaroonSilkShirt",
+    "bottom_label": "OliveDhotiPants",
+    "colorLogic": "Olive softens the intensity of maroon, creating an earthy harmony.",
+    "silhouetteLogic": "Dhoti’s relaxed drape balances the shirt’s slim silhouette.",
+    "occasion": "small family celebration"
+  },
+  {
+    "top_label": "MaroonSilkShirt",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "Turquoise adds a fresh pop to deep maroon, making the outfit lively.",
+    "silhouetteLogic": "Culottes’ high waist and flow complement the shirt’s fitted cut.",
+    "occasion": "creative brunch"
+  },
+  {
+    "top_label": "StoneLinenTee",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Stone grey with beige creates a soft, neutral palette.",
+    "silhouetteLogic": "Relaxed tee over tapered chinos offers a laid‑back yet polished look.",
+    "occasion": "casual weekend meet‑up"
+  },
+  {
+    "top_label": "StoneLinenTee",
+    "bottom_label": "NavyStraightTrousers",
+    "colorLogic": "Stone grey contrasts nicely with deep navy for a modern vibe.",
+    "silhouetteLogic": "Straight‑leg trousers give structure to the casual tee.",
+    "occasion": "travel day"
+  },
+  {
+    "top_label": "StoneLinenTee",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Grey muted by bright white creates a crisp, clean look.",
+    "silhouetteLogic": "The tee’s relaxed fit pairs with crisp white pants for balanced casual elegance.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "StoneLinenTee",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Stone grey with sand‑tone linen offers a warm, earthy combination.",
+    "silhouetteLogic": "Flowy palazzo offsets the tee’s simplicity, adding movement.",
+    "occasion": "daytime brunch"
+  },
+  {
+    "top_label": "StoneLinenTee",
+    "bottom_label": "GreyJoggers",
+    "colorLogic": "Monochrome grey creates a sleek, tonal outfit.",
+    "silhouetteLogic": "Joggers provide comfort while the tee keeps the look relaxed.",
+    "occasion": "travel comfort"
+  },
+  {
+    "top_label": "OrangePoplinKurti",
+    "bottom_label": "NavyStraightTrousers",
+    "colorLogic": "Bright orange against navy creates a striking, energetic contrast.",
+    "silhouetteLogic": "Kurti’s relaxed fit pairs with straight trousers for a balanced silhouette.",
+    "occasion": "creative gathering"
+  },
+  {
+    "top_label": "OrangePoplinKurti",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Orange is softened by neutral beige for a warm, approachable palette.",
+    "silhouetteLogic": "Kurti’s flow meets the chinos’ clean line for a smart‑casual look.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "OrangePoplinKurti",
+    "bottom_label": "MaroonSilkPalazzo",
+    "colorLogic": "Orange and maroon sit next to each other on the colour wheel, creating a vibrant harmony.",
+    "silhouetteLogic": "The kurti’s relaxed drape balances the palazzo’s wide leg for dramatic movement.",
+    "occasion": "festive evening"
+  },
+  {
+    "top_label": "OrangePoplinKurti",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "Turquoise cools the vivid orange, delivering a fresh contrast.",
+    "silhouetteLogic": "High‑waist culottes add structure to the kurti’s loose silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "OrangePoplinKurti",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Orange pops against crisp white for a clean, lively look.",
+    "silhouetteLogic": "Straight white pants keep the outfit sharp while the kurti adds colour.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "OrangePoplinKurti",
+    "bottom_label": "PeachLaceSkirt",
+    "colorLogic": "Orange with soft peach creates a warm, harmonious gradient.",
+    "silhouetteLogic": "Kurti’s length pairs with the flared lace skirt for a balanced feminine silhouette.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "TealJacquardShirt",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Deep teal with beige yields an elegant, earthy contrast.",
+    "silhouetteLogic": "Tailored chinos complement the shirt’s regular fit for a polished look.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "TealJacquardShirt",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Teal against sand‑coloured linen creates a warm, coastal vibe.",
+    "silhouetteLogic": "The shirt’s structured silhouette is softened by the flowing palazzo.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "TealJacquardShirt",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Teal paired with bright white offers a crisp, sophisticated palette.",
+    "silhouetteLogic": "Straight white pants keep the outfit sleek while the shirt adds texture.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "TealJacquardShirt",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Teal and turquoise sit side‑by‑side, forming a harmonious cool duo.",
+    "silhouetteLogic": "Tailored jodhpuri pants give a formal base that highlights the shirt’s micro‑embroidery.",
+    "occasion": "formal evening event"
+  },
+  {
+    "top_label": "TealJacquardShirt",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Teal with gold creates a regal, celebratory contrast.",
+    "silhouetteLogic": "The dhoti’s drape adds fluidity to the structured shirt.",
+    "occasion": "festive family function"
+  },
+  {
+    "top_label": "WhitePerformancePolo",
+    "bottom_label": "NavyStraightTrousers",
+    "colorLogic": "White with navy gives a crisp, nautical feel.",
+    "silhouetteLogic": "Polo’s sporty cut pairs with straight trousers for a smart‑casual silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "WhitePerformancePolo",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "White softened by beige creates a warm, neutral look.",
+    "silhouetteLogic": "Tapered chinos keep the outfit sleek while the polo adds comfort.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "WhitePerformancePolo",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "White contrasted with sand‑tone linen offers a fresh, summer vibe.",
+    "silhouetteLogic": "Palazzo’s flow balances the polo’s structured fit for breezy elegance.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "WhitePerformancePolo",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "White with turquoise creates a bright, uplifting palette.",
+    "silhouetteLogic": "Culottes add height and movement, complementing the polo’s clean lines.",
+    "occasion": "creative weekend gathering"
+  },
+  {
+    "top_label": "WhitePerformancePolo",
+    "bottom_label": "PeachLaceSkirt",
+    "colorLogic": "White brightens the soft peach, giving a delicate, feminine feel.",
+    "silhouetteLogic": "Polo’s structured top pairs with the flared lace skirt for balanced femininity.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "CharcoalMerinoSweater",
+    "bottom_label": "MaroonSilkPalazzo",
+    "colorLogic": "Charcoal anchors the deep maroon for a sophisticated, moody palette.",
+    "silhouetteLogic": "Sweater’s cozy bulk is offset by the palazzo’s airy drape.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "CharcoalMerinoSweater",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Turquoise brightens the neutral charcoal, creating a lively contrast.",
+    "silhouetteLogic": "Tailored jodhpuri pants give structure that balances the sweater’s softness.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "CharcoalMerinoSweater",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Charcoal with gold feels luxurious and evening‑appropriate.",
+    "silhouetteLogic": "The dhoti’s fluid drape softens the sweater’s bulk for an elegant silhouette.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "CharcoalMerinoSweater",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Charcoal contrasted with crisp white offers a classic, refined look.",
+    "silhouetteLogic": "Straight white pants keep the outfit sharp while the sweater adds warmth.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "MustardKurtaJacket",
+    "bottom_label": "NavyStraightTrousers",
+    "colorLogic": "Mustard brightens the deep navy, creating a bold, complementary pair.",
+    "silhouetteLogic": "Kurta‑jacket’s length pairs with straight trousers for a sleek, modern silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "MustardKurtaJacket",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Mustard with beige yields a warm, earthy harmony.",
+    "silhouetteLogic": "Tailored chinos keep the look grounded while the jacket adds statement.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "MustardKurtaJacket",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Mustard against sand‑tone linen creates a sunny, summer‑ready palette.",
+    "silhouetteLogic": "The flowing palazzo balances the structured kurta‑jacket for comfort and style.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "MustardKurtaJacket",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "Turquoise cools the warm mustard, delivering a vibrant contrast.",
+    "silhouetteLogic": "Culottes’ high waist adds sleekness to the relaxed kurta‑jacket.",
+    "occasion": "creative gathering"
+  },
+  {
+    "top_label": "MustardKurtaJacket",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Mustard and gold together amplify a regal, festive feel.",
+    "silhouetteLogic": "Dhoti’s drape adds fluid elegance to the structured jacket.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Navy paired with beige offers a classic, neutral contrast.",
+    "silhouetteLogic": "Relaxed kurti over tapered chinos creates a balanced, smart‑casual silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Navy with crisp white yields a clean, nautical palette.",
+    "silhouetteLogic": "Straight white pants keep the look sharp while the kurti adds relaxed comfort.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Turquoise provides a cool pop against deep navy for a fresh look.",
+    "silhouetteLogic": "Tailored jodhpuri pants give structure that complements the kurti’s easy drape.",
+    "occasion": "formal evening"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Navy with sand‑tone linen creates a warm, coastal contrast.",
+    "silhouetteLogic": "Palazzo’s flow balances the kurti’s relaxed fit for breezy elegance.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Gold accents brighten the deep navy, delivering a regal vibe.",
+    "silhouetteLogic": "Dhoti’s fluid drape adds elegance to the laid‑back kurti.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "NavyStraightTrousers",
+    "colorLogic": "Pastel pink against navy creates a soft yet striking contrast.",
+    "silhouetteLogic": "Flowy dupatta‑style top pairs with straight trousers for a balanced silhouette.",
+    "occasion": "daytime brunch"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Pink softened by beige yields a gentle, earthy palette.",
+    "silhouetteLogic": "Tapered chinos keep the look sleek while the top adds delicate movement.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Pastel pink with sand‑tone linen creates a warm, spring‑like harmony.",
+    "silhouetteLogic": "Both pieces are airy; the palazzo’s width complements the top’s light drape.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "Turquoise adds a cool contrast to soft pink for a fresh look.",
+    "silhouetteLogic": "Culottes’ high waist balances the flowy top, giving a modern silhouette.",
+    "occasion": "creative weekend gathering"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Pastel pink with crisp white feels light and airy.",
+    "silhouetteLogic": "Straight white pants keep the outfit polished while the top remains floaty.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "MaroonSilkPalazzo",
+    "colorLogic": "Turquoise and maroon are complementary, delivering a vibrant jewel‑tone pairing.",
+    "silhouetteLogic": "Blouse’s sleek fit is balanced by the palazzo’s wide leg for graceful movement.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Turquoise brightens the neutral beige, creating a fresh contrast.",
+    "silhouetteLogic": "Tailored chinos give a clean base that lets the silk blouse shine.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Turquoise with sand‑tone linen offers a breezy, coastal palette.",
+    "silhouetteLogic": "Flowy palazzo offsets the blouse’s structured sheen for balanced elegance.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Turquoise contrasted with white creates a crisp, vibrant look.",
+    "silhouetteLogic": "Straight white pants keep the silhouette sleek while the blouse adds luxe texture.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Turquoise paired with gold yields a regal, jewel‑tone combination.",
+    "silhouetteLogic": "Dhoti’s fluid drape balances the blouse’s structured elegance.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "NavyStraightTrousers",
+    "colorLogic": "Beige with navy creates a timeless, neutral contrast.",
+    "silhouetteLogic": "Straight trousers give a sharp base that complements the relaxed kurta.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "MaroonSilkPalazzo",
+    "colorLogic": "Beige softens the deep maroon, producing an elegant earth‑tone duo.",
+    "silhouetteLogic": "Palazzo’s flow balances the kurta’s structured cut for a graceful silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "Turquoise adds a pop of colour to the neutral beige, creating a lively contrast.",
+    "silhouetteLogic": "Culottes’ high waist and sleek line complement the kurta’s relaxed fit.",
+    "occasion": "creative brunch"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Beige with sand‑tone linen yields a soft, monochromatic palette.",
+    "silhouetteLogic": "Both pieces drape gently, delivering a comfortable, breezy silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Beige and white create a clean, understated look.",
+    "silhouetteLogic": "Straight white pants keep the outfit sharp while the kurta adds subtle texture.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "BurgundyVelvetShirt",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Burgundy and turquoise are complementary, delivering a bold, festive contrast.",
+    "silhouetteLogic": "Tailored jodhpuri pants balance the velvet shirt’s richness with a sleek silhouette.",
+    "occasion": "evening cocktail party"
+  },
+  {
+    "top_label": "BurgundyVelvetShirt",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Burgundy paired with gold creates a luxurious, celebratory palette.",
+    "silhouetteLogic": "The dhoti’s fluid drape softens the shirt’s plush texture for an elegant look.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "BurgundyVelvetShirt",
+    "bottom_label": "MaroonSilkPalazzo",
+    "colorLogic": "Deep burgundy with maroon offers a rich, monochromatic harmony.",
+    "silhouetteLogic": "Palazzo’s wide leg offsets the shirt’s fitted silhouette for balanced drama.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "BurgundyVelvetShirt",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Burgundy contrasted with crisp white yields a classic, refined look.",
+    "silhouetteLogic": "Straight white pants keep the outfit sharp while the velvet adds luxe depth.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "GreyPerformanceTee",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Soft grey with beige creates a warm, neutral palette.",
+    "silhouetteLogic": "Tapered chinos give structure to the relaxed performance tee.",
+    "occasion": "casual weekend meet‑up"
+  },
+  {
+    "top_label": "GreyPerformanceTee",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Grey muted by sand‑tone linen offers an earthy, summer‑ready combination.",
+    "silhouetteLogic": "Palazzo’s flow balances the tee’s casual fit for breezy comfort.",
+    "occasion": "daytime brunch"
+  },
+  {
+    "top_label": "GreyPerformanceTee",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Grey with white creates a clean, crisp contrast.",
+    "silhouetteLogic": "Straight white pants keep the look polished while the tee stays relaxed.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "GreyPerformanceTee",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "Turquoise adds a vibrant pop to neutral grey for a fresh look.",
+    "silhouetteLogic": "Culottes’ high waist and flow complement the tee’s easy silhouette.",
+    "occasion": "creative gathering"
+  },
+  {
+    "top_label": "GoldenSilkKurta",
+    "bottom_label": "NavyStraightTrousers",
+    "colorLogic": "Gold with navy creates a regal, high‑contrast palette.",
+    "silhouetteLogic": "Straight trousers give a sleek base that lets the kurta’s shine stand out.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "GoldenSilkKurta",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Gold softened by beige yields an elegant, warm combination.",
+    "silhouetteLogic": "Tapered chinos keep the look refined while the kurta adds luxe texture.",
+    "occasion": "festive family function"
+  },
+  {
+    "top_label": "GoldenSilkKurta",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Gold paired with sand‑tone linen offers a sunny, sophisticated look.",
+    "silhouetteLogic": "Palazzo’s airy drape balances the kurta’s structured elegance.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "GoldenSilkKurta",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "Turquoise provides a cool contrast to the warm gold, creating a vibrant duo.",
+    "silhouetteLogic": "Culottes’ sleek silhouette offsets the kurta’s regal drape.",
+    "occasion": "creative brunch"
+  },
+  {
+    "top_label": "GoldenSilkKurta",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Gold with crisp white yields a fresh, luxurious palette.",
+    "silhouetteLogic": "Straight white pants keep the outfit sharp while the kurta shines.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "CoralCottonShirt",
+    "bottom_label": "NavyStraightTrousers",
+    "colorLogic": "Coral against navy creates a bright, complementary contrast.",
+    "silhouetteLogic": "Straight trousers give structure to the relaxed coral shirt.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "CoralCottonShirt",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Coral softened by beige yields a warm, inviting palette.",
+    "silhouetteLogic": "Tapered chinos keep the look polished while the shirt stays breezy.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "CoralCottonShirt",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Coral with sand‑tone linen offers a fresh, summer‑ready combination.",
+    "silhouetteLogic": "Palazzo’s flow balances the shirt’s relaxed fit for comfort.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "CoralCottonShirt",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Coral contrasted with white creates a crisp, vibrant look.",
+    "silhouetteLogic": "Straight white pants keep the outfit sleek while the shirt adds colour.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "CoralCottonShirt",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "Turquoise adds a cool pop to warm coral for a lively contrast.",
+    "silhouetteLogic": "Culottes’ high waist and fluidity complement the shirt’s relaxed silhouette.",
+    "occasion": "creative weekend gathering"
+  },
+  {
+    "top_label": "SaffronSilkDupattaTop",
+    "bottom_label": "NavyStraightTrousers",
+    "colorLogic": "Saffron brightens deep navy, creating a regal, high‑contrast palette.",
+    "silhouetteLogic": "Straight trousers give a sleek base that lets the dupatta‑style top flow.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "SaffronSilkDupattaTop",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Saffron softened by beige yields an elegant, warm combination.",
+    "silhouetteLogic": "Tapered chinos keep the look refined while the top adds luxurious drape.",
+    "occasion": "festive family function"
+  },
+  {
+    "top_label": "SaffronSilkDupattaTop",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Saffron with sand‑tone linen creates a sunny, festive palette.",
+    "silhouetteLogic": "Palazzo’s airy drape balances the rich silk dupatta top for graceful movement.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "SaffronSilkDupattaTop",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Saffron contrasted with crisp white offers a fresh, celebratory look.",
+    "silhouetteLogic": "Straight white pants keep the silhouette clean while the top adds luxe texture.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "SaffronSilkDupattaTop",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "Turquoise provides a cool counterpoint to vibrant saffron, creating a striking duo.",
+    "silhouetteLogic": "Culottes’ sleek silhouette offsets the flowing dupatta top for balanced drama.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "DustyRoseKurti",
+    "bottom_label": "NavyStraightTrousers",
+    "colorLogic": "Dusty rose softened by navy yields a subtle, sophisticated contrast.",
+    "silhouetteLogic": "Straight trousers give structure to the relaxed kurti for a polished look.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "DustyRoseKurti",
+    "bottom_label": "BeigeKhadiChinos",
+    "colorLogic": "Dusty rose with beige creates a warm, earthy palette.",
+    "silhouetteLogic": "Tapered chinos keep the silhouette sleek while the kurti adds gentle drape.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "DustyRoseKurti",
+    "bottom_label": "SandLinenPalazzo",
+    "colorLogic": "Dusty rose paired with sand‑tone linen offers a soft, summer‑ready look.",
+    "silhouetteLogic": "Palazzo’s flow balances the kurti’s relaxed silhouette for comfort.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "DustyRoseKurti",
+    "bottom_label": "WhitePoplinPants",
+    "colorLogic": "Dusty rose contrasted with white creates a fresh, elegant palette.",
+    "silhouetteLogic": "Straight white pants keep the outfit crisp while the kurti adds subtle colour.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "DustyRoseKurti",
+    "bottom_label": "TurquoiseCulottes",
+    "colorLogic": "Turquoise adds a cool pop to dusty rose, delivering a vibrant contrast.",
+    "silhouetteLogic": "Culottes’ high waist and fluid drape complement the kurti’s relaxed fit.",
+    "occasion": "creative gathering"
+  }
+]

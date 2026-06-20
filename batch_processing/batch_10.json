@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "TerracottaLinenKurta",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Terracotta brown contrasts softly with crisp white, creating an earthy yet fresh summer look.",
+    "silhouetteLogic": "Knee‑length kurta pairs with wide‑leg linen trousers for a breezy, balanced silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "TerracottaLinenKurta",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Terracotta with beige yields a warm, neutral palette perfect for daytime.",
+    "silhouetteLogic": "Semi‑fitted kurta over tapered chinos keeps the look relaxed yet polished.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "TerracottaLinenKurta",
+    "bottom_label": "IndigoPalazzo",
+    "colorLogic": "Terracotta against deep indigo creates a rich, grounded contrast.",
+    "silhouetteLogic": "Kurta’s length sits above the flowing palazzo, offering comfort and movement.",
+    "occasion": "resort lunch"
+  },
+  {
+    "top_label": "TerracottaLinenKurta",
+    "bottom_label": "DistressedDenimShorts",
+    "colorLogic": "Terracotta brightens distressed denim for a casual, vibrant vibe.",
+    "silhouetteLogic": "Shorts keep the hem above puddles while the kurta adds ethnic flair.",
+    "occasion": "city stroll"
+  },
+  {
+    "top_label": "TerracottaLinenKurta",
+    "bottom_label": "MustardMidiSkirt",
+    "colorLogic": "Terracotta and mustard sit adjacent on the warm spectrum, creating a harmonious duo.",
+    "silhouetteLogic": "Midi skirt’s flow balances the kurta’s structured cut for a feminine silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "TerracottaLinenKurta",
+    "bottom_label": "OliveCargoShorts",
+    "colorLogic": "Terracotta with olive green gives an earthy, travel‑ready palette.",
+    "silhouetteLogic": "Cargo shorts provide utility while the kurta adds cultural depth.",
+    "occasion": "weekend travel"
+  },
+  {
+    "top_label": "TerracottaLinenKurta",
+    "bottom_label": "BlackJerseyLeggings",
+    "colorLogic": "Terracotta pops against sleek black for a bold contrast.",
+    "silhouetteLogic": "Leggings keep the lower half sleek, letting the kurta be the focal point.",
+    "occasion": "evening casual"
+  },
+  {
+    "top_label": "SageCottonShirt",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Sage green softens crisp white, evoking a fresh spring feel.",
+    "silhouetteLogic": "Boxy shirt over wide‑leg trousers creates a relaxed, airy silhouette.",
+    "occasion": "vacation brunch"
+  },
+  {
+    "top_label": "SageCottonShirt",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Sage with beige yields a muted, natural palette.",
+    "silhouetteLogic": "Shirt’s relaxed fit pairs with tapered chinos for smart‑casual comfort.",
+    "occasion": "office‑casual"
+  },
+  {
+    "top_label": "SageCottonShirt",
+    "bottom_label": "IndigoPalazzo",
+    "colorLogic": "Sage green complements indigo blue for a cool, balanced look.",
+    "silhouetteLogic": "Palazzo’s flow offsets the shirt’s boxy silhouette, keeping the outfit breezy.",
+    "occasion": "art gallery visit"
+  },
+  {
+    "top_label": "SageCottonShirt",
+    "bottom_label": "DistressedDenimShorts",
+    "colorLogic": "Sage adds a fresh pop to distressed denim.",
+    "silhouetteLogic": "Shorts keep the look light, while the shirt adds a relaxed vibe.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "SageCottonShirt",
+    "bottom_label": "OliveCargoShorts",
+    "colorLogic": "Sage and olive create an analogous, earthy combination.",
+    "silhouetteLogic": "Cargo shorts give utility; shirt keeps the look relaxed.",
+    "occasion": "travel day"
+  },
+  {
+    "top_label": "SageCottonShirt",
+    "bottom_label": "NavyALineMidiSkirt",
+    "colorLogic": "Sage contrasts gently with deep navy for a sophisticated palette.",
+    "silhouetteLogic": "A‑line midi skirt adds feminine flow to the structured shirt.",
+    "occasion": "smart brunch"
+  },
+  {
+    "top_label": "FuchsiaSequinCropTop",
+    "bottom_label": "MustardMidiSkirt",
+    "colorLogic": "Fuchsia pink pops against mustard yellow for a vibrant, festive contrast.",
+    "silhouetteLogic": "Crop top shows a hint of midriff while the midi skirt balances the look with elegance.",
+    "occasion": "party brunch"
+  },
+  {
+    "top_label": "FuchsiaSequinCropTop",
+    "bottom_label": "IndigoPalazzo",
+    "colorLogic": "Fuchsia against indigo creates a striking, high‑contrast combo.",
+    "silhouetteLogic": "Palazzo’s wide leg keeps the outfit comfortable while the crop top adds glam.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "IvoryChiffonKaftan",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Ivory and white form a seamless, ethereal palette.",
+    "silhouetteLogic": "Flowy kaftan drapes over wide‑leg trousers for a breezy resort silhouette.",
+    "occasion": "beach resort"
+  },
+  {
+    "top_label": "IvoryChiffonKaftan",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Ivory softens beige for a light, neutral look.",
+    "silhouetteLogic": "Kaftan’s sheer elegance pairs with tailored chinos for a chic casual vibe.",
+    "occasion": "lunch date"
+  },
+  {
+    "top_label": "IvoryChiffonKaftan",
+    "bottom_label": "IndigoPalazzo",
+    "colorLogic": "Ivory brightens deep indigo, creating a fresh contrast.",
+    "silhouetteLogic": "Palazzo’s flow complements the kaftan’s drape for a graceful silhouette.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "IvoryChiffonKaftan",
+    "bottom_label": "CreamCrochetSkirt",
+    "colorLogic": "Ivory with cream yields a soft, boho‑chic palette.",
+    "silhouetteLogic": "Kaftan’s airy fabric pairs with the crochet skirt’s texture for a relaxed yet stylish look.",
+    "occasion": "beach‑side dinner"
+  },
+  {
+    "top_label": "CobaltSilkBandhgala",
+    "bottom_label": "BlackCigarettePants",
+    "colorLogic": "Cobalt blue against black creates a sleek, modern contrast.",
+    "silhouetteLogic": "Structured bandhgala over tailored cigarette pants offers a sharp, formal silhouette.",
+    "occasion": "evening reception"
+  },
+  {
+    "top_label": "CobaltSilkBandhgala",
+    "bottom_label": "NavyALineMidiSkirt",
+    "colorLogic": "Cobalt deepens navy for a harmonious, cool palette.",
+    "silhouetteLogic": "Bandhgala’s formal cut balances the skirt’s flowing A‑line for a sophisticated look.",
+    "occasion": "wedding dinner"
+  },
+  {
+    "top_label": "CobaltSilkBandhgala",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Cobalt with beige provides a balanced, warm‑cool contrast.",
+    "silhouetteLogic": "Bandhgala adds formality while chinos keep the outfit semi‑casual.",
+    "occasion": "cocktail brunch"
+  },
+  {
+    "top_label": "LemonEyeletBlouse",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Lemon yellow brightens crisp white for a sunny spring feel.",
+    "silhouetteLogic": "Eyelet blouse’s puff sleeves add charm to the relaxed linen trousers.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "LemonEyeletBlouse",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Lemon with beige creates a soft, pastel‑earthy combo.",
+    "silhouetteLogic": "Blouse’s sweet detailing pairs with tapered chinos for a cute smart‑casual look.",
+    "occasion": "day out"
+  },
+  {
+    "top_label": "LemonEyeletBlouse",
+    "bottom_label": "MustardMidiSkirt",
+    "colorLogic": "Lemon and mustard sit next to each other on the warm spectrum, giving a cheerful vibe.",
+    "silhouetteLogic": "Midi skirt’s flow balances the blouse’s structured puff sleeves.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "BlackRibKnitTee",
+    "bottom_label": "IndigoPalazzo",
+    "colorLogic": "Black anchors the deep indigo for a bold, monochrome look.",
+    "silhouetteLogic": "Fitted tee under wide‑leg palazzo creates a relaxed yet edgy silhouette.",
+    "occasion": "casual evening"
+  },
+  {
+    "top_label": "BlackRibKnitTee",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Black contrasts sharply with white for a classic, crisp palette.",
+    "silhouetteLogic": "Tee’s sleek fit pairs with airy trousers for a minimalist summer look.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "BlackRibKnitTee",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Black with beige offers a balanced, neutral contrast.",
+    "silhouetteLogic": "Tee and chinos together give a clean, everyday silhouette.",
+    "occasion": "city errands"
+  },
+  {
+    "top_label": "PeachBandhaniKurti",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Peach softens crisp white for a fresh, pastel look.",
+    "silhouetteLogic": "A‑line kurti over wide‑leg trousers creates a breezy, festive silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "PeachBandhaniKurti",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Peach with beige yields a warm, harmonious palette.",
+    "silhouetteLogic": "Kurti’s relaxed fit pairs with tapered chinos for smart‑casual comfort.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "PeachBandhaniKurti",
+    "bottom_label": "IndigoPalazzo",
+    "colorLogic": "Peach contrasts gently with indigo, creating a lively yet balanced combo.",
+    "silhouetteLogic": "Palazzo’s flow complements the kurti’s A‑line for a relaxed festive look.",
+    "occasion": "festival outing"
+  },
+  {
+    "top_label": "PeachBandhaniKurti",
+    "bottom_label": "MustardMidiSkirt",
+    "colorLogic": "Peach and mustard sit side‑by‑side for a warm, spring‑like harmony.",
+    "silhouetteLogic": "Midi skirt adds feminine length while the kurti stays comfortable.",
+    "occasion": "garden brunch"
+  },
+  {
+    "top_label": "KhakiSafariJacket",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Khaki pairs with white for a clean, travel‑ready palette.",
+    "silhouetteLogic": "Structured jacket over wide‑leg trousers gives a polished yet relaxed silhouette.",
+    "occasion": "resort day"
+  },
+  {
+    "top_label": "KhakiSafariJacket",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Khaki and beige create a seamless, neutral look.",
+    "silhouetteLogic": "Jacket adds structure while chinos keep the outfit comfortable.",
+    "occasion": "city tour"
+  },
+  {
+    "top_label": "KhakiSafariJacket",
+    "bottom_label": "DistressedDenimShorts",
+    "colorLogic": "Khaki contrasts with distressed denim for a rugged, casual vibe.",
+    "silhouetteLogic": "Jacket over shorts provides a layered look suitable for warm days.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "KhakiSafariJacket",
+    "bottom_label": "OliveCargoShorts",
+    "colorLogic": "Khaki with olive green yields an earthy, adventure‑ready palette.",
+    "silhouetteLogic": "Utility shorts keep the look practical; jacket adds style.",
+    "occasion": "travel day"
+  },
+  {
+    "top_label": "MauveOrganzaDupattaTop",
+    "bottom_label": "IndigoPalazzo",
+    "colorLogic": "Mauve softens indigo, creating a subtle, elegant contrast.",
+    "silhouetteLogic": "Dupatta‑style top drapes over wide‑leg palazzo for a graceful, fusion silhouette.",
+    "occasion": "engagement ceremony"
+  },
+  {
+    "top_label": "MauveOrganzaDupattaTop",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Mauve with white offers a delicate, pastel palette.",
+    "silhouetteLogic": "Flowy top over crisp trousers balances elegance with comfort.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "MauveOrganzaDupattaTop",
+    "bottom_label": "CreamCrochetSkirt",
+    "colorLogic": "Mauve and cream create a soft, boho‑chic combination.",
+    "silhouetteLogic": "Dupatta top’s drape pairs with the crochet skirt’s texture for a relaxed yet stylish look.",
+    "occasion": "beach dinner"
+  },
+  {
+    "top_label": "NavyStripedPoloTee",
+    "bottom_label": "WhiteLinenTrousers",
+    "colorLogic": "Navy stripes on a white base contrast sharply with crisp white trousers.",
+    "silhouetteLogic": "Polo tee and wide‑leg trousers give a classic, smart‑casual silhouette.",
+    "occasion": "casual office"
+  },
+  {
+    "top_label": "NavyStripedPoloTee",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Navy with beige provides a balanced, nautical‑earthy combo.",
+    "silhouetteLogic": "Polo’s smart look pairs with tapered chinos for a refined casual outfit.",
+    "occasion": "lunch date"
+  },
+  {
+    "top_label": "NavyStripedPoloTee",
+    "bottom_label": "IndigoPalazzo",
+    "colorLogic": "Navy stripes echo the indigo palazzo for a tonal, cohesive look.",
+    "silhouetteLogic": "Polo tee under flowing palazzo creates a relaxed yet put‑together silhouette.",
+    "occasion": "weekend brunch"
+  },
+  {
+    "top_label": "GoldenZardoziBlouse",
+    "bottom_label": "MagentaRawSilkLehenga",
+    "colorLogic": "Golden shimmer against magenta silk creates a regal, festive contrast.",
+    "silhouetteLogic": "Rich blouse pairs with flared lehenga for a grand wedding ensemble.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "GoldenZardoziBlouse",
+    "bottom_label": "GoldBrocadeDhoti",
+    "colorLogic": "Gold on gold deepens the luxurious feel for an opulent look.",
+    "silhouetteLogic": "Embroidered blouse drapes over the brocade dhoti, balancing richness with traditional drape.",
+    "occasion": "puja ceremony"
+  },
+  {
+    "top_label": "GoldenZardoziBlouse",
+    "bottom_label": "TealDhotiPants",
+    "colorLogic": "Golden accents pop against teal, delivering a vibrant festive palette.",
+    "silhouetteLogic": "Blouse’s opulence pairs with the dhoti’s fluid drape for a striking fusion silhouette.",
+    "occasion": "festival evening"
+  },
+  {
+    "top_label": "RedBanarasiSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Rich red Banarasi silk with gold zari creates a regal, celebratory look.",
+    "silhouetteLogic": "The saree’s heavy drape and intricate border give a majestic, traditional silhouette perfect for weddings.",
+    "occasion": "grand wedding"
+  },
+  {
+    "top_label": "OliveJumpsuit",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Olive green utility jumpsuit offers a sleek, modern palette for travel chic.",
+    "silhouetteLogic": "One‑piece silhouette with cinched waist provides a streamlined, comfortable look for all‑day wear.",
+    "occasion": "weekend travel"
+  },
+  {
+    "top_label": "BlackMaxiDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Black jersey maxi dress with thigh‑high slit exudes sleek, evening elegance.",
+    "silhouetteLogic": "Flowing maxi length with a subtle slit creates a flattering, elongated silhouette for night events.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "TurquoiseAnarkaliSuit",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Turquoise georgette with gold embroidery offers a vibrant, festive palette.",
+    "silhouetteLogic": "Floor‑length Anarkali with attached churidar provides a dramatic, regal silhouette for celebrations.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "IvoryChikanSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Ivory mul‑mul with delicate white chikankari gives a soft, understated elegance.",
+    "silhouetteLogic": "Lightweight saree drapes gracefully, creating a refined, formal silhouette for daytime events.",
+    "occasion": "formal lunch"
+  }
+]

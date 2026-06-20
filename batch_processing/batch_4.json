@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "SapphireKanthaKurta",
+    "bottom_label": "IvoryChikanPalazzo",
+    "colorLogic": "Sapphire blue contrasts softly with ivory, creating a calm and elegant palette.",
+    "silhouetteLogic": "The relaxed A‑line kurta pairs with the wide‑leg palazzo for a breezy, balanced silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "SapphireKanthaKurta",
+    "bottom_label": "CharcoalJaquardTrousers",
+    "colorLogic": "Deep sapphire against charcoal creates a sophisticated, muted contrast.",
+    "silhouetteLogic": "A‑line kurta with tapered jaquard trousers offers a sleek yet comfortable line.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "SapphireKanthaKurta",
+    "bottom_label": "RustKalamkariSkirt",
+    "colorLogic": "Sapphire pairs with rust‑orange for a warm, earthy harmony.",
+    "silhouetteLogic": "Kurta’s length complements the A‑line skirt, giving a graceful, modest silhouette.",
+    "occasion": "arts café meet‑up"
+  },
+  {
+    "top_label": "SapphireKanthaKurta",
+    "bottom_label": "NavyCorduroyTrousers",
+    "colorLogic": "Sapphire and navy sit adjacent on the colour wheel, creating a tonal look.",
+    "silhouetteLogic": "Relaxed kurta balances the structured corduroy trousers for a smart casual vibe.",
+    "occasion": "smart weekend outing"
+  },
+  {
+    "top_label": "SapphireKanthaKurta",
+    "bottom_label": "OliveCargoJoggers",
+    "colorLogic": "Sapphire brightens olive green, delivering a fresh, outdoor‑ready contrast.",
+    "silhouetteLogic": "Loose joggers add comfort while the kurta keeps the outfit grounded.",
+    "occasion": "monsoon travel"
+  },
+  {
+    "top_label": "SapphireKanthaKurta",
+    "bottom_label": "MagentaBanarasiLehenga",
+    "colorLogic": "Sapphire and magenta are complementary, giving a vibrant festive pairing.",
+    "silhouetteLogic": "Kurta’s clean line lets the lehenga’s heavy drape become the focal point.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "SapphireKanthaKurta",
+    "bottom_label": "CamelSuedeDhotiPants",
+    "colorLogic": "Sapphire contrasts with camel suede for a warm, earthy combination.",
+    "silhouetteLogic": "Kurta’s relaxed cut balances the draped dhoti pants for a fusion look.",
+    "occasion": "family dinner"
+  },
+  {
+    "top_label": "SapphireKanthaKurta",
+    "bottom_label": "SilverGreyLinenCulottes",
+    "colorLogic": "Sapphire with silver‑grey creates a cool, contemporary palette.",
+    "silhouetteLogic": "A‑line kurta pairs with breezy culottes for a relaxed yet refined silhouette.",
+    "occasion": "smart brunch"
+  },
+  {
+    "top_label": "SapphireKanthaKurta",
+    "bottom_label": "WineRawSilkChuridar",
+    "colorLogic": "Sapphire deepens the rich wine red, producing a regal contrast.",
+    "silhouetteLogic": "Fitted churidar grounds the relaxed kurta, giving a balanced evening look.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "SapphireKanthaKurta",
+    "bottom_label": "EcruCrochetSkirt",
+    "colorLogic": "Sapphire against ecru offers a soft, bohemian contrast.",
+    "silhouetteLogic": "Kurta’s length flows over the mid‑length crochet skirt for a free‑spirit silhouette.",
+    "occasion": "beach‑side dinner"
+  },
+  {
+    "top_label": "BrickTerracottaShirt",
+    "bottom_label": "IvoryChikanPalazzo",
+    "colorLogic": "Brick red grounded by ivory creates a warm, inviting palette.",
+    "silhouetteLogic": "Boxy shirt with wide‑leg palazzo offers relaxed comfort and movement.",
+    "occasion": "weekend brunch"
+  },
+  {
+    "top_label": "BrickTerracottaShirt",
+    "bottom_label": "CharcoalJaquardTrousers",
+    "colorLogic": "Terracotta against charcoal yields a sophisticated, earthy contrast.",
+    "silhouetteLogic": "Structured trousers balance the boxy shirt for a smart casual look.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "BrickTerracottaShirt",
+    "bottom_label": "RustKalamkariSkirt",
+    "colorLogic": "Terracotta and rust‑orange sit next to each other, creating a harmonious warm tone.",
+    "silhouetteLogic": "Shirt’s straight cut pairs with the A‑line skirt for a modest, artsy silhouette.",
+    "occasion": "arts market"
+  },
+  {
+    "top_label": "BrickTerracottaShirt",
+    "bottom_label": "NavyCorduroyTrousers",
+    "colorLogic": "Terracotta pops against deep navy, delivering a striking contrast.",
+    "silhouetteLogic": "Corduroy trousers give structure to the relaxed shirt for a polished look.",
+    "occasion": "smart casual outing"
+  },
+  {
+    "top_label": "BrickTerracottaShirt",
+    "bottom_label": "OliveCargoJoggers",
+    "colorLogic": "Terracotta brightens olive green, creating an earthy yet lively combo.",
+    "silhouetteLogic": "Cargo joggers add utility while the shirt keeps the outfit grounded.",
+    "occasion": "travel day"
+  },
+  {
+    "top_label": "BrickTerracottaShirt",
+    "bottom_label": "SilverGreyLinenCulottes",
+    "colorLogic": "Terracotta with silver‑grey offers a cool‑warm balanced palette.",
+    "silhouetteLogic": "Culottes’ breezy cut offsets the shirt’s boxy silhouette for comfort.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "BrickTerracottaShirt",
+    "bottom_label": "TobaccoTwillChinos",
+    "colorLogic": "Terracotta contrasts nicely with tobacco brown for a warm, grounded look.",
+    "silhouetteLogic": "Tapered chinos give a clean line that complements the shirt’s relaxed fit.",
+    "occasion": "everyday outing"
+  },
+  {
+    "top_label": "BrickTerracottaShirt",
+    "bottom_label": "DenimChambrayStraightPants",
+    "colorLogic": "Terracotta against denim blue creates a classic, casual contrast.",
+    "silhouetteLogic": "Straight chambray pants keep the outfit relaxed yet put‑together.",
+    "occasion": "casual Friday"
+  },
+  {
+    "top_label": "MintOrganzaBlouse",
+    "bottom_label": "IvoryChikanPalazzo",
+    "colorLogic": "Mint green pairs with ivory for a fresh, pastel harmony.",
+    "silhouetteLogic": "Sheer organza blouse drapes lightly over the flowing palazzo, creating ethereal movement.",
+    "occasion": "daytime wedding"
+  },
+  {
+    "top_label": "MintOrganzaBlouse",
+    "bottom_label": "CharcoalJaquardTrousers",
+    "colorLogic": "Mint softens the deep charcoal, giving a subtle, elegant contrast.",
+    "silhouetteLogic": "Tailored trousers anchor the delicate blouse for a refined silhouette.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "MintOrganzaBlouse",
+    "bottom_label": "RustKalamkariSkirt",
+    "colorLogic": "Mint green with rust orange creates a lively, complementary palette.",
+    "silhouetteLogic": "Flowy blouse pairs with the A‑line skirt for a graceful, feminine look.",
+    "occasion": "arts café"
+  },
+  {
+    "top_label": "MintOrganzaBlouse",
+    "bottom_label": "SilverGreyLinenCulottes",
+    "colorLogic": "Mint and silver‑grey give a cool, contemporary vibe.",
+    "silhouetteLogic": "Culottes’ breezy cut balances the sheer blouse for a modern silhouette.",
+    "occasion": "smart brunch"
+  },
+  {
+    "top_label": "MintOrganzaBlouse",
+    "bottom_label": "EcruCrochetSkirt",
+    "colorLogic": "Mint brightens the ecru crochet, creating a soft boho palette.",
+    "silhouetteLogic": "Delicate blouse with crochet skirt yields a romantic, free‑spirit silhouette.",
+    "occasion": "beach dinner"
+  },
+  {
+    "top_label": "MintOrganzaBlouse",
+    "bottom_label": "SkyBlueMulMulSharara",
+    "colorLogic": "Mint and sky blue sit side‑by‑side, delivering a cool pastel harmony.",
+    "silhouetteLogic": "Sheer blouse with voluminous sharara creates a light, festive silhouette.",
+    "occasion": "Eid brunch"
+  },
+  {
+    "top_label": "MintOrganzaBlouse",
+    "bottom_label": "PlumVelvetPalazzo",
+    "colorLogic": "Mint contrasts with deep plum, giving a striking jewel‑tone pairing.",
+    "silhouetteLogic": "Velvet palazzo adds drama to the delicate organza blouse for an evening look.",
+    "occasion": "evening gala"
+  },
+  {
+    "top_label": "AmberAjrakhKurti",
+    "bottom_label": "IvoryChikanPalazzo",
+    "colorLogic": "Amber yellow against ivory creates a warm, sun‑kissed palette.",
+    "silhouetteLogic": "Straight kurti with wide‑leg palazzo offers relaxed elegance for market outings.",
+    "occasion": "arts market"
+  },
+  {
+    "top_label": "AmberAjrakhKurti",
+    "bottom_label": "CharcoalJaquardTrousers",
+    "colorLogic": "Amber brightens charcoal, delivering a balanced earthy contrast.",
+    "silhouetteLogic": "Kurti’s straight cut pairs with tailored trousers for a smart casual silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "AmberAjrakhKurti",
+    "bottom_label": "RustKalamkariSkirt",
+    "colorLogic": "Amber with rust orange creates a harmonious warm duo.",
+    "silhouetteLogic": "Kurti’s length complements the A‑line skirt for a modest, artistic look.",
+    "occasion": "café meet‑up"
+  },
+  {
+    "top_label": "AmberAjrakhKurti",
+    "bottom_label": "NavyCorduroyTrousers",
+    "colorLogic": "Amber pops against deep navy for a vibrant contrast.",
+    "silhouetteLogic": "Corduroy trousers give structure while the kurti stays relaxed.",
+    "occasion": "smart weekend"
+  },
+  {
+    "top_label": "AmberAjrakhKurti",
+    "bottom_label": "SilverGreyLinenCulottes",
+    "colorLogic": "Amber softened by silver‑grey yields a gentle, contemporary palette.",
+    "silhouetteLogic": "Culottes’ breezy silhouette balances the kurti’s straight cut.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "AmberAjrakhKurti",
+    "bottom_label": "MagentaBanarasiLehenga",
+    "colorLogic": "Amber and magenta are complementary, creating a festive, eye‑catching look.",
+    "silhouetteLogic": "Kurti’s simple line lets the lehenga’s rich drape dominate the outfit.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "BlackRawSilkBandhgala",
+    "bottom_label": "CharcoalJaquardTrousers",
+    "colorLogic": "Black with charcoal creates a sleek, monochrome formal look.",
+    "silhouetteLogic": "Structured bandhgala with tapered trousers offers a sharp, evening silhouette.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "BlackRawSilkBandhgala",
+    "bottom_label": "GoldBrocadeDhoti",
+    "colorLogic": "Black contrasts with gold brocade for a regal, luxurious palette.",
+    "silhouetteLogic": "Bandhgala’s structured silhouette pairs with the draped dhoti for traditional elegance.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "BlackRawSilkBandhgala",
+    "bottom_label": "PlumVelvetPalazzo",
+    "colorLogic": "Black deepens the plum velvet, creating a rich, night‑time palette.",
+    "silhouetteLogic": "Tailored bandhgala balances the flowing palazzo for a dramatic evening look.",
+    "occasion": "gala event"
+  },
+  {
+    "top_label": "BlackRawSilkBandhgala",
+    "bottom_label": "WineRawSilkChuridar",
+    "colorLogic": "Black with wine‑red raw silk offers a deep, luxurious contrast.",
+    "silhouetteLogic": "Fitted churidar grounds the structured bandhgala for a refined silhouette.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "BlackRawSilkBandhgala",
+    "bottom_label": "DenimChambrayStraightPants",
+    "colorLogic": "Black paired with denim blue creates a modern, slightly relaxed formal look.",
+    "silhouetteLogic": "Straight chambray pants soften the formal jacket‑kurta for a smart‑casual vibe.",
+    "occasion": "creative office event"
+  },
+  {
+    "top_label": "LilacChiffonDupattaTop",
+    "bottom_label": "IvoryChikanPalazzo",
+    "colorLogic": "Lilac with ivory yields a soft, pastel harmony perfect for engagements.",
+    "silhouetteLogic": "Flowy dupatta top drapes over the wide‑leg palazzo for an ethereal silhouette.",
+    "occasion": "engagement ceremony"
+  },
+  {
+    "top_label": "LilacChiffonDupattaTop",
+    "bottom_label": "SilverGreyLinenCulottes",
+    "colorLogic": "Lilac contrasted with silver‑grey creates a cool, contemporary palette.",
+    "silhouetteLogic": "Culottes give structure while the dupatta top adds fluid movement.",
+    "occasion": "smart brunch"
+  },
+  {
+    "top_label": "LilacChiffonDupattaTop",
+    "bottom_label": "EcruCrochetSkirt",
+    "colorLogic": "Lilac brightens the ecru crochet, delivering a gentle boho look.",
+    "silhouetteLogic": "Dupatta’s drape over the mid‑length skirt creates a romantic silhouette.",
+    "occasion": "beach‑side dinner"
+  },
+  {
+    "top_label": "LilacChiffonDupattaTop",
+    "bottom_label": "SkyBlueMulMulSharara",
+    "colorLogic": "Lilac and sky blue sit side‑by‑side, forming a pastel sky palette.",
+    "silhouetteLogic": "Light dupatta top with voluminous sharara gives a festive, airy silhouette.",
+    "occasion": "Eid brunch"
+  },
+  {
+    "top_label": "LilacChiffonDupattaTop",
+    "bottom_label": "MagentaBanarasiLehenga",
+    "colorLogic": "Lilac softens the bold magenta, creating a balanced festive contrast.",
+    "silhouetteLogic": "Dupatta’s flow complements the lehenga’s heavy drape for a regal look.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "ForestGreenWoolKurta",
+    "bottom_label": "CharcoalJaquardTrousers",
+    "colorLogic": "Forest green deepens the charcoal, giving a moody, winter‑like palette.",
+    "silhouetteLogic": "Knit kurta with tailored trousers balances warmth and structure.",
+    "occasion": "hill‑station dinner"
+  },
+  {
+    "top_label": "ForestGreenWoolKurta",
+    "bottom_label": "NavyCorduroyTrousers",
+    "colorLogic": "Forest green with navy creates a deep, harmonious duo.",
+    "silhouetteLogic": "Wool kurta’s warmth pairs with corduroy trousers for a cozy smart‑casual look.",
+    "occasion": "indoor gathering"
+  },
+  {
+    "top_label": "ForestGreenWoolKurta",
+    "bottom_label": "WineRawSilkChuridar",
+    "colorLogic": "Forest green contrasts with wine red for a rich, autumnal palette.",
+    "silhouetteLogic": "Fitted churidar grounds the wool kurta, creating a balanced silhouette.",
+    "occasion": "evening cocktail"
+  },
+  {
+    "top_label": "ForestGreenWoolKurta",
+    "bottom_label": "CamelSuedeDhotiPants",
+    "colorLogic": "Forest green with camel suede yields an earthy, sophisticated contrast.",
+    "silhouetteLogic": "Dhoti’s drape adds fluidity to the structured wool kurta.",
+    "occasion": "fusion dinner"
+  },
+  {
+    "top_label": "PearlWhiteLucknowiShirt",
+    "bottom_label": "IvoryChikanPalazzo",
+    "colorLogic": "Pearl white with ivory creates an elegant, monochrome look.",
+    "silhouetteLogic": "Semi‑sheer shirt pairs with flowing palazzo for a graceful, office‑festive silhouette.",
+    "occasion": "office‑festive"
+  },
+  {
+    "top_label": "PearlWhiteLucknowiShirt",
+    "bottom_label": "CharcoalJaquardTrousers",
+    "colorLogic": "Pearl white against charcoal offers a crisp, professional contrast.",
+    "silhouetteLogic": "Tailored trousers keep the look sharp while the shirt adds subtle texture.",
+    "occasion": "formal meeting"
+  },
+  {
+    "top_label": "PearlWhiteLucknowiShirt",
+    "bottom_label": "SilverGreyLinenCulottes",
+    "colorLogic": "Pearl white softened by silver‑grey yields a soft, contemporary palette.",
+    "silhouetteLogic": "Culottes provide breezy comfort, balancing the structured shirt.",
+    "occasion": "smart brunch"
+  },
+  {
+    "top_label": "PearlWhiteLucknowiShirt",
+    "bottom_label": "DenimChambrayStraightPants",
+    "colorLogic": "Pearl white with denim blue creates a classic, clean contrast.",
+    "silhouetteLogic": "Straight chambray pants keep the outfit relaxed yet polished.",
+    "occasion": "casual Friday"
+  },
+  {
+    "top_label": "CinnamonVelvetKurti",
+    "bottom_label": "MagentaBanarasiLehenga",
+    "colorLogic": "Cinnamon brown and magenta are complementary, delivering a bold festive palette.",
+    "silhouetteLogic": "Fitted velvet kurti with the flowing lehenga creates a dramatic, celebratory silhouette.",
+    "occasion": "grand wedding ceremony"
+  }
+]

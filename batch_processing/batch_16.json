@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "LotusBlockPrintKurta",
+    "bottom_label": "BeigeTechChinos",
+    "colorLogic": "Lotus pink brightens the neutral beige for a fresh, summer vibe.",
+    "silhouetteLogic": "Relaxed kurta over tapered chinos creates a breezy, smart‑casual silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "LotusBlockPrintKurta",
+    "bottom_label": "OffWhiteMulmulPalazzo",
+    "colorLogic": "Pink lotus prints pop against off‑white, giving a light, festive look.",
+    "silhouetteLogic": "Kurta’s relaxed fit drapes over the wide‑leg palazzo for a comfortable, ethnic‑fusion silhouette.",
+    "occasion": "daytime gathering"
+  },
+  {
+    "top_label": "StoneCottonOxford",
+    "bottom_label": "OffWhiteMulmulPalazzo",
+    "colorLogic": "Stone grey pairs with off‑white for a subtle, sophisticated contrast.",
+    "silhouetteLogic": "Slim oxford shirt tucked into flowing palazzo balances structure and ease.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "StoneCottonOxford",
+    "bottom_label": "BeigeTechChinos",
+    "colorLogic": "Stone grey with beige creates a muted, professional palette.",
+    "silhouetteLogic": "Crisp shirt with tapered chinos offers a polished yet breathable silhouette.",
+    "occasion": "work meeting"
+  },
+  {
+    "top_label": "JadeChiffonDupattaTop",
+    "bottom_label": "OffWhiteMulMulPalazzo",
+    "colorLogic": "Jade green contrasts gently with off‑white for an elegant, airy look.",
+    "silhouetteLogic": "Sheer dupatta‑style top over wide‑leg palazzo gives a graceful, layered silhouette.",
+    "occasion": "evening garden party"
+  },
+  {
+    "top_label": "JadeChiffonDupattaTop",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Jade green with stone beige creates a cool, natural colour pair.",
+    "silhouetteLogic": "Light chiffon top drapes over breathable linen trousers for a relaxed, resort‑ready silhouette.",
+    "occasion": "dinner al fresco"
+  },
+  {
+    "top_label": "BlackDryFitTee",
+    "bottom_label": "BlackDryFitLeggings",
+    "colorLogic": "Monochromatic black offers a sleek, athletic vibe.",
+    "silhouetteLogic": "Fitted tee with stretch leggings creates a streamlined, performance‑ready silhouette.",
+    "occasion": "gym‑to‑errand"
+  },
+  {
+    "top_label": "BlackDryFitTee",
+    "bottom_label": "GreyDryFitJoggers",
+    "colorLogic": "Black contrasts with soft grey for a modern, sporty look.",
+    "silhouetteLogic": "Moisture‑wicking tee paired with joggers gives an athleisure silhouette perfect for hot days.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "MangoSilkKurti",
+    "bottom_label": "WhiteLinenShorts",
+    "colorLogic": "Mango yellow brightens crisp white for a sunny, festive combo.",
+    "silhouetteLogic": "A‑line kurti over relaxed linen shorts creates a breezy, summer‑ready silhouette.",
+    "occasion": "weekend brunch"
+  },
+  {
+    "top_label": "MangoSilkKurti",
+    "bottom_label": "OffWhiteMulMulPalazzo",
+    "colorLogic": "Mango yellow against off‑white yields a warm, elegant contrast.",
+    "silhouetteLogic": "Kurti’s flow with the palazzo’s wide leg offers a comfortable, festive silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "WhiteMulMulKurta",
+    "bottom_label": "WhiteLinenShorts",
+    "colorLogic": "All‑white creates a clean, cooling palette for hot weather.",
+    "silhouetteLogic": "Sheer mulmul kurta paired with linen shorts gives a light, effortless silhouette.",
+    "occasion": "resort lunch"
+  },
+  {
+    "top_label": "WhiteMulMulKurta",
+    "bottom_label": "OffWhiteMulMulPalazzo",
+    "colorLogic": "Ivory tones with off‑white produce a soft, monochromatic look.",
+    "silhouetteLogic": "Kurta’s delicate drape over the palazzo creates a graceful, breathable silhouette.",
+    "occasion": "casual gathering"
+  },
+  {
+    "top_label": "RustOversizedLinenShirt",
+    "bottom_label": "DenimBermudaShorts",
+    "colorLogic": "Rust orange contrasts with denim blue for a relaxed, summer vibe.",
+    "silhouetteLogic": "Oversized linen shirt with bermuda shorts offers a laid‑back, weekend silhouette.",
+    "occasion": "gallery visit"
+  },
+  {
+    "top_label": "RustOversizedLinenShirt",
+    "bottom_label": "WhiteLinenShorts",
+    "colorLogic": "Rust orange brightens crisp white for a fresh, casual look.",
+    "silhouetteLogic": "Baggy linen shirt over linen shorts creates a breezy, effortless silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "FuchsiaMirrorCropTop",
+    "bottom_label": "MagentaSilkLehenga",
+    "colorLogic": "Fuchsia pink and magenta silk form a bold, festive colour block.",
+    "silhouetteLogic": "Crop top’s fitted silhouette with the lehenga’s flare creates a dramatic Garba‑ready look.",
+    "occasion": "festival night"
+  },
+  {
+    "top_label": "FuchsiaMirrorCropTop",
+    "bottom_label": "PinkCottonSharara",
+    "colorLogic": "Fuchsia pops against soft pink for a vibrant yet harmonious palette.",
+    "silhouetteLogic": "Crop top paired with voluminous sharara gives a lively, dance‑friendly silhouette.",
+    "occasion": "mehendi party"
+  },
+  {
+    "top_label": "TealBambooPoloTee",
+    "bottom_label": "BeigeTechChinos",
+    "colorLogic": "Teal green with beige creates a cool, earthy contrast.",
+    "silhouetteLogic": "Moisture‑wicking polo over tapered chinos offers a smart‑casual silhouette for humid days.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "TealBambooPoloTee",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Teal against stone beige yields a soothing, natural palette.",
+    "silhouetteLogic": "Polo tee with wide‑leg linen trousers creates a relaxed, breathable silhouette.",
+    "occasion": "afternoon tea"
+  },
+  {
+    "top_label": "GoldBrocadeNehruVest",
+    "bottom_label": "WhiteMulMulKurta",
+    "colorLogic": "Gold brocade adds luxe contrast to crisp white for an indoor festive look.",
+    "silhouetteLogic": "Structured vest over sheer kurta creates a regal, layered silhouette suitable for AC venues.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "GoldBrocadeNehruVest",
+    "bottom_label": "OffWhiteMulMulPalazzo",
+    "colorLogic": "Gold against off‑white offers a subtle shimmer for a refined ensemble.",
+    "silhouetteLogic": "Vest layered over flowing palazzo balances opulence with comfort.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "LavenderSeersucker Shirt",
+    "bottom_label": "BeigeTechChinos",
+    "colorLogic": "Lavender pairs with beige for a soft, pastel‑earthy contrast.",
+    "silhouetteLogic": "Seersucker shirt with tapered chinos gives a breathable, smart‑casual silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "LavenderSeersucker Shirt",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Lavender against stone beige creates a gentle, cooling palette.",
+    "silhouetteLogic": "Lightweight shirt over wide‑leg linen trousers offers a relaxed, summer‑ready silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "CoralRayonKaftan",
+    "bottom_label": "WhiteLinenShorts",
+    "colorLogic": "Coral orange brightens crisp white for a fresh, beach‑y vibe.",
+    "silhouetteLogic": "Flowy kaftan over relaxed shorts creates a breezy, resort‑ready silhouette.",
+    "occasion": "resort day"
+  },
+  {
+    "top_label": "CoralRayonKaftan",
+    "bottom_label": "OffWhiteMulMulPalazzo",
+    "colorLogic": "Coral with off‑white yields a warm, understated contrast.",
+    "silhouetteLogic": "Kaftan’s drape over the palazzo gives an elegant, airy silhouette.",
+    "occasion": "evening garden party"
+  },
+  {
+    "top_label": "NavyPerformanceHenley",
+    "bottom_label": "BeigeTechChinos",
+    "colorLogic": "Navy blue with beige creates a classic, grounded look.",
+    "silhouetteLogic": "Performance henley with tapered chinos offers a sleek, breathable silhouette.",
+    "occasion": "casual office"
+  },
+  {
+    "top_label": "NavyPerformanceHenley",
+    "bottom_label": "StoneWideLegLinen",
+    "colorLogic": "Navy contrasts with stone beige for a cool, balanced palette.",
+    "silhouetteLogic": "Henley’s fitted cut over wide‑leg linen trousers creates a relaxed yet refined silhouette.",
+    "occasion": "afternoon outing"
+  },
+  {
+    "top_label": "CreamAngrakhaTop",
+    "bottom_label": "WhiteLinenShorts",
+    "colorLogic": "Cream with white gives a soft, monochrome summer feel.",
+    "silhouetteLogic": "Wrap‑style angrakha over linen shorts creates a breezy, elegant silhouette.",
+    "occasion": "family dinner"
+  },
+  {
+    "top_label": "CreamAngrakhaTop",
+    "bottom_label": "OffWhiteMulMulPalazzo",
+    "colorLogic": "Cream against off‑white offers a subtle, sophisticated contrast.",
+    "silhouetteLogic": "Angrakha’s structured drape with flowing palazzo yields a graceful, festive silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "OliveNylonWindbreaker",
+    "bottom_label": "OliveCottonCargos",
+    "colorLogic": "Monochromatic olive creates a cohesive, utilitarian look.",
+    "silhouetteLogic": "Light windbreaker over cargo pants gives a functional, travel‑ready silhouette.",
+    "occasion": "city exploration"
+  },
+  {
+    "top_label": "OliveNylonWindbreaker",
+    "bottom_label": "BeigeTechChinos",
+    "colorLogic": "Olive green softens the neutral beige for a subtle contrast.",
+    "silhouetteLogic": "Windbreaker layered over chinos provides a sleek, breathable silhouette for humid days.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "MaroonRawSilkBlouse",
+    "bottom_label": "BlackDryFitLeggings",
+    "colorLogic": "Maroon against black creates a deep, elegant night‑time palette.",
+    "silhouetteLogic": "Fitted silk blouse with stretch leggings offers a sleek, indoor‑event silhouette.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "MaroonRawSilkBlouse",
+    "bottom_label": "BlackScubaSkaterSkirt",
+    "colorLogic": "Maroon pairs with black for a bold, sophisticated contrast.",
+    "silhouetteLogic": "Silk blouse with structured skater skirt balances luxury and movement.",
+    "occasion": "evening soirée"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "WhiteLinenShorts",
+    "colorLogic": "Pistachio green brightens crisp white for a fresh, eco‑friendly look.",
+    "silhouetteLogic": "A‑line kurti over relaxed shorts creates a breezy, casual silhouette.",
+    "occasion": "weekend market"
+  },
+  {
+    "top_label": "PistachioKhadiKurti",
+    "bottom_label": "OffWhiteMulMulPalazzo",
+    "colorLogic": "Pistachio against off‑white yields a soft, natural palette.",
+    "silhouetteLogic": "Kurti’s relaxed drape with wide‑leg palazzo offers a comfortable, ethnic‑fusion silhouette.",
+    "occasion": "daytime gathering"
+  },
+  {
+    "top_label": "CharcoalZipUpVest",
+    "bottom_label": "GreyDryFitJoggers",
+    "colorLogic": "Charcoal with grey creates a sleek, tonal look.",
+    "silhouetteLogic": "Tech vest over joggers gives an athletic, layered silhouette perfect for travel.",
+    "occasion": "airport lounge"
+  },
+  {
+    "top_label": "CharcoalZipUpVest",
+    "bottom_label": "BlackDryFitLeggings",
+    "colorLogic": "Charcoal contrasts subtly with black for a modern, sporty vibe.",
+    "silhouetteLogic": "Vest paired with stretch leggings creates a streamlined, performance‑ready silhouette.",
+    "occasion": "gym‑to‑errand"
+  },
+  {
+    "top_label": "YellowBandhaniSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Bright yellow with orange border and gold sequins radiates festive sunshine.",
+    "silhouetteLogic": "Full saree drape with heavy border creates a vibrant, traditional silhouette perfect for summer celebrations.",
+    "occasion": "Rajasthani festival"
+  },
+  {
+    "top_label": "OliveShirtDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Olive green offers a muted, utilitarian elegance for hot weather.",
+    "silhouetteLogic": "Belted shirt‑dress with rolled sleeves provides a sleek, all‑in‑one silhouette for city outings.",
+    "occasion": "summer office"
+  },
+  {
+    "top_label": "TurquoiseAnarkaliSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Turquoise with gold dori embroidery creates a cool, regal palette.",
+    "silhouetteLogic": "Floor‑length Anarkali with attached churidar and dupatta offers a flowing, festive silhouette for evening events.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "BlackRayonJumpsuit",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Black rayon provides a sleek, minimalist look for night‑time gatherings.",
+    "silhouetteLogic": "Wide‑leg jumpsuit with cinched waist creates a flattering, effortless silhouette.",
+    "occasion": "evening cocktail"
+  },
+  {
+    "top_label": "PinkBandhaniSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Hot pink with gold border and sequins delivers a vibrant, celebratory vibe.",
+    "silhouetteLogic": "Full saree drape with bright pallu offers a lively, traditional silhouette for wedding guests.",
+    "occasion": "wedding guest"
+  },
+  {
+    "top_label": "WhiteBroderieAnglaiseDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "White with delicate eyelet detailing gives a fresh, airy summer feel.",
+    "silhouetteLogic": "Midi dress with puff sleeves and tiered skirt creates a sweet, breezy silhouette for brunch.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "RubyKanjeevaramSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Ruby red with gold temple border exudes regal South‑Indian grandeur.",
+    "silhouetteLogic": "Heavy silk drape and rich border provide a majestic, formal silhouette for festive occasions.",
+    "occasion": "festive celebration"
+  },
+  {
+    "top_label": "NavyMidiTShirtDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Navy blue offers a cool, understated base for hot days.",
+    "silhouetteLogic": "Relaxed midi T‑shirt dress with side pockets gives a comfortable, casual silhouette for errands.",
+    "occasion": "daytime errands"
+  },
+  {
+    "top_label": "LotusBlockPrintKurta",
+    "bottom_label": "IndigoBlockPrintSkirt",
+    "colorLogic": "Pink lotus prints against indigo create a vibrant, artisan contrast.",
+    "silhouetteLogic": "Kurta’s relaxed fit with A‑line printed skirt balances colour and flow for a boho‑ethnic silhouette.",
+    "occasion": "art fair"
+  },
+  {
+    "top_label": "StoneCottonOxford",
+    "bottom_label": "IndigoBlockPrintSkirt",
+    "colorLogic": "Stone grey grounds the deep indigo print for a sophisticated look.",
+    "silhouetteLogic": "Crisp shirt tucked into printed midi skirt offers a smart‑casual silhouette suitable for office‑to‑evening.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "JadeChiffonDupattaTop",
+    "bottom_label": "IndigoBlockPrintSkirt",
+    "colorLogic": "Jade green complements indigo for a cool, artistic palette.",
+    "silhouetteLogic": "Sheer dupatta top draped over printed skirt creates a flowing, festival‑ready silhouette.",
+    "occasion": "cultural event"
+  },
+  {
+    "top_label": "TealBambooPoloTee",
+    "bottom_label": "IndigoBlockPrintSkirt",
+    "colorLogic": "Teal green against indigo offers a fresh, contrasting look.",
+    "silhouetteLogic": "Moisture‑wicking polo with printed midi skirt balances comfort and style for humid days.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "LavenderSeersucker Shirt",
+    "bottom_label": "IndigoBlockPrintSkirt",
+    "colorLogic": "Lavender pastel softens deep indigo for a balanced, summer‑friendly contrast.",
+    "silhouetteLogic": "Seersucker shirt with printed skirt gives a breezy, smart‑casual silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "CoralRayonKaftan",
+    "bottom_label": "IndigoBlockPrintSkirt",
+    "colorLogic": "Coral orange pops against indigo for a lively, artistic combination.",
+    "silhouetteLogic": "Flowing kaftan over printed skirt creates a relaxed, bohemian silhouette.",
+    "occasion": "festival afternoon"
+  }
+]
