@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "TangerineBandhaniKurta",
+    "bottom_label": "GoldBrocadeGharara",
+    "colorLogic": "Tangerine orange pops against gold brocade, creating a vibrant festive contrast.",
+    "silhouetteLogic": "Flared kurta drapes over the wide‑leg gharara, balancing movement and structure for Garba.",
+    "occasion": "Navratri dance night"
+  },
+  {
+    "top_label": "TangerineBandhaniKurta",
+    "bottom_label": "MagentaCottonLehenga",
+    "colorLogic": "Tangerine and magenta sit opposite on the colour wheel, delivering a bold, celebratory palette.",
+    "silhouetteLogic": "Knee‑length kurta with a flared lehenga creates a lively, dance‑ready silhouette.",
+    "occasion": "Garba party"
+  },
+  {
+    "top_label": "EggplantSuedeJacket",
+    "bottom_label": "BlackHighWaistJeans",
+    "colorLogic": "Deep eggplant against black creates a sleek, edgy monochrome look.",
+    "silhouetteLogic": "Cropped moto jacket over high‑waist skinny jeans gives a modern, night‑out silhouette.",
+    "occasion": "evening gathering"
+  },
+  {
+    "top_label": "EggplantSuedeJacket",
+    "bottom_label": "IndigoBlockPrintPalazzo",
+    "colorLogic": "Eggplant purple contrasts with indigo block print for a rich, artistic pairing.",
+    "silhouetteLogic": "Fitted jacket adds structure to the flowing palazzo, creating a balanced fusion silhouette.",
+    "occasion": "festive dinner"
+  },
+  {
+    "top_label": "ChampagneSequinBlouse",
+    "bottom_label": "TealVelvetPalazzo",
+    "colorLogic": "Champagne gold sequins sparkle against teal velvet for a luxurious festive contrast.",
+    "silhouetteLogic": "Fitted sequin blouse with wide‑leg velvet palazzo balances shine and drape.",
+    "occasion": "Garba evening"
+  },
+  {
+    "top_label": "ChampagneSequinBlouse",
+    "bottom_label": "NavySatinMidiSkirt",
+    "colorLogic": "Champagne gold pairs with deep navy satin for an elegant, night‑time palette.",
+    "silhouetteLogic": "Blouse’s sleek fit complements the midi skirt’s polished silhouette, perfect for a classy event.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "OceanTealKhadiShirt",
+    "bottom_label": "KhakiPleatedTrousers",
+    "colorLogic": "Ocean teal contrasts gently with khaki, creating a calm, earthy combination.",
+    "silhouetteLogic": "Regular‑fit shirt over pleated wide‑leg trousers offers a smart‑casual silhouette.",
+    "occasion": "daytime brunch"
+  },
+  {
+    "top_label": "OceanTealKhadiShirt",
+    "bottom_label": "WhiteBroderieAnglaiseCulottes",
+    "colorLogic": "Teal pairs with crisp white for a fresh, spring‑like look.",
+    "silhouetteLogic": "Shirt’s relaxed fit drapes over airy culottes, giving a breezy, feminine silhouette.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "HotPinkMirrorCropTop",
+    "bottom_label": "GoldBrocadeGharara",
+    "colorLogic": "Hot pink mirrors sparkle against gold brocade, creating a dazzling festive contrast.",
+    "silhouetteLogic": "Crop top shows a hint of midriff while the gharara’s flare adds movement for Garba.",
+    "occasion": "Navratri night"
+  },
+  {
+    "top_label": "HotPinkMirrorCropTop",
+    "bottom_label": "NeonGreenDhotiPants",
+    "colorLogic": "Hot pink and neon green form a bold, electric colour block perfect for statement looks.",
+    "silhouetteLogic": "Fitted crop top balances the high‑drape dhoti pants, delivering a daring fusion silhouette.",
+    "occasion": "festival party"
+  },
+  {
+    "top_label": "IvoryPintuckKurta",
+    "bottom_label": "MaroonSilkChuridar",
+    "colorLogic": "Ivory provides a clean canvas for deep maroon, creating a classic festive contrast.",
+    "silhouetteLogic": "Semi‑fitted kurta over fitted churidar offers a sleek, traditional silhouette.",
+    "occasion": "family dinner"
+  },
+  {
+    "top_label": "IvoryPintuckKurta",
+    "bottom_label": "GreyFlannelSkirt",
+    "colorLogic": "Ivory against soft grey yields a subtle, elegant palette.",
+    "silhouetteLogic": "Kurta’s length pairs with the A‑line flannel skirt for a modest, autumn‑ready silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "CherryBomberJacket",
+    "bottom_label": "BlackHighWaistJeans",
+    "colorLogic": "Cherry red brightens black denim for a striking, street‑style contrast.",
+    "silhouetteLogic": "Bomber jacket over high‑waist jeans creates a youthful, relaxed silhouette.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "CherryBomberJacket",
+    "bottom_label": "DenimCarpenterPants",
+    "colorLogic": "Cherry red with medium‑wash denim offers a coordinated, rugged look.",
+    "silhouetteLogic": "Bomber adds edge to carpenter pants, delivering a utilitarian yet stylish silhouette.",
+    "occasion": "casual gathering"
+  },
+  {
+    "top_label": "PeacockJamawaarKurta",
+    "bottom_label": "TealVelvetPalazzo",
+    "colorLogic": "Peacock blue and teal velvet create a harmonious, jewel‑tone ensemble.",
+    "silhouetteLogic": "Fitted kurta with wide‑leg velvet palazzo balances structure and luxurious drape.",
+    "occasion": "evening gala"
+  },
+  {
+    "top_label": "PeacockJamawaarKurta",
+    "bottom_label": "IndigoBlockPrintPalazzo",
+    "colorLogic": "Peacock blue complements indigo block print for an artistic, festive palette.",
+    "silhouetteLogic": "Kurta’s refined cut pairs with the artisan palazzo for a cultured silhouette.",
+    "occasion": "cultural event"
+  },
+  {
+    "top_label": "MintWaffleTee",
+    "bottom_label": "OliveCargoJoggers",
+    "colorLogic": "Mint green softens olive cargo joggers, creating a fresh, sporty contrast.",
+    "silhouetteLogic": "Boxy tee over relaxed joggers gives a comfortable, casual silhouette.",
+    "occasion": "weekend errands"
+  },
+  {
+    "top_label": "MintWaffleTee",
+    "bottom_label": "KhakiPleatedTrousers",
+    "colorLogic": "Mint with khaki yields a light, earthy combination perfect for daytime.",
+    "silhouetteLogic": "Relaxed tee with pleated wide‑leg trousers creates a breezy, smart‑casual silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "GarnetVelvetAngrakha",
+    "bottom_label": "GoldBrocadeGharara",
+    "colorLogic": "Rich garnet red against gold brocade offers a regal, festive contrast.",
+    "silhouetteLogic": "Wrap‑style angrakha over flowing gharara balances opulence with movement.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "GarnetVelvetAngrakha",
+    "bottom_label": "BlackVelvetMiniSkirt",
+    "colorLogic": "Garnet deepens the black velvet for a dramatic, night‑time palette.",
+    "silhouetteLogic": "Angrakha’s structured drape pairs with the mini skirt’s sleek silhouette for a bold look.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "SandwashDenimShirt",
+    "bottom_label": "BlackHighWaistJeans",
+    "colorLogic": "Sand‑washed denim pairs with black jeans for a cool, tonal denim‑on‑denim vibe.",
+    "silhouetteLogic": "Relaxed shirt over skinny jeans creates a laid‑back, urban silhouette.",
+    "occasion": "casual meet‑up"
+  },
+  {
+    "top_label": "SandwashDenimShirt",
+    "bottom_label": "DenimCarpenterPants",
+    "colorLogic": "Denim on denim gives a rugged, cohesive look with subtle contrast from the sand wash.",
+    "silhouetteLogic": "Shirt’s relaxed fit complements the utility carpenter pants for a work‑wear inspired silhouette.",
+    "occasion": "street style outing"
+  },
+  {
+    "top_label": "CoralChanderiKurti",
+    "bottom_label": "MagentaCottonLehenga",
+    "colorLogic": "Coral pink and magenta create a lively, complementary colour duo.",
+    "silhouetteLogic": "A‑line kurti over flared lehenga balances soft drape with vibrant movement.",
+    "occasion": "Navratri celebration"
+  },
+  {
+    "top_label": "CoralChanderiKurti",
+    "bottom_label": "PinkOrganzaSharara",
+    "colorLogic": "Coral blends gently with baby pink for a soft, romantic palette.",
+    "silhouetteLogic": "Kurti’s structured silhouette pairs with the ethereal sharara for a dreamy look.",
+    "occasion": "engagement ceremony"
+  },
+  {
+    "top_label": "CharcoalBikerVest",
+    "bottom_label": "BlackHighWaistJeans",
+    "colorLogic": "Charcoal and black create a sleek, monochrome biker vibe.",
+    "silhouetteLogic": "Studded vest over skinny jeans gives an edgy, street‑ready silhouette.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "CharcoalBikerVest",
+    "bottom_label": "NeonGreenDhotiPants",
+    "colorLogic": "Charcoal grounds neon green for a bold, high‑contrast statement.",
+    "silhouetteLogic": "Vest adds structure to the draped dhoti pants, creating a daring fusion silhouette.",
+    "occasion": "festival party"
+  },
+  {
+    "top_label": "TurmericLinenBlouse",
+    "bottom_label": "WhiteBroderieAnglaiseCulottes",
+    "colorLogic": "Turmeric yellow brightens crisp white, delivering a fresh, sunny look.",
+    "silhouetteLogic": "Relaxed linen blouse over airy culottes creates a breezy, daytime silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "TurmericLinenBlouse",
+    "bottom_label": "GreyFlannelSkirt",
+    "colorLogic": "Turmeric yellow against soft grey yields a warm, autumnal contrast.",
+    "silhouetteLogic": "Blouse’s relaxed fit pairs with the structured flannel skirt for a balanced silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "NavyCricketSweater",
+    "bottom_label": "KhakiPleatedTrousers",
+    "colorLogic": "Navy blue with khaki creates a classic, preppy colour combination.",
+    "silhouetteLogic": "Cable sweater over pleated wide‑leg trousers offers a cozy yet refined silhouette.",
+    "occasion": "casual office"
+  },
+  {
+    "top_label": "NavyCricketSweater",
+    "bottom_label": "IndigoBlockPrintPalazzo",
+    "colorLogic": "Navy complements indigo block print for a deep, tonal look.",
+    "silhouetteLogic": "Sweater’s relaxed fit balances the flowing palazzo for a comfortable festive silhouette.",
+    "occasion": "family gathering"
+  },
+  {
+    "top_label": "RoseQuartzOrganzaTop",
+    "bottom_label": "PinkOrganzaSharara",
+    "colorLogic": "Rose quartz pink harmonises with baby pink for a soft, romantic palette.",
+    "silhouetteLogic": "Peplum organza top drapes over the sharara, creating an ethereal, layered silhouette.",
+    "occasion": "engagement reception"
+  },
+  {
+    "top_label": "RoseQuartzOrganzaTop",
+    "bottom_label": "TealVelvetPalazzo",
+    "colorLogic": "Rose quartz contrasts gently with teal velvet for a sophisticated festive combo.",
+    "silhouetteLogic": "Organza top’s lightness balances the rich drape of the velvet palazzo.",
+    "occasion": "evening gala"
+  },
+  {
+    "top_label": "OliveParachuteBomber",
+    "bottom_label": "BlackHighWaistJeans",
+    "colorLogic": "Olive green with black creates a sleek, utilitarian contrast.",
+    "silhouetteLogic": "Bomber jacket over high‑waist jeans gives a sporty, street‑ready silhouette.",
+    "occasion": "casual night"
+  },
+  {
+    "top_label": "OliveParachuteBomber",
+    "bottom_label": "OliveCargoJoggers",
+    "colorLogic": "Monochromatic olive creates a cohesive, modern look.",
+    "silhouetteLogic": "Bomber’s structured cut pairs with relaxed joggers for a comfortable travel silhouette.",
+    "occasion": "weekend travel"
+  },
+  {
+    "top_label": "BronzeZariJacket",
+    "bottom_label": "GoldBrocadeGharara",
+    "colorLogic": "Bronze zari against gold brocade yields a rich, metallic festive palette.",
+    "silhouetteLogic": "Show‑stopping jacket over flowing gharara creates a dramatic, regal silhouette.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "BronzeZariJacket",
+    "bottom_label": "MagentaCottonLehenga",
+    "colorLogic": "Bronze tones complement magenta for a warm, vibrant contrast.",
+    "silhouetteLogic": "Layered jacket adds structure to the flared lehenga, delivering a bold fusion silhouette.",
+    "occasion": "Navratri night"
+  },
+  {
+    "top_label": "MaroonKanjeevaramSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Deep maroon silk with gold swan motifs creates a regal, bridal palette.",
+    "silhouetteLogic": "Heavy pallu and rich drape give a majestic, traditional silhouette perfect for a South Indian wedding.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "TealFitFlareDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Teal knit offers a cool, sophisticated hue for smart‑casual evenings.",
+    "silhouetteLogic": "Fit‑and‑flare silhouette with three‑quarter sleeves provides a flattering, polished look.",
+    "occasion": "dinner party"
+  },
+  {
+    "top_label": "FuchsiaGharara Set",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Fuchsia pink with gold sequins creates a vibrant, festive statement.",
+    "silhouetteLogic": "Gharara’s flared pants and sequin kurta give a dramatic, traditional silhouette for Lucknowi celebrations.",
+    "occasion": "Navratri night"
+  },
+  {
+    "top_label": "BlackTuxJumpsuit",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Black crepe with satin stripe offers a sleek, power‑dressing palette.",
+    "silhouetteLogic": "Tailored tuxedo jumpsuit with wide leg and belt creates a confident, modern silhouette.",
+    "occasion": "evening gala"
+  },
+  {
+    "top_label": "IvoryMoongaSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Ivory moonga silk with subtle gold sheen provides an understated, elegant look.",
+    "silhouetteLogic": "Lightweight drape and minimalist borders give a graceful, festive silhouette.",
+    "occasion": "formal lunch"
+  },
+  {
+    "top_label": "SunsetTieDyeMaxiDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Sunset gradient from orange to purple creates a boho‑chic, eye‑catching palette.",
+    "silhouetteLogic": "Flowy maxi dress with halter neck offers a relaxed, beach‑ready silhouette.",
+    "occasion": "resort evening"
+  },
+  {
+    "top_label": "OliveCottonOverall",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Olive green overall gives a fresh, utilitarian vibe for casual outings.",
+    "silhouetteLogic": "One‑piece dungaree with adjustable straps provides a playful, relaxed silhouette.",
+    "occasion": "weekend casual"
+  },
+  {
+    "top_label": "RoyalBluePoshakSuit",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Royal blue with gold gota‑patti work creates a regal, traditional palette.",
+    "silhouetteLogic": "Poshak’s structured drape with odhni and kanchli offers a dignified, festive silhouette.",
+    "occasion": "Rajasthani celebration"
+  },
+  {
+    "top_label": "EggplantSuedeJacket",
+    "bottom_label": "GoldBrocadeGharara",
+    "colorLogic": "Eggplant purple deepens the gold brocade for a luxurious, night‑time contrast.",
+    "silhouetteLogic": "Moto jacket adds edgy structure to the flowing gharara, creating a bold fusion silhouette.",
+    "occasion": "festive party"
+  },
+  {
+    "top_label": "ChampagneSequinBlouse",
+    "bottom_label": "GoldBrocadeGharara",
+    "colorLogic": "Champagne sequins sparkle against gold brocade for an ultra‑glam festive look.",
+    "silhouetteLogic": "Fitted sequin blouse balances the wide‑leg gharara, delivering a glamorous silhouette.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "OceanTealKhadiShirt",
+    "bottom_label": "TealVelvetPalazzo",
+    "colorLogic": "Teal on teal creates a tonal, sophisticated palette for an elegant evening.",
+    "silhouetteLogic": "Khadi shirt’s relaxed fit pairs with velvet palazzo’s rich drape for a refined silhouette.",
+    "occasion": "cocktail dinner"
+  },
+  {
+    "top_label": "HotPinkMirrorCropTop",
+    "bottom_label": "GoldBrocadeGharara",
+    "colorLogic": "Hot pink mirrors shine against gold brocade, delivering a radiant festive contrast.",
+    "silhouetteLogic": "Crop top’s fitted silhouette balances the gharara’s flare for a lively Garba look.",
+    "occasion": "Navratri dance"
+  },
+  {
+    "top_label": "IvoryPintuckKurta",
+    "bottom_label": "GoldBrocadeGharara",
+    "colorLogic": "Ivory provides a clean backdrop for gold brocade, creating an elegant festive pairing.",
+    "silhouetteLogic": "Semi‑fitted kurta over flowing gharara offers a graceful, traditional silhouette.",
+    "occasion": "family celebration"
+  },
+  {
+    "top_label": "PeacockJamawaarKurta",
+    "bottom_label": "GoldBrocadeGharara",
+    "colorLogic": "Peacock blue deepens the gold brocade for a regal, opulent palette.",
+    "silhouetteLogic": "Luxurious kurta paired with wide‑leg gharara balances richness and movement.",
+    "occasion": "wedding ceremony"
+  }
+]

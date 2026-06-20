@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "SunsetOmbreKurta",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Burnt orange fading to pink meets gold brocade, creating a radiant Diwali palette.",
+    "silhouetteLogic": "Knee‑length kurta pairs with the flared lehenga for a balanced, festive silhouette.",
+    "occasion": "Diwali evening celebration"
+  },
+  {
+    "top_label": "SunsetOmbreKurta",
+    "bottom_label": "IndigoDabuPalazzo",
+    "colorLogic": "Warm ombre tones contrast with deep indigo for a striking yet grounded look.",
+    "silhouetteLogic": "Kurta’s semi‑fitted cut sits nicely over the wide‑leg palazzo, keeping the outfit breezy.",
+    "occasion": "festive brunch"
+  },
+  {
+    "top_label": "SunsetOmbreKurta",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Sunset hues pop against neutral beige, giving a fresh daytime vibe.",
+    "silhouetteLogic": "Kurta’s length and chinos’ tapered fit create a smart‑casual silhouette.",
+    "occasion": "family lunch"
+  },
+  {
+    "top_label": "PearlChambrayShirt",
+    "bottom_label": "TealJacquardTrousers",
+    "colorLogic": "Pearl grey softens teal jacquard, delivering a cool, sophisticated contrast.",
+    "silhouetteLogic": "Slim shirt with tapered trousers offers a polished office‑ready silhouette.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "PearlChambrayShirt",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Neutral grey lets the gold brocade lehenga shine as the centerpiece.",
+    "silhouetteLogic": "Shirt’s relaxed fit tames the voluminous lehenga for a fusion look.",
+    "occasion": "festive dinner"
+  },
+  {
+    "top_label": "RubyGotaBlouse",
+    "bottom_label": "MaroonBrocadePalazzo",
+    "colorLogic": "Ruby red deepens the maroon brocade, creating a rich, monochromatic palette.",
+    "silhouetteLogic": "Fitted blouse with wide‑leg palazzo balances structure and flow.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "RubyGotaBlouse",
+    "bottom_label": "GoldZariSharara",
+    "colorLogic": "Vibrant ruby against gold zari offers a regal, festive contrast.",
+    "silhouetteLogic": "Blouse’s sleek fit pairs with the sharara’s voluminous flare for drama.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "OliveHenleyTee",
+    "bottom_label": "CharcoalJerseyJoggers",
+    "colorLogic": "Olive green grounds charcoal joggers for an earthy, relaxed look.",
+    "silhouetteLogic": "Henley’s casual cut and joggers’ tapered fit create a comfortable, laid‑back silhouette.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "OliveHenleyTee",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Olive pairs with beige for a soft, natural contrast.",
+    "silhouetteLogic": "Relaxed tee over slim chinos gives a smart‑casual vibe.",
+    "occasion": "weekend brunch"
+  },
+  {
+    "top_label": "SapphireVelvetSherwani",
+    "bottom_label": "MaroonBrocadePalazzo",
+    "colorLogic": "Sapphire blue against maroon brocade creates a deep, luxurious contrast.",
+    "silhouetteLogic": "Fitted sherwani with heavy palazzo balances regal top with flowing bottom.",
+    "occasion": "groom‑level celebration"
+  },
+  {
+    "top_label": "SapphireVelvetSherwani",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Sapphire blue highlights gold brocade, delivering an opulent festive palette.",
+    "silhouetteLogic": "Sherwani’s structured silhouette pairs with the lehenga’s flare for grand impact.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "LemonStripedCropTop",
+    "bottom_label": "WhiteEmbroideredCulottes",
+    "colorLogic": "Lemon yellow brightens crisp white, creating a fresh, sunny combo.",
+    "silhouetteLogic": "Crop top’s playful cut balances the wide‑leg culottes for a breezy silhouette.",
+    "occasion": "daytime party"
+  },
+  {
+    "top_label": "LemonStripedCropTop",
+    "bottom_label": "DenimMidiSkirt",
+    "colorLogic": "Lemon yellow pops against denim blue for a youthful contrast.",
+    "silhouetteLogic": "Crop top with midi denim skirt offers a fun, casual silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "TaupeLinenBlazer",
+    "bottom_label": "IndigoDabuPalazzo",
+    "colorLogic": "Taupe earth tones complement indigo for a sophisticated, grounded look.",
+    "silhouetteLogic": "Structured blazer over wide‑leg palazzo creates a smart‑casual silhouette.",
+    "occasion": "art gallery opening"
+  },
+  {
+    "top_label": "TaupeLinenBlazer",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Taupe blends seamlessly with beige for a neutral, elegant palette.",
+    "silhouetteLogic": "Blazer adds polish while chinos keep the look relaxed.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "CopperSequinKaftan",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Copper sequins echo the gold brocade, creating a glittering, cohesive look.",
+    "silhouetteLogic": "Flowy kaftan drapes over the lehenga’s flare for a glamorous silhouette.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "CopperSequinKaftan",
+    "bottom_label": "GoldZariSharara",
+    "colorLogic": "Copper tones enhance gold zari, delivering a radiant festive palette.",
+    "silhouetteLogic": "Kaftan’s sleek silhouette balances the sharara’s voluminous flare.",
+    "occasion": "evening celebration"
+  },
+  {
+    "top_label": "IndigoShiboriKurti",
+    "bottom_label": "CharcoalJerseyJoggers",
+    "colorLogic": "Indigo shibori patterns contrast with charcoal joggers for a modern, artistic vibe.",
+    "silhouetteLogic": "Kurti’s A‑line cut over tapered joggers creates a relaxed yet stylish silhouette.",
+    "occasion": "casual gathering"
+  },
+  {
+    "top_label": "IndigoShiboriKurti",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Indigo with beige offers a soft, balanced contrast.",
+    "silhouetteLogic": "Kurti paired with chinos gives a smart‑casual ethnic look.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "IvoryAngrakhaTop",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Ivory provides a clean canvas for the gold‑rich lehenga.",
+    "silhouetteLogic": "Wrap‑style top tucks neatly into the lehenga, creating a seamless fusion silhouette.",
+    "occasion": "festive dinner"
+  },
+  {
+    "top_label": "BlackPerformancePolo",
+    "bottom_label": "TealJacquardTrousers",
+    "colorLogic": "Black with teal creates a sleek, contemporary contrast.",
+    "silhouetteLogic": "Performance polo’s fitted cut pairs with tapered teal trousers for a sharp silhouette.",
+    "occasion": "smart casual"
+  },
+  {
+    "top_label": "BlackPerformancePolo",
+    "bottom_label": "DistressedBlackJeans",
+    "colorLogic": "Monochromatic black gives an edgy, unified look.",
+    "silhouetteLogic": "Polo over distressed jeans offers a sporty‑casual silhouette.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "TangerinePhulkariJacket",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Tangerine orange brightens gold brocade for a vibrant festive palette.",
+    "silhouetteLogic": "Embroidered jacket over lehenga adds structured drama to the flowing bottom.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "TangerinePhulkariJacket",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "Tangerine contrasts with neutral beige for a lively yet balanced look.",
+    "silhouetteLogic": "Jacket’s sharp lines over chinos create a smart‑casual silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "LavenderMulmulShirt",
+    "bottom_label": "WhiteEmbroideredCulottes",
+    "colorLogic": "Lavender pastel pairs with crisp white for a soft, spring‑like vibe.",
+    "silhouetteLogic": "Boyfriend‑fit shirt drapes over wide‑leg culottes for a breezy silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "LavenderMulmulShirt",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Lavender softens the rich gold brocade, creating an elegant contrast.",
+    "silhouetteLogic": "Shirt tucked into the lehenga offers a fusion of western ease and Indian opulence.",
+    "occasion": "festive dinner"
+  },
+  {
+    "top_label": "MaroonKashmiriKurta",
+    "bottom_label": "MaroonBrocadePalazzo",
+    "colorLogic": "Monochromatic maroon creates a deep, luxurious look.",
+    "silhouetteLogic": "Slim kurta with heavy palazzo balances fitted top with flowing bottom.",
+    "occasion": "evening gala"
+  },
+  {
+    "top_label": "MaroonKashmiriKurta",
+    "bottom_label": "GoldZariSharara",
+    "colorLogic": "Maroon against gold zari offers a regal, festive contrast.",
+    "silhouetteLogic": "Kurta’s structured silhouette pairs with the sharara’s dramatic flare.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "WhiteBandCollarKurta",
+    "bottom_label": "IndigoDabuPalazzo",
+    "colorLogic": "Crisp white contrasts with indigo for a classic, timeless palette.",
+    "silhouetteLogic": "Band‑collar kurta over wide‑leg palazzo creates a balanced, elegant silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "WhiteBandCollarKurta",
+    "bottom_label": "BeigeCottonChinos",
+    "colorLogic": "White with beige yields a clean, neutral look.",
+    "silhouetteLogic": "Kurta’s semi‑fitted cut over chinos offers a smart‑casual silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "RoseGoldCrochetTop",
+    "bottom_label": "GoldZariSharara",
+    "colorLogic": "Rose gold shimmer pairs with gold zari for an ultra‑glam festive palette.",
+    "silhouetteLogic": "Crochet crop top’s delicate texture balances the sharara’s voluminous flow.",
+    "occasion": "night‑out celebration"
+  },
+  {
+    "top_label": "RoseGoldCrochetTop",
+    "bottom_label": "WhiteEmbroideredCulottes",
+    "colorLogic": "Rose gold against white creates a soft, luminous contrast.",
+    "silhouetteLogic": "Crop top with wide‑leg culottes offers a chic, breezy silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "TealMotifSweatshirt",
+    "bottom_label": "CharcoalJerseyJoggers",
+    "colorLogic": "Teal artwork pops against charcoal joggers for an artsy vibe.",
+    "silhouetteLogic": "Relaxed sweatshirt with tapered joggers gives a comfortable, casual silhouette.",
+    "occasion": "casual evening"
+  },
+  {
+    "top_label": "TealMotifSweatshirt",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Teal green contrasts with gold brocade, delivering a bold festive look.",
+    "silhouetteLogic": "Sweatshirt’s relaxed fit balances the lehenga’s dramatic flare.",
+    "occasion": "festive gathering"
+  },
+  {
+    "top_label": "PeachOrganzaDupattaTop",
+    "bottom_label": "GoldZariSharara",
+    "colorLogic": "Peach pastel against gold zari creates a soft yet luxurious contrast.",
+    "silhouetteLogic": "Flowy dupatta top drapes over the sharara, giving an ethereal silhouette.",
+    "occasion": "engagement ceremony"
+  },
+  {
+    "top_label": "PeachOrganzaDupattaTop",
+    "bottom_label": "WhiteEmbroideredCulottes",
+    "colorLogic": "Peach with crisp white offers a fresh, delicate palette.",
+    "silhouetteLogic": "Dupatta‑style top with wide‑leg culottes creates a breezy, elegant silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "MaroonKanjeevaramSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Deep maroon silk with gold border exudes regal wedding grandeur.",
+    "silhouetteLogic": "Heavy pallu and rich drape give a majestic, traditional silhouette.",
+    "occasion": "South Indian wedding"
+  },
+  {
+    "top_label": "EmeraldAnarkaliSuit",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Emerald green georgette with gold dori embroidery creates a lush festive palette.",
+    "silhouetteLogic": "Floor‑length Anarkali with attached slim pants offers a dramatic, flowing silhouette.",
+    "occasion": "Eid celebration"
+  },
+  {
+    "top_label": "BlackSlipDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Sleek black satin with lace trim delivers a minimalist chic look.",
+    "silhouetteLogic": "Slip dress’s fluid drape and midi length create an elegant, understated silhouette.",
+    "occasion": "evening cocktail"
+  },
+  {
+    "top_label": "IvoryTussarSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Ivory Tussar with hand‑painted Kalamkari adds artistic depth to a soft base.",
+    "silhouetteLogic": "Lightweight drape and intricate pallu give a graceful, art‑focused silhouette.",
+    "occasion": "festive art event"
+  },
+  {
+    "top_label": "RustDenimJumpsuit",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Rust orange denim offers an edgy, contemporary vibe.",
+    "silhouetteLogic": "Cropped jumpsuit with cinched waist provides a sleek, modern silhouette.",
+    "occasion": "casual night out"
+  },
+  {
+    "top_label": "PinkBandhaniSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Hot pink bandhani with gold border creates a vibrant, festive statement.",
+    "silhouetteLogic": "Flowing saree drape with bright hues offers a lively, celebratory silhouette.",
+    "occasion": "Rajasthani festival"
+  },
+  {
+    "top_label": "NavyMidiShirtDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Navy blue with subtle texture gives a polished, versatile look.",
+    "silhouetteLogic": "Tailored shirt dress with belt creates a sleek, office‑to‑dinner silhouette.",
+    "occasion": "business dinner"
+  },
+  {
+    "top_label": "SunsetOmbreKurta",
+    "bottom_label": "GoldZariSharara",
+    "colorLogic": "Ombre orange‑pink blends with gold zari for a radiant festive ensemble.",
+    "silhouetteLogic": "Kurta’s semi‑fitted cut pairs with the sharara’s dramatic flare for a balanced silhouette.",
+    "occasion": "Diwali party"
+  },
+  {
+    "top_label": "PearlChambrayShirt",
+    "bottom_label": "GoldZariSharara",
+    "colorLogic": "Pearl grey provides a subtle backdrop to the gold‑rich sharara.",
+    "silhouetteLogic": "Relaxed shirt tucked into the sharara creates a fusion silhouette that’s both modern and traditional.",
+    "occasion": "festive brunch"
+  },
+  {
+    "top_label": "RubyGotaBlouse",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Ruby red intensifies the gold brocade, delivering a bold, luxurious palette.",
+    "silhouetteLogic": "Fitted blouse with flared lehenga balances structure and movement for a grand look.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "OliveHenleyTee",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Olive green grounds the gold brocade, creating an earthy yet festive contrast.",
+    "silhouetteLogic": "Casual henley over the lehenga adds a relaxed twist to a traditional bottom.",
+    "occasion": "festive dinner"
+  },
+  {
+    "top_label": "SapphireVelvetSherwani",
+    "bottom_label": "GoldZariSharara",
+    "colorLogic": "Sapphire blue with gold zari offers a regal, night‑time sparkle.",
+    "silhouetteLogic": "Fitted sherwani paired with the sharara’s voluminous flare creates a dramatic, opulent silhouette.",
+    "occasion": "royal gala"
+  },
+  {
+    "top_label": "LemonStripedCropTop",
+    "bottom_label": "GoldZariSharara",
+    "colorLogic": "Lemon yellow brightens gold zari for a fresh, festive glow.",
+    "silhouetteLogic": "Playful crop top balances the sharara’s dramatic volume, giving a youthful yet elegant silhouette.",
+    "occasion": "Diwali soirée"
+  },
+  {
+    "top_label": "TaupeLinenBlazer",
+    "bottom_label": "GoldZariSharara",
+    "colorLogic": "Taupe earth tones complement gold zari, creating a sophisticated festive look.",
+    "silhouetteLogic": "Structured blazer over the flowing sharara blends Western tailoring with Indian drama.",
+    "occasion": "evening reception"
+  }
+]

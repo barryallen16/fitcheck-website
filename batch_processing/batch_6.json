@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "MossGreenLinenKurta",
+    "bottom_label": "IvoryChikanPalazzo",
+    "colorLogic": "Moss green pairs with ivory for a soft, earthy contrast.",
+    "silhouetteLogic": "A‑line kurta drapes over the wide‑leg palazzo, creating a relaxed, breezy silhouette.",
+    "occasion": "weekend brunch"
+  },
+  {
+    "top_label": "MossGreenLinenKurta",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Moss green deepens the charcoal for a sophisticated, muted palette.",
+    "silhouetteLogic": "Relaxed kurta balances the tapered wool trousers for a smart‑casual line.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "MossGreenLinenKurta",
+    "bottom_label": "KhakiStretchChinos",
+    "colorLogic": "Moss green with khaki creates an earthy, harmonious look.",
+    "silhouetteLogic": "A‑line kurta over tapered chinos offers a clean, relaxed silhouette.",
+    "occasion": "casual Friday"
+  },
+  {
+    "top_label": "MossGreenLinenKurta",
+    "bottom_label": "RawDenimBootcutJeans",
+    "colorLogic": "Moss green against raw denim gives a cool, casual contrast.",
+    "silhouetteLogic": "Kurta’s length pairs with bootcut jeans for a laid‑back vibe.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "MossGreenLinenKurta",
+    "bottom_label": "OliveCargoPants",
+    "colorLogic": "Moss green blends with olive for a unified, travel‑ready palette.",
+    "silhouetteLogic": "Relaxed kurta and cargo pants provide comfort and utility.",
+    "occasion": "weekend travel"
+  },
+  {
+    "top_label": "MossGreenLinenKurta",
+    "bottom_label": "StoneLinenWideLeg",
+    "colorLogic": "Moss green with stone beige yields a soft, natural harmony.",
+    "silhouetteLogic": "A‑line kurta and wide‑leg linen trousers create a breezy resort silhouette.",
+    "occasion": "resort brunch"
+  },
+  {
+    "top_label": "MossGreenLinenKurta",
+    "bottom_label": "BlackJerseyLeggings",
+    "colorLogic": "Moss green against black offers a subtle, grounded contrast.",
+    "silhouetteLogic": "Kurta’s flow over fitted leggings gives a sleek, layered look.",
+    "occasion": "cozy at‑home"
+  },
+  {
+    "top_label": "MossGreenLinenKurta",
+    "bottom_label": "SkyBlueSharara",
+    "colorLogic": "Moss green with sky blue creates a fresh, festive pairing.",
+    "silhouetteLogic": "Kurta’s relaxed cut balances the voluminous sharara for a playful silhouette.",
+    "occasion": "Eid brunch"
+  },
+  {
+    "top_label": "MossGreenLinenKurta",
+    "bottom_label": "GoldBrocadeDhoti",
+    "colorLogic": "Moss green brightens the gold brocade, giving a regal yet earthy look.",
+    "silhouetteLogic": "Kurta’s structured line contrasts with the draped dhoti for a fusion silhouette.",
+    "occasion": "puja ceremony"
+  },
+  {
+    "top_label": "MossGreenLinenKurta",
+    "bottom_label": "RustBlockprintSkirt",
+    "colorLogic": "Moss green with rust orange creates a warm, artsy palette.",
+    "silhouetteLogic": "A‑line kurta over the printed skirt offers a balanced, bohemian silhouette.",
+    "occasion": "café meet‑up"
+  },
+  {
+    "top_label": "BurgundyCorduoryBlazer",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Burgundy deepens the charcoal for a rich, formal contrast.",
+    "silhouetteLogic": "Tailored blazer with tapered wool trousers creates a sharp evening silhouette.",
+    "occasion": "evening dinner"
+  },
+  {
+    "top_label": "BurgundyCorduoryBlazer",
+    "bottom_label": "KhakiStretchChinos",
+    "colorLogic": "Burgundy with khaki offers a warm, smart‑casual combination.",
+    "silhouetteLogic": "Blazer’s structured fit balances the relaxed chinos for a polished look.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "BurgundyCorduoryBlazer",
+    "bottom_label": "RawDenimBootcutJeans",
+    "colorLogic": "Burgundy against denim creates a bold, casual contrast.",
+    "silhouetteLogic": "Blazer over bootcut jeans gives a relaxed yet refined silhouette.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "BurgundyCorduoryBlazer",
+    "bottom_label": "StoneLinenWideLeg",
+    "colorLogic": "Burgundy paired with stone beige yields a muted, elegant palette.",
+    "silhouetteLogic": "Structured blazer with wide‑leg linen trousers offers a breezy yet polished silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "BurgundyCorduoryBlazer",
+    "bottom_label": "BlackFauxLeatherMini",
+    "colorLogic": "Burgundy and black leather create a dramatic, edgy contrast.",
+    "silhouetteLogic": "Blazer’s tailored cut balances the mini leather skirt for a night‑out silhouette.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "BurgundyCorduoryBlazer",
+    "bottom_label": "NavyPleatedMidiSkirt",
+    "colorLogic": "Burgundy with navy offers a deep, sophisticated duo.",
+    "silhouetteLogic": "Blazer over a pleated midi skirt creates an elegant, dinner‑date silhouette.",
+    "occasion": "dinner date"
+  },
+  {
+    "top_label": "IvoryRuffleBlouse",
+    "bottom_label": "MagentaPatolaLehenga",
+    "colorLogic": "Ivory provides a neutral canvas for vibrant magenta patola.",
+    "silhouetteLogic": "Fitted ruffle blouse lets the lehenga’s heavy drape dominate the silhouette.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "IvoryRuffleBlouse",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Ivory brightens charcoal for a refined, office‑formal look.",
+    "silhouetteLogic": "Elegant blouse with tapered wool trousers creates a sleek, professional silhouette.",
+    "occasion": "business dinner"
+  },
+  {
+    "top_label": "IvoryRuffleBlouse",
+    "bottom_label": "KhakiStretchChinos",
+    "colorLogic": "Ivory softened by khaki yields a warm, approachable palette.",
+    "silhouetteLogic": "Ruffle blouse paired with chinos offers a polished yet relaxed silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "IvoryRuffleBlouse",
+    "bottom_label": "StoneLinenWideLeg",
+    "colorLogic": "Ivory with stone beige creates a soft, neutral harmony.",
+    "silhouetteLogic": "Flowy blouse over wide‑leg linen trousers gives a graceful, breezy silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "IvoryRuffleBlouse",
+    "bottom_label": "GoldBrocadeDhoti",
+    "colorLogic": "Ivory contrasts with gold brocade for a regal, festive look.",
+    "silhouetteLogic": "Elegant blouse balances the draped dhoti, creating a fusion silhouette.",
+    "occasion": "festive reception"
+  },
+  {
+    "top_label": "CobaltSilkBandhgala",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Cobalt blue deepens charcoal for a sleek, formal contrast.",
+    "silhouetteLogic": "Structured bandhgala with tapered wool trousers creates a sharp evening silhouette.",
+    "occasion": "evening gala"
+  },
+  {
+    "top_label": "CobaltSilkBandhgala",
+    "bottom_label": "GoldBrocadeDhoti",
+    "colorLogic": "Cobalt paired with gold brocade yields a luxurious, regal palette.",
+    "silhouetteLogic": "Bandhgala’s formal cut balances the draped dhoti for a traditional‑modern silhouette.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "CobaltSilkBandhgala",
+    "bottom_label": "MaroonBrocadePalazzo",
+    "colorLogic": "Cobalt and maroon create a rich, jewel‑tone combination.",
+    "silhouetteLogic": "Bandhgala with heavy brocade palazzo offers a dramatic, festive silhouette.",
+    "occasion": "grand festive occasion"
+  },
+  {
+    "top_label": "CobaltSilkBandhgala",
+    "bottom_label": "PlumVelvetPalazzo",
+    "colorLogic": "Cobalt contrasts with plum velvet for a deep, luxurious look.",
+    "silhouetteLogic": "Formal bandhgala paired with velvet palazzo creates an opulent evening silhouette.",
+    "occasion": "winter gala"
+  },
+  {
+    "top_label": "WashedDenimShirt",
+    "bottom_label": "OliveCargoPants",
+    "colorLogic": "Denim blue with olive green gives a rugged, travel‑ready palette.",
+    "silhouetteLogic": "Relaxed denim shirt over cargo pants provides comfort and utility.",
+    "occasion": "weekend trek"
+  },
+  {
+    "top_label": "WashedDenimShirt",
+    "bottom_label": "KhakiStretchChinos",
+    "colorLogic": "Denim softened by khaki creates a classic, smart‑casual look.",
+    "silhouetteLogic": "Boyfriend denim shirt with tapered chinos offers a polished casual silhouette.",
+    "occasion": "office‑casual"
+  },
+  {
+    "top_label": "WashedDenimShirt",
+    "bottom_label": "StoneLinenWideLeg",
+    "colorLogic": "Denim paired with stone beige yields a relaxed, neutral palette.",
+    "silhouetteLogic": "Denim shirt with wide‑leg linen trousers creates a breezy, laid‑back silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "WashedDenimShirt",
+    "bottom_label": "BlackFauxLeatherMini",
+    "colorLogic": "Denim and black leather give an edgy, night‑out contrast.",
+    "silhouetteLogic": "Denim shirt balances the sleek mini leather skirt for a modern silhouette.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "WashedDenimShirt",
+    "bottom_label": "WhiteCottonShorts",
+    "colorLogic": "Denim with crisp white shorts creates a fresh, summer vibe.",
+    "silhouetteLogic": "Relaxed denim shirt over short shorts offers a breezy beach‑holiday silhouette.",
+    "occasion": "beach‑holiday"
+  },
+  {
+    "top_label": "SaffronChikankariKurti",
+    "bottom_label": "IvoryChikanPalazzo",
+    "colorLogic": "Saffron orange with ivory yields a warm, festive palette.",
+    "silhouetteLogic": "A‑line kurti over flowing palazzo creates a graceful, celebratory silhouette.",
+    "occasion": "daytime wedding"
+  },
+  {
+    "top_label": "SaffronChikankariKurti",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Saffron brightens charcoal for a striking, smart look.",
+    "silhouetteLogic": "Kurti’s relaxed fit balances the tailored wool trousers for a polished silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "SaffronChikankariKurti",
+    "bottom_label": "MagentaPatolaLehenga",
+    "colorLogic": "Saffron and magenta are complementary, delivering a vibrant festive contrast.",
+    "silhouetteLogic": "Kurti’s simple line lets the lehenga’s rich drape dominate the silhouette.",
+    "occasion": "wedding sangeet"
+  },
+  {
+    "top_label": "SaffronChikankariKurti",
+    "bottom_label": "OliveCargoPants",
+    "colorLogic": "Saffron with olive creates an earthy, travel‑friendly palette.",
+    "silhouetteLogic": "Kurti’s relaxed cut balances the utility of cargo pants for comfort.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "SaffronChikankariKurti",
+    "bottom_label": "SkyBlueSharara",
+    "colorLogic": "Saffron brightens sky blue for a lively, festive duo.",
+    "silhouetteLogic": "A‑line kurti with voluminous sharara offers a balanced, celebratory silhouette.",
+    "occasion": "Eid brunch"
+  },
+  {
+    "top_label": "BlackTurtleneck",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Black with charcoal creates a sleek, monochrome look.",
+    "silhouetteLogic": "Slim turtleneck under tapered wool trousers gives a refined evening silhouette.",
+    "occasion": "evening dinner"
+  },
+  {
+    "top_label": "BlackTurtleneck",
+    "bottom_label": "WineVelvetChuridar",
+    "colorLogic": "Black deepens the rich wine red for a luxurious contrast.",
+    "silhouetteLogic": "Fitted turtleneck balances the stretch velvet churidar for a cocktail‑party silhouette.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "BlackTurtleneck",
+    "bottom_label": "GoldBrocadeDhoti",
+    "colorLogic": "Black with gold brocade yields a regal, festive palette.",
+    "silhouetteLogic": "Turtleneck’s sleek line pairs with the draped dhoti for a fusion formal silhouette.",
+    "occasion": "puja"
+  },
+  {
+    "top_label": "BlackTurtleneck",
+    "bottom_label": "PlumVelvetPalazzo",
+    "colorLogic": "Black contrasts with plum velvet for a dramatic, night‑time look.",
+    "silhouetteLogic": "Slim turtleneck under flowing velvet palazzo creates a striking silhouette.",
+    "occasion": "gala"
+  },
+  {
+    "top_label": "BlackTurtleneck",
+    "bottom_label": "BlackJerseyLeggings",
+    "colorLogic": "All‑black ensemble offers a sleek, monochrome aesthetic.",
+    "silhouetteLogic": "Turtleneck with fitted leggings creates a streamlined, casual lounge silhouette.",
+    "occasion": "cozy lounge"
+  },
+  {
+    "top_label": "PeachOrganzaDupattaTop",
+    "bottom_label": "IvoryChikanPalazzo",
+    "colorLogic": "Peach softens ivory for a delicate, pastel palette.",
+    "silhouetteLogic": "Flowy dupatta top over wide‑leg palazzo creates an ethereal, romantic silhouette.",
+    "occasion": "engagement ceremony"
+  },
+  {
+    "top_label": "PeachOrganzaDupattaTop",
+    "bottom_label": "StoneLinenWideLeg",
+    "colorLogic": "Peach with stone beige yields a gentle, breezy contrast.",
+    "silhouetteLogic": "Dupatta top drapes over wide‑leg linen trousers for a light, airy silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "PeachOrganzaDupattaTop",
+    "bottom_label": "GoldBrocadeDhoti",
+    "colorLogic": "Peach paired with gold brocade creates an elegant, festive look.",
+    "silhouetteLogic": "Soft dupatta top balances the rich drape of the dhoti for a regal silhouette.",
+    "occasion": "festive reception"
+  },
+  {
+    "top_label": "PeachOrganzaDupattaTop",
+    "bottom_label": "MagentaPatolaLehenga",
+    "colorLogic": "Peach and magenta form a vibrant, complementary duo.",
+    "silhouetteLogic": "Dupatta top adds lightness to the heavy lehenga, creating a balanced festive silhouette.",
+    "occasion": "wedding"
+  },
+  {
+    "top_label": "PeachOrganzaDupattaTop",
+    "bottom_label": "SkyBlueSharara",
+    "colorLogic": "Peach with sky blue gives a pastel, spring‑like palette.",
+    "silhouetteLogic": "Flowy top over voluminous sharara creates a playful, airy silhouette.",
+    "occasion": "Eid brunch"
+  },
+  {
+    "top_label": "OliveQuiltedGilet",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Olive complements charcoal for a muted, sophisticated look.",
+    "silhouetteLogic": "Quilted gilet over tapered wool trousers offers a layered, smart‑evening silhouette.",
+    "occasion": "cool evening"
+  },
+  {
+    "top_label": "OliveQuiltedGilet",
+    "bottom_label": "KhakiStretchChinos",
+    "colorLogic": "Olive and khaki create an earthy, travel‑ready palette.",
+    "silhouetteLogic": "Gilet’s relaxed fit balances the sleek chinos for a comfortable silhouette.",
+    "occasion": "weekend travel"
+  },
+  {
+    "top_label": "OliveQuiltedGilet",
+    "bottom_label": "StoneLinenWideLeg",
+    "colorLogic": "Olive with stone beige yields a natural, calming combination.",
+    "silhouetteLogic": "Quilted gilet over wide‑leg linen trousers creates a breezy, layered silhouette.",
+    "occasion": "resort"
+  },
+  {
+    "top_label": "OliveQuiltedGilet",
+    "bottom_label": "BlackFauxLeatherMini",
+    "colorLogic": "Olive contrasts with black leather for an edgy, modern look.",
+    "silhouetteLogic": "Gilet’s soft structure balances the sleek mini leather skirt for a night‑out silhouette.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "OliveQuiltedGilet",
+    "bottom_label": "GoldBrocadeDhoti",
+    "colorLogic": "Olive with gold brocade creates a rich, festive contrast.",
+    "silhouetteLogic": "Layered gilet over draped dhoti offers a fusion formal silhouette.",
+    "occasion": "festive dinner"
+  }
+]

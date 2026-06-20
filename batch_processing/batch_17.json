@@ -1,0 +1,184 @@
+[
+  {
+    "top_label": "SkyBlueChambrayCurta",
+    "bottom_label": "OffWhiteChikanPalazzo",
+    "colorLogic": "Soft sky blue with off-white chikankari creates a fresh spring pastel harmony.",
+    "silhouetteLogic": "The relaxed knee-length kurta balances the wide palazzo for an airy, flattering ethnic day silhouette.",
+    "occasion": "garden brunch"
+  },
+  {
+    "top_label": "SkyBlueChambrayCurta",
+    "bottom_label": "BlackJerseyLeggings",
+    "colorLogic": "Crisp sky blue pops cleanly against grounding black for effortless contrast.",
+    "silhouetteLogic": "Slim leggings streamline the relaxed kurta for a classic everyday proportion.",
+    "occasion": "casual office"
+  },
+  {
+    "top_label": "TealModalKurti",
+    "bottom_label": "CreamRawSilkSalwar",
+    "colorLogic": "Rich teal paired with soft cream feels refined and spring-appropriate.",
+    "silhouetteLogic": "The A-line kurti flows gracefully over the tapered salwar for elegant movement.",
+    "occasion": "office ethnic day"
+  },
+  {
+    "top_label": "CinnamonKhadi Kurti",
+    "bottom_label": "IndigoHandloomSkirt",
+    "colorLogic": "Earthy cinnamon and deep indigo create an artisan, craft-forward contrast.",
+    "silhouetteLogic": "The breezy calf-length kurti layered over an A-line skirt gives boho volume without heaviness.",
+    "occasion": "art fair visit"
+  },
+  {
+    "top_label": "AmberMochiCropTop",
+    "bottom_label": "TealSilkDhotiPants",
+    "colorLogic": "Amber yellow vibrates beautifully against jewel-toned teal for festive energy.",
+    "silhouetteLogic": "The fitted crop top balances the dramatic cowl drape of the dhoti pants.",
+    "occasion": "mehendi ceremony"
+  },
+  {
+    "top_label": "WineReshamBlouse",
+    "bottom_label": "MagentaPatolaLehenga",
+    "colorLogic": "Wine and magenta create a luxurious analogous red family blend.",
+    "silhouetteLogic": "The fitted silk blouse anchors the voluminous lehenga for a regal wedding silhouette.",
+    "occasion": "wedding sangeet"
+  },
+  {
+    "top_label": "GoldTissueBlouse",
+    "bottom_label": "MaroonBrocadePalazzo",
+    "colorLogic": "Gold shimmer over deep maroon brocade feels opulent and celebratory.",
+    "silhouetteLogic": "The structured fitted blouse contrasts elegantly with the heavy flowing palazzo.",
+    "occasion": "reception night"
+  },
+  {
+    "top_label": "PeachOrganzaDupattaTop",
+    "bottom_label": "PinkOrganzaSharara",
+    "colorLogic": "Peach and baby pink create a romantic tonal pastel palette.",
+    "silhouetteLogic": "The airy draped top complements the voluminous sharara for ethereal movement.",
+    "occasion": "engagement ceremony"
+  },
+  {
+    "top_label": "MintPiquePoloTee",
+    "bottom_label": "StoneLinenWideLeg",
+    "colorLogic": "Mint green freshens up neutral stone for a breezy spring combination.",
+    "silhouetteLogic": "The neat polo tuck balances the fluid wide-leg linen trousers.",
+    "occasion": "resort brunch"
+  },
+  {
+    "top_label": "LavenderLinenShirt",
+    "bottom_label": "NavySatinMidiSkirt",
+    "colorLogic": "Soft lavender offsets deep navy for a polished yet dreamy palette.",
+    "silhouetteLogic": "The relaxed shirt tucked into a pleated midi defines the waist while keeping flow.",
+    "occasion": "gallery opening"
+  },
+  {
+    "top_label": "CoralCrinkleCottonShirt",
+    "bottom_label": "WhiteDenimShorts",
+    "colorLogic": "Coral pops vibrantly against crisp white for sunny spring energy.",
+    "silhouetteLogic": "The relaxed shirt half-tucked into high-waist shorts keeps proportions playful.",
+    "occasion": "weekend getaway"
+  },
+  {
+    "top_label": "OatmealWaffleHenley",
+    "bottom_label": "IceBlueSummerJeans",
+    "colorLogic": "Warm oatmeal and light blue denim create a soft neutral-cool balance.",
+    "silhouetteLogic": "The relaxed henley pairs effortlessly with straight-leg jeans for easy layering weather.",
+    "occasion": "morning coffee run"
+  },
+  {
+    "top_label": "NavyBretonStripeTee",
+    "bottom_label": "KhakiStretchChinos",
+    "colorLogic": "Classic navy stripes with khaki give timeless French-prep appeal.",
+    "silhouetteLogic": "The relaxed tee tucked into tapered chinos creates clean smart-casual lines.",
+    "occasion": "casual Friday office"
+  },
+  {
+    "top_label": "OliveSlubTee",
+    "bottom_label": "OliveCottonCargoPants",
+    "colorLogic": "Monochrome olive creates a coordinated utilitarian vibe.",
+    "silhouetteLogic": "The boxy tee balances the structured cargo silhouette for street-style ease.",
+    "occasion": "outdoor market stroll"
+  },
+  {
+    "top_label": "BlackStructuredBlazer",
+    "bottom_label": "NavySatinMidiSkirt",
+    "colorLogic": "Black and navy together feel modern and subtly powerful.",
+    "silhouetteLogic": "The sharp blazer defines the waist over the fluid pleated skirt for office polish.",
+    "occasion": "client meeting"
+  },
+  {
+    "top_label": "RubyVelvetNehruVest",
+    "bottom_label": "BlackJerseyLeggings",
+    "colorLogic": "Rich ruby stands out dramatically against sleek black.",
+    "silhouetteLogic": "The structured vest over a slim base keeps the look festive yet streamlined.",
+    "occasion": "festive dinner"
+  },
+  {
+    "top_label": "IvoryCrochetShrug",
+    "bottom_label": "SunflowerTieredMaxiSkirt",
+    "colorLogic": "Ivory softens the vibrant sunflower yellow for boho charm.",
+    "silhouetteLogic": "The cropped open shrug highlights the waist above the tiered maxi volume.",
+    "occasion": "spring festival"
+  },
+  {
+    "top_label": "CharcoalBomberJacket",
+    "bottom_label": "DenimMidiSkirt",
+    "colorLogic": "Charcoal and mid-wash denim create a cool-toned urban palette.",
+    "silhouetteLogic": "The cropped bomber adds structure to the A-line midi for street-style balance.",
+    "occasion": "evening hangout"
+  },
+  {
+    "top_label": "GreenKancheevaramSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Parrot green with gold and magenta accents creates vibrant South Indian splendour.",
+    "silhouetteLogic": "The structured silk drape flatters with traditional pleats and regal fall.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "BlackCrepeMidiDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Classic black offers timeless understated elegance.",
+    "silhouetteLogic": "The fit-and-flare cut defines the waist while allowing graceful midi movement.",
+    "occasion": "date night"
+  },
+  {
+    "top_label": "MustardKalamkariMaxiDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Mustard with earthy kalamkari prints radiates artisan warmth.",
+    "silhouetteLogic": "The gathered waist and flowing maxi length create breezy spring ease.",
+    "occasion": "daytime cultural event"
+  },
+  {
+    "top_label": "FuchsiaGhararaSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Bold fuchsia with gold sequins makes a celebratory statement.",
+    "silhouetteLogic": "The short kurta over flared gharara pants creates dramatic festive flair.",
+    "occasion": "sangeet night"
+  },
+  {
+    "top_label": "NavyPinstripeJumpsuit",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Navy pinstripes convey sharp, confident sophistication.",
+    "silhouetteLogic": "The belted waist and wide legs elongate the frame powerfully.",
+    "occasion": "evening networking event"
+  },
+  {
+    "top_label": "CreamMoongaSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Natural cream with subtle zari stripes exudes quiet luxury.",
+    "silhouetteLogic": "The fluid silk drape enhances elegance without overpowering.",
+    "occasion": "spring puja"
+  },
+  {
+    "top_label": "OliveUtilityRomper",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Earthy olive keeps the look playful yet grounded.",
+    "silhouetteLogic": "The belted waist adds shape to the relaxed romper cut.",
+    "occasion": "weekend picnic"
+  },
+  {
+    "top_label": "RoseGoldSareeGown",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Rose gold shimmer catches the morning light beautifully.",
+    "silhouetteLogic": "The pre-stitched drape sculpts the body with modern red-carpet ease.",
+    "occasion": "wedding reception"
+  }
+]

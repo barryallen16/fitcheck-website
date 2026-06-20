@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "CrimsonPashminaKurta",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Crimson red against charcoal grey creates a rich, wintry contrast.",
+    "silhouetteLogic": "Slim kurta over tapered flannel trousers offers a sleek, layered silhouette perfect for cold evenings.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "CrimsonPashminaKurta",
+    "bottom_label": "BrownDonegalTweedTrousers",
+    "colorLogic": "Crimson pairs with deep brown tweed for a harmonious, heritage palette.",
+    "silhouetteLogic": "Kurta’s elegant drape balances the textured tweed trousers for a refined mountain look.",
+    "occasion": "holiday brunch"
+  },
+  {
+    "top_label": "CrimsonPashminaKurta",
+    "bottom_label": "MaroonVelvetChuridar",
+    "colorLogic": "Crimson and maroon create a monochromatic jewel‑tone ensemble.",
+    "silhouetteLogic": "Kurta’s slim fit with a fitted velvet churidar gives a regal, festive silhouette.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "CrimsonPashminaKurta",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Crimson red against gold brocade offers a luxurious, celebratory contrast.",
+    "silhouetteLogic": "Kurta’s structured silhouette pairs with the lehenga’s heavy drape for a grand festive look.",
+    "occasion": "navratri night"
+  },
+  {
+    "top_label": "CrimsonPashminaKurta",
+    "bottom_label": "SkyBlueFleeceSharara",
+    "colorLogic": "Crimson brightens the cool sky‑blue fleece, creating a vibrant winter palette.",
+    "silhouetteLogic": "Kurta over the voluminous sharara balances color pop with comfortable movement.",
+    "occasion": "casual gathering"
+  },
+  {
+    "top_label": "ForestGreenPeacoat",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Forest green complements charcoal grey for a classic, muted winter look.",
+    "silhouetteLogic": "Double‑breasted peacoat over flannel trousers creates a polished, layered silhouette.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "ForestGreenPeacoat",
+    "bottom_label": "BrownDonegalTweedTrousers",
+    "colorLogic": "Green and brown tweed give an earthy, heritage feel.",
+    "silhouetteLogic": "Peacoat’s structured cut with tweed trousers offers a sophisticated mountain‑town silhouette.",
+    "occasion": "city stroll"
+  },
+  {
+    "top_label": "ForestGreenPeacoat",
+    "bottom_label": "NavyVelvetPalazzo",
+    "colorLogic": "Forest green against navy velvet creates a deep, luxurious contrast.",
+    "silhouetteLogic": "Peacoat over wide‑leg velvet palazzo balances formal outerwear with elegant drape.",
+    "occasion": "evening dinner"
+  },
+  {
+    "top_label": "IvoryFishermanKnit",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Ivory chunky knit brightens charcoal grey for a cozy yet refined palette.",
+    "silhouetteLogic": "Oversized sweater with tapered flannel trousers gives a relaxed, warm silhouette.",
+    "occasion": "lounge evening"
+  },
+  {
+    "top_label": "IvoryFishermanKnit",
+    "bottom_label": "CreamCorduroyTrousers",
+    "colorLogic": "Ivory softens cream corduroy for a gentle, neutral winter look.",
+    "silhouetteLogic": "Chunky knit over corduroy trousers creates a comfortable, smart‑casual silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "IvoryFishermanKnit",
+    "bottom_label": "OliveThermalJoggers",
+    "colorLogic": "Ivory contrasts with olive green for a warm, balanced combination.",
+    "silhouetteLogic": "Sweater’s bulk pairs with thermal joggers for a cozy, travel‑ready silhouette.",
+    "occasion": "mountain trek"
+  },
+  {
+    "top_label": "SlateHarrisTweedBlazer",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Slate blue tweed with charcoal grey creates a sophisticated, cool‑tone pairing.",
+    "silhouetteLogic": "Tailored blazer over flannel trousers offers a heritage‑inspired formal silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "SlateHarrisTweedBlazer",
+    "bottom_label": "BrownDonegalTweedTrousers",
+    "colorLogic": "Slate blue complements brown tweed for a classic British‑Indian blend.",
+    "silhouetteLogic": "Blazer and tweed trousers together create a polished, winter‑ready silhouette.",
+    "occasion": "gallery opening"
+  },
+  {
+    "top_label": "OxbloodLeatherJacket",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Oxblood burgundy against charcoal grey gives a bold, moody contrast.",
+    "silhouetteLogic": "Edgy leather jacket over flannel trousers balances ruggedness with refined tailoring.",
+    "occasion": "night out"
+  },
+  {
+    "top_label": "OxbloodLeatherJacket",
+    "bottom_label": "MaroonVelvetChuridar",
+    "colorLogic": "Oxblood deepens the maroon velvet for a rich, monochromatic look.",
+    "silhouetteLogic": "Leather jacket layered over fitted velvet churidar creates a striking, modern‑ethnic silhouette.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "SaffronWoolShawlKurta",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Saffron orange brightens charcoal grey for a warm, festive contrast.",
+    "silhouetteLogic": "Shawl‑collar kurta over flannel trousers offers a cozy, traditional silhouette.",
+    "occasion": "festival dinner"
+  },
+  {
+    "top_label": "SaffronWoolShawlKurta",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Saffron against gold brocade creates a radiant, celebratory palette.",
+    "silhouetteLogic": "Kurta’s structured drape pairs with the lehenga’s opulent flow for a grand festive look.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "HeatherGreyHoodie",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Heather grey blends softly with charcoal for a muted, cozy palette.",
+    "silhouetteLogic": "Heavy fleece hoodie over flannel trousers gives a relaxed, warm silhouette for chilly evenings.",
+    "occasion": "casual lounge"
+  },
+  {
+    "top_label": "HeatherGreyHoodie",
+    "bottom_label": "OliveThermalJoggers",
+    "colorLogic": "Grey tones complement olive green for a subtle, winter‑outdoor vibe.",
+    "silhouetteLogic": "Hoodie layered with thermal joggers creates a comfortable, active silhouette.",
+    "occasion": "mountain walk"
+  },
+  {
+    "top_label": "MidnightVelvetBandhgala",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Midnight blue velvet against charcoal grey yields a deep, elegant contrast.",
+    "silhouetteLogic": "Formal bandhgala over flannel trousers offers a regal, winter‑formal silhouette.",
+    "occasion": "gala dinner"
+  },
+  {
+    "top_label": "MidnightVelvetBandhgala",
+    "bottom_label": "MaroonBrocadePalazzo",
+    "colorLogic": "Midnight blue with maroon brocade creates a luxurious, jewel‑tone pairing.",
+    "silhouetteLogic": "Velvet bandhgala balances the heavy drape of the brocade palazzo for an opulent silhouette.",
+    "occasion": "festive soirée"
+  },
+  {
+    "top_label": "CamelCorduroyOvershirt",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Camel brown softens charcoal grey for a warm, earthy contrast.",
+    "silhouetteLogic": "Corduroy overshirt over flannel trousers gives a rugged yet refined silhouette.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "CamelCorduroyOvershirt",
+    "bottom_label": "BrownDonegalTweedTrousers",
+    "colorLogic": "Camel with brown tweed creates a cohesive, heritage palette.",
+    "silhouetteLogic": "Overshirt layered over tweed trousers offers a classic, mountain‑town silhouette.",
+    "occasion": "coffee meet‑up"
+  },
+  {
+    "top_label": "PlumCashmereVneck",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Plum purple against charcoal grey provides a sophisticated, cool contrast.",
+    "silhouetteLogic": "Slim cashmere V‑neck over flannel trousers creates a sleek, warm silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "PlumCashmereVneck",
+    "bottom_label": "NavyVelvetPalazzo",
+    "colorLogic": "Plum with navy velvet yields a deep, luxurious colour duo.",
+    "silhouetteLogic": "Cashmere sweater balances the flowing velvet palazzo for an elegant evening silhouette.",
+    "occasion": "dinner party"
+  },
+  {
+    "top_label": "OliveDownGilet",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Olive green brightens charcoal grey for a subtle, winter‑friendly contrast.",
+    "silhouetteLogic": "Light down gilet over flannel trousers offers a layered, insulated silhouette.",
+    "occasion": "mountain hike"
+  },
+  {
+    "top_label": "OliveDownGilet",
+    "bottom_label": "OliveThermalJoggers",
+    "colorLogic": "Monochromatic olive creates a cohesive, warm look.",
+    "silhouetteLogic": "Down gilet paired with thermal joggers provides a snug, active silhouette.",
+    "occasion": "ski resort"
+  },
+  {
+    "top_label": "TealPheranKurta",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Teal green against charcoal grey offers a cool, balanced contrast.",
+    "silhouetteLogic": "Oversized pheran over flannel trousers creates a dramatic, ethnic‑fusion silhouette.",
+    "occasion": "cultural evening"
+  },
+  {
+    "top_label": "TealPheranKurta",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Teal with gold brocade creates a regal, festive palette.",
+    "silhouetteLogic": "Pheran’s drape over the lehenga’s heavy flare balances tradition with grandeur.",
+    "occasion": "wedding celebration"
+  },
+  {
+    "top_label": "NavyFlannel Shirt",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Navy blue with charcoal grey yields a deep, winter‑appropriate contrast.",
+    "silhouetteLogic": "Flannel shirt paired with flannel trousers offers a cozy, coordinated silhouette.",
+    "occasion": "mountain lodge dinner"
+  },
+  {
+    "top_label": "NavyFlannel Shirt",
+    "bottom_label": "BrownDonegalTweedTrousers",
+    "colorLogic": "Navy complements brown tweed for a classic, rustic palette.",
+    "silhouetteLogic": "Shirt over tweed trousers creates a smart‑casual, heritage silhouette.",
+    "occasion": "café brunch"
+  },
+  {
+    "top_label": "RubyVelvetBlouse",
+    "bottom_label": "MaroonVelvetChuridar",
+    "colorLogic": "Ruby red with maroon velvet forms a rich, monochromatic jewel‑tone look.",
+    "silhouetteLogic": "Fitted velvet blouse with velvet churidar gives a luxurious, festive silhouette.",
+    "occasion": "indoor gala"
+  },
+  {
+    "top_label": "RubyVelvetBlouse",
+    "bottom_label": "MaroonBrocadePalazzo",
+    "colorLogic": "Ruby against maroon brocade creates a deep, opulent contrast.",
+    "silhouetteLogic": "Velvet blouse balances the heavy drape of the brocade palazzo for a grand evening silhouette.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "CharcoalWoolTurtleneck",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Monochromatic charcoal creates a sleek, winter‑minimalist palette.",
+    "silhouetteLogic": "Slim turtleneck with tapered flannel trousers offers a refined, warm silhouette.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "CharcoalWoolTurtleneck",
+    "bottom_label": "BrownDonegalTweedTrousers",
+    "colorLogic": "Charcoal with brown tweed gives a subtle, earthy contrast.",
+    "silhouetteLogic": "Turtleneck layered over tweed trousers creates a classic, cozy silhouette.",
+    "occasion": "business meeting"
+  },
+  {
+    "top_label": "BronzeJacquardNehruVest",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Bronze silk against charcoal grey offers a warm, metallic contrast.",
+    "silhouetteLogic": "Nehru vest over flannel trousers provides a regal, layered silhouette.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "BronzeJacquardNehruVest",
+    "bottom_label": "BrownDonegalTweedTrousers",
+    "colorLogic": "Bronze pairs with brown tweed for a heritage‑rich palette.",
+    "silhouetteLogic": "Vest layered over tweed trousers creates a sophisticated, winter‑formal silhouette.",
+    "occasion": "theatre night"
+  },
+  {
+    "top_label": "WalnutSherpaJacket",
+    "bottom_label": "CharcoalFlannelTrousers",
+    "colorLogic": "Walnut brown with charcoal grey yields a warm, earthy contrast.",
+    "silhouetteLogic": "Oversized sherpa jacket over flannel trousers offers an ultra‑cozy, rugged silhouette.",
+    "occasion": "mountain retreat"
+  },
+  {
+    "top_label": "WalnutSherpaJacket",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Walnut brown deepens the gold brocade for a regal, festive look.",
+    "silhouetteLogic": "Sherpa jacket adds texture to the lehenga’s opulent drape, creating a dramatic silhouette.",
+    "occasion": "festival night"
+  },
+  {
+    "top_label": "RoseGoldSequinCropTop",
+    "bottom_label": "BlackFleeceLeggings",
+    "colorLogic": "Rose gold sparkles against black for a glamorous, night‑time contrast.",
+    "silhouetteLogic": "Crop top with fitted fleece leggings creates a sleek, party‑ready silhouette.",
+    "occasion": "indoor soirée"
+  },
+  {
+    "top_label": "RoseGoldSequinCropTop",
+    "bottom_label": "MaroonVelvetChuridar",
+    "colorLogic": "Rose gold highlights maroon velvet for a rich, festive pairing.",
+    "silhouetteLogic": "Crop top’s shimmer balances the fitted velvet churidar for a bold, elegant silhouette.",
+    "occasion": "cocktail party"
+  },
+  {
+    "top_label": "CrimsonBanarasiSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Crimson red with gold kadwa‑weave creates a regal, winter‑wedding palette.",
+    "silhouetteLogic": "Full saree drape with heavy pallu offers a majestic, traditional silhouette perfect for bridal occasions.",
+    "occasion": "wedding ceremony"
+  },
+  {
+    "top_label": "PlumVelvetAnarkali",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Plum purple velvet with gold sequin yoke gives a luxurious, festive look.",
+    "silhouetteLogic": "Floor‑length Anarkali with attached slim pants provides a dramatic, flowing silhouette for winter celebrations.",
+    "occasion": "festive gala"
+  },
+  {
+    "top_label": "BlackWoolMidiDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Black boiled‑wool offers a sleek, minimalist winter palette.",
+    "silhouetteLogic": "A‑line midi dress with mock neck creates a structured, elegant silhouette for mountain‑chic events.",
+    "occasion": "evening dinner"
+  },
+  {
+    "top_label": "ForestGreenPashminaSaree",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Forest green pashmina with gold Sozni border provides a rich, winter‑festive hue.",
+    "silhouetteLogic": "Lightweight drape with intricate border gives a graceful, luxurious silhouette for special occasions.",
+    "occasion": "festival celebration"
+  },
+  {
+    "top_label": "TealCorduroy ShirtDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Teal corduroy with belt offers a deep, cozy winter palette.",
+    "silhouetteLogic": "Shirt‑dress silhouette with belt creates a smart‑casual, layered look suitable for mountain evenings.",
+    "occasion": "casual dinner"
+  },
+  {
+    "top_label": "IvoryCrochetMaxiDress",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Ivory crochet with wool blend gives a soft, winter‑friendly hue.",
+    "silhouetteLogic": "Maxi dress with bell sleeves provides a boho, flowing silhouette perfect for resort evenings.",
+    "occasion": "brunch gathering"
+  },
+  {
+    "top_label": "MaroonTartanJumpsuit",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Maroon and green tartan creates a heritage‑rich, winter‑party palette.",
+    "silhouetteLogic": "Wide‑leg jumpsuit with brass buttons offers a bold, structured silhouette for festive gatherings.",
+    "occasion": "holiday party"
+  },
+  {
+    "top_label": "SlateHarrisTweedBlazer",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Slate blue tweed against gold brocade yields a sophisticated, festive contrast.",
+    "silhouetteLogic": "Tailored blazer over the heavy lehenga balances formal structure with opulent drape.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "OxbloodLeatherJacket",
+    "bottom_label": "MaroonBrocadePalazzo",
+    "colorLogic": "Oxblood burgundy deepens the maroon brocade for a rich, jewel‑tone ensemble.",
+    "silhouetteLogic": "Edgy leather jacket paired with flowing brocade palazzo creates a dramatic, modern‑ethnic silhouette.",
+    "occasion": "night gala"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "IvoryMulmulKurta",
+    "bottom_label": "OffWhiteChuridar",
+    "colorLogic": "Ivory with off-white keeps it clean and elevated, letting the pintucks read crisp under evening lights.",
+    "silhouetteLogic": "Straight knee-length kurta with a narrow churidar gives a sharp, elongated festive line without feeling heavy.",
+    "occasion": "wedding ceremony (guest)"
+  },
+  {
+    "top_label": "IvoryMulmulKurta",
+    "bottom_label": "IvorySilkDhoti",
+    "colorLogic": "Tonal ivory-on-ivory looks premium, with a subtle matte-versus-sheen contrast.",
+    "silhouetteLogic": "The kurta’s straight fall balances the dhoti’s crisp pleats for a modern traditional silhouette.",
+    "occasion": "pheras / temple visit"
+  },
+  {
+    "top_label": "IvoryMulmulKurta",
+    "bottom_label": "StonePleatedTrousers",
+    "colorLogic": "Ivory and stone beige create a soft, sophisticated neutral palette ideal for breezy evenings.",
+    "silhouetteLogic": "Pleated tailored trousers add structure and warmth while keeping the kurta look Indo-western and polished.",
+    "occasion": "wedding dinner"
+  },
+  {
+    "top_label": "SageCottonSilkKurta",
+    "bottom_label": "OffWhiteChuridar",
+    "colorLogic": "Muted sage with off-white feels understated and premium—perfect for a tasteful wedding guest look.",
+    "silhouetteLogic": "A slim churidar sharpens the silhouette so the jacquard chevrons stay the focal detail.",
+    "occasion": "engagement / ring ceremony"
+  },
+  {
+    "top_label": "SageCottonSilkKurta",
+    "bottom_label": "IvorySilkDhoti",
+    "colorLogic": "Sage green looks refined against luminous ivory for a calm, festive pairing.",
+    "silhouetteLogic": "The kurta’s straight cut keeps the dhoti drape looking intentional and well-balanced.",
+    "occasion": "sangeet night (classic traditional)"
+  },
+  {
+    "top_label": "SageCottonSilkKurta",
+    "bottom_label": "StonePleatedTrousers",
+    "colorLogic": "Sage and stone neutrals feel modern and minimal yet festive-appropriate.",
+    "silhouetteLogic": "Tailored pleats give a dressy base while the kurta keeps it rooted in ethnic styling.",
+    "occasion": "cocktail dinner (subtle ethnic)"
+  },
+  {
+    "top_label": "SageCottonSilkKurta",
+    "bottom_label": "NavyTailoredTrousers",
+    "colorLogic": "Sage with navy gives a refined contrast that reads evening-ready without being loud.",
+    "silhouetteLogic": "Ankle-length tailored trousers modernize the kurta into a sharp Indo-western silhouette.",
+    "occasion": "office friends’ wedding reception"
+  },
+  {
+    "top_label": "BurntOrangeShortKurta",
+    "bottom_label": "WhiteLinenPajama",
+    "colorLogic": "Burnt orange with white is a classic haldi palette—warm, festive, and photo-friendly.",
+    "silhouetteLogic": "Short kurta proportions work well with relaxed pajamas for comfort and easy movement.",
+    "occasion": "haldi / mehendi"
+  },
+  {
+    "top_label": "BurntOrangeShortKurta",
+    "bottom_label": "BeigeTwillChinos",
+    "colorLogic": "Burnt orange and beige feels earthy and stylish—festive without going full traditional.",
+    "silhouetteLogic": "Tapered chinos keep the short kurta look crisp and contemporary for evening functions.",
+    "occasion": "mehendi night (smart casual)"
+  },
+  {
+    "top_label": "BurntOrangeShortKurta",
+    "bottom_label": "OffWhiteChuridar",
+    "colorLogic": "Burnt orange pops cleanly against off-white for a bright, celebratory look.",
+    "silhouetteLogic": "The narrow churidar adds formality and sharpness to the otherwise casual short-kurta cut.",
+    "occasion": "pre-wedding puja"
+  },
+  {
+    "top_label": "BurntOrangeShortKurta",
+    "bottom_label": "DarkIndigoJeans",
+    "colorLogic": "Orange and deep indigo create a bold contrast that feels youthful and modern.",
+    "silhouetteLogic": "Short kurta over straight dark denim is an easy fusion silhouette for sangeet hopping.",
+    "occasion": "casual sangeet / after-dinner meet"
+  },
+  {
+    "top_label": "MidnightNavyRawSilkKurta",
+    "bottom_label": "BlackChuridar",
+    "colorLogic": "Midnight navy with black reads sleek and luxe, perfect for evening wedding lighting.",
+    "silhouetteLogic": "A slim black churidar streamlines the rich raw-silk kurta for a sharp, formal profile.",
+    "occasion": "wedding reception (guest)"
+  },
+  {
+    "top_label": "MidnightNavyRawSilkKurta",
+    "bottom_label": "IvorySilkDhoti",
+    "colorLogic": "Deep navy against ivory is a high-contrast classic that looks regal and festive.",
+    "silhouetteLogic": "The kurta’s clean cuffs and straight fall complement the dhoti’s structured pleats.",
+    "occasion": "sangeet (traditional-fusion)"
+  },
+  {
+    "top_label": "MidnightNavyRawSilkKurta",
+    "bottom_label": "CharcoalTailoredTrousers",
+    "colorLogic": "Navy and charcoal form a sophisticated deep-tone palette—dressy but understated.",
+    "silhouetteLogic": "Tailored trousers add a modern line while the kurta keeps the look ethnic-leaning.",
+    "occasion": "cocktail evening (minimal ethnic)"
+  },
+  {
+    "top_label": "MidnightNavyRawSilkKurta",
+    "bottom_label": "BlackJodhpuriBreeches",
+    "colorLogic": "Deep navy and black creates a royal, evening-appropriate near-monochrome.",
+    "silhouetteLogic": "Jodhpuri volume at the thigh pairs well with a structured kurta for a heritage statement silhouette.",
+    "occasion": "baraat / royal-theme night"
+  },
+  {
+    "top_label": "PowderBlueLinenKurtaShirt",
+    "bottom_label": "NavyTailoredTrousers",
+    "colorLogic": "Powder blue with navy feels crisp and contemporary—great for Pune’s breezy evenings.",
+    "silhouetteLogic": "The curved-hem kurta-shirt with tailored trousers creates a long, clean Indo-western line.",
+    "occasion": "wedding dinner (smart casual)"
+  },
+  {
+    "top_label": "PowderBlueLinenKurtaShirt",
+    "bottom_label": "BeigeTwillChinos",
+    "colorLogic": "Powder blue and beige is soft, airy, and polished without looking too formal.",
+    "silhouetteLogic": "Chinos keep the kurta-shirt silhouette neat and wearable for semi-formal functions.",
+    "occasion": "day-to-evening wedding events"
+  },
+  {
+    "top_label": "PowderBlueLinenKurtaShirt",
+    "bottom_label": "DarkIndigoJeans",
+    "colorLogic": "Light blue with dark indigo gives a clean contrast that feels modern and sharp.",
+    "silhouetteLogic": "The kurta-shirt’s relaxed structure sits well over straight jeans for easy fusion styling.",
+    "occasion": "sangeet rehearsal / casual night out"
+  },
+  {
+    "top_label": "BlackSatinDressShirt",
+    "bottom_label": "CharcoalTailoredTrousers",
+    "colorLogic": "Black satin sheen with charcoal looks luxe, subtle, and very cocktail-appropriate.",
+    "silhouetteLogic": "A slim satin shirt with tapered tailoring keeps the silhouette sleek for dance floors.",
+    "occasion": "cocktail night"
+  },
+  {
+    "top_label": "BlackSatinDressShirt",
+    "bottom_label": "NavyTailoredTrousers",
+    "colorLogic": "Black and navy reads premium in low light, with just enough tonal distinction.",
+    "silhouetteLogic": "Tailored navy trousers keep the look sharp while the satin shirt brings evening glamour.",
+    "occasion": "sangeet night (indo-western)"
+  },
+  {
+    "top_label": "BlackSatinDressShirt",
+    "bottom_label": "BlackSlimJeans",
+    "colorLogic": "All-black with a satin texture shift looks intentional and nightlife-ready.",
+    "silhouetteLogic": "Slim jeans keep the line clean and modern for after-parties and late dinners.",
+    "occasion": "after-party"
+  },
+  {
+    "top_label": "WhiteOxfordButtonDown",
+    "bottom_label": "NavyTailoredTrousers",
+    "colorLogic": "Crisp white with navy is a timeless, sharp combination for wedding season.",
+    "silhouetteLogic": "Classic shirt + tailored trousers is clean and structured—easy to dress up with festive accessories.",
+    "occasion": "wedding dinner (formal)"
+  },
+  {
+    "top_label": "WhiteOxfordButtonDown",
+    "bottom_label": "CharcoalTailoredTrousers",
+    "colorLogic": "White and charcoal is polished and professional, ideal for a city wedding crowd.",
+    "silhouetteLogic": "Tapered trousers and a classic shirt create a sharp silhouette that stays comfortable in mild breeze.",
+    "occasion": "reception (smart formal)"
+  },
+  {
+    "top_label": "WhiteOxfordButtonDown",
+    "bottom_label": "BlackJodhpuriBreeches",
+    "colorLogic": "Monochrome white and black feels classic, letting the heritage breeches be the statement.",
+    "silhouetteLogic": "The clean shirt balances the sculpted Jodhpuri shape for a standout Indo-western profile.",
+    "occasion": "sangeet (heritage fusion)"
+  },
+  {
+    "top_label": "WhiteOxfordButtonDown",
+    "bottom_label": "BeigeTwillChinos",
+    "colorLogic": "White with beige reads light, fresh, and easy for early-February evenings.",
+    "silhouetteLogic": "Chinos keep it smart-casual and mobile for moving between functions and dinners.",
+    "occasion": "pre-function dinner outing"
+  },
+  {
+    "top_label": "IndigoDabuPrintShirt",
+    "bottom_label": "StonePleatedTrousers",
+    "colorLogic": "Indigo with stone beige highlights the Dabu print while staying refined.",
+    "silhouetteLogic": "Tailored pleats elevate the craft shirt into a wedding-guest appropriate silhouette.",
+    "occasion": "cocktail dinner (craft-forward)"
+  },
+  {
+    "top_label": "IndigoDabuPrintShirt",
+    "bottom_label": "OliveTwillChinos",
+    "colorLogic": "Indigo and olive feels earthy and artisanal—perfect for outdoor sangeet venues.",
+    "silhouetteLogic": "Slim-taper chinos keep the look neat while the printed shirt adds personality.",
+    "occasion": "mehendi evening (smart casual)"
+  },
+  {
+    "top_label": "IndigoDabuPrintShirt",
+    "bottom_label": "DarkIndigoJeans",
+    "colorLogic": "Tonal indigo-on-indigo looks sleek; the hand-block print adds depth instead of contrast.",
+    "silhouetteLogic": "Straight dark denim keeps it easy and wearable for relaxed wedding-week plans.",
+    "occasion": "dinner after sangeet"
+  },
+  {
+    "top_label": "OliveKnitPolo",
+    "bottom_label": "BeigeTwillChinos",
+    "colorLogic": "Olive and beige is a warm neutral palette that feels quietly dressed-up.",
+    "silhouetteLogic": "A tailored knit polo with slim chinos gives a clean, flattering silhouette for dinners.",
+    "occasion": "dinner outing"
+  },
+  {
+    "top_label": "OliveKnitPolo",
+    "bottom_label": "StonePleatedTrousers",
+    "colorLogic": "Olive against stone is understated and elegant—great for a semi-formal crowd.",
+    "silhouetteLogic": "Pleated trousers add polish and comfort while the knit polo keeps it breathable and modern.",
+    "occasion": "reception pre-party"
+  },
+  {
+    "top_label": "CharcoalMerinoCrewneck",
+    "bottom_label": "CharcoalTailoredTrousers",
+    "colorLogic": "Monochrome charcoal looks sleek and elevated with texture variation from merino to tailoring.",
+    "silhouetteLogic": "Fine-gauge knit over tailored trousers creates a streamlined winter-evening silhouette without bulk.",
+    "occasion": "cocktail (minimalist)"
+  },
+  {
+    "top_label": "CharcoalMerinoCrewneck",
+    "bottom_label": "DarkIndigoJeans",
+    "colorLogic": "Charcoal and dark indigo reads deep, clean, and easy for a breezy night.",
+    "silhouetteLogic": "The lightweight sweater adds just enough warmth while straight jeans keep it relaxed and sharp.",
+    "occasion": "post-event dinner with friends"
+  },
+  {
+    "top_label": "CamelSuedeBomber",
+    "bottom_label": "BlackSlimJeans",
+    "colorLogic": "Camel suede against black is a classic night-out contrast with rich texture.",
+    "silhouetteLogic": "A cropped bomber balances slim jeans for a modern, flattering fusion silhouette.",
+    "occasion": "after-party night drive"
+  },
+  {
+    "top_label": "InkDenimShacket",
+    "bottom_label": "BeigeTwillChinos",
+    "colorLogic": "Inky denim blue with beige feels casual-smart and season-appropriate.",
+    "silhouetteLogic": "The boxy shacket adds structure up top while tapered chinos keep the lower half clean.",
+    "occasion": "sangeet setup / casual function"
+  },
+  {
+    "top_label": "StoneLinenOvershirt",
+    "bottom_label": "NavyTailoredTrousers",
+    "colorLogic": "Stone beige with navy is a crisp, refined pairing that suits evening venues.",
+    "silhouetteLogic": "A breathable overshirt adds light layering while tailored trousers keep the look formal-leaning.",
+    "occasion": "wedding dinner (outdoor venue)"
+  },
+  {
+    "top_label": "BlackVelvetNehruBandi",
+    "bottom_label": "BlackChuridar",
+    "colorLogic": "All-black lets the velvet texture look rich and luxe under sangeet lighting.",
+    "silhouetteLogic": "The structured bandi sharpens the torso while a slim churidar keeps the silhouette sleek.",
+    "occasion": "sangeet night (luxe)"
+  },
+  {
+    "top_label": "WineBrocadeBandi",
+    "bottom_label": "StonePleatedTrousers",
+    "colorLogic": "Wine brocade against soft stone beige feels festive, warm, and wedding-appropriate.",
+    "silhouetteLogic": "The bandi adds celebration on top while pleated trousers keep the base tailored and comfortable.",
+    "occasion": "wedding reception (guest)"
+  },
+  {
+    "top_label": "EmeraldMatkaSilkBandi",
+    "bottom_label": "IvoryDrawstringPajama",
+    "colorLogic": "Emerald with ivory is a regal, high-contrast combo that still feels breathable.",
+    "silhouetteLogic": "A structured sleeveless bandi balances the relaxed pajama for an easy festive fusion shape.",
+    "occasion": "sangeet dinner (smart ethnic)"
+  },
+  {
+    "top_label": "IvoryJamawarBandi",
+    "bottom_label": "CreamJodhpuriBreeches",
+    "colorLogic": "Tonal ivories and creams look very premium, letting the jamawar weave show subtly.",
+    "silhouetteLogic": "The bandi’s clean structure pairs beautifully with the heritage volume of Jodhpuri breeches.",
+    "occasion": "wedding ceremony (close family)"
+  },
+  {
+    "top_label": "CharcoalTechBlazer",
+    "bottom_label": "NavyTailoredTrousers",
+    "colorLogic": "Charcoal and navy is a refined deep-tone pairing that suits evening celebrations.",
+    "silhouetteLogic": "Unlined tech blazer over tailored trousers gives a sharp silhouette that’s comfortable for back-to-back events.",
+    "occasion": "reception (travel-to-venue look)"
+  },
+  {
+    "top_label": "NavyUnlinedBlazer",
+    "bottom_label": "CharcoalTailoredTrousers",
+    "colorLogic": "Navy and charcoal feels formal, modern, and easy to accessorize.",
+    "silhouetteLogic": "Soft-shoulder blazer with tapered trousers creates a clean V-shape—great for office-to-wedding transitions.",
+    "occasion": "cocktail / sangeet (smart formal)"
+  },
+  {
+    "top_label": "OliveQuiltedFieldJacket",
+    "bottom_label": "DarkIndigoJeans",
+    "colorLogic": "Olive with dark indigo looks rugged and seasonally right for a breezy exit from venues.",
+    "silhouetteLogic": "The quilted jacket adds warmth and structure; straight jeans keep it practical and neat.",
+    "occasion": "late-night venue exit / travel"
+  },
+  {
+    "top_label": "IvorySherwaniSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Tonal ivory embroidery looks classic, premium, and perfect for wedding rituals.",
+    "silhouetteLogic": "The long sherwani with included churidar creates a stately, elongated formal silhouette.",
+    "occasion": "wedding ceremony (groomsmen/close family)"
+  },
+  {
+    "top_label": "BlackBandhgalaSuitSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "All-black with subtle self-jacquard reads razor-sharp and evening-appropriate.",
+    "silhouetteLogic": "Structured bandhgala with tapered trousers creates a sleek, modern formal line.",
+    "occasion": "reception formal"
+  },
+  {
+    "top_label": "NavyJodhpuriSuitSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Deep navy with a contrast pocket square feels regal yet contemporary.",
+    "silhouetteLogic": "The structured Jodhpuri jacket builds a strong shoulder line with clean matching trousers.",
+    "occasion": "sangeet (royal Indo-western)"
+  },
+  {
+    "top_label": "PistaKurtaPajamaSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Pistachio reads fresh and festive without being overpowering for evening functions.",
+    "silhouetteLogic": "Simple kurta-pajama proportions keep it comfortable and flattering for long gatherings.",
+    "occasion": "day-to-evening wedding events"
+  },
+  {
+    "top_label": "MustardPathaniSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Mustard brings warm celebration tones that suit pre-wedding functions.",
+    "silhouetteLogic": "The Pathani cut is relaxed and movement-friendly—great for socializing and dancing.",
+    "occasion": "mehendi (comfort-first)"
+  },
+  {
+    "top_label": "PearlWhiteKurtaDhotiSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Pearl white looks serene and ceremonial, ideal for traditional moments.",
+    "silhouetteLogic": "The pre-stitched dhoti keeps pleats crisp while the kurta maintains a clean, festive line.",
+    "occasion": "pheras / traditional ceremony"
+  },
+  {
+    "top_label": "CharcoalTuxedoSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Charcoal with satin lapels is modern, sleek, and perfect for night events.",
+    "silhouetteLogic": "Classic tuxedo tailoring gives a sharp V-shape and clean leg line for parties.",
+    "occasion": "cocktail / after-party"
+  },
+  {
+    "top_label": "TealCoOrdSet",
+    "bottom_label": "COMPLETE_OUTFIT",
+    "colorLogic": "Teal micro-print feels festive and contemporary without looking too formal.",
+    "silhouetteLogic": "Relaxed co-ord proportions keep it comfortable for sangeet movement while staying coordinated.",
+    "occasion": "sangeet (modern festive)"
+  }
+]

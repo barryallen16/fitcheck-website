@@ -1,0 +1,870 @@
+[
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "The vibrant red of the kurta balances the soft cream of the palazzo, creating a warm yet airy contrast.",
+    "silhouetteLogic": "A fitted kurta pairs beautifully with the wide, flowing palazzo, allowing the silhouette to stay elegant without bulk.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Rich red against charcoal grey offers a striking yet grounded colour story.",
+    "silhouetteLogic": "The straight cut of the dhoti drapes gently beneath the kurta, providing a relaxed yet structured look.",
+    "occasion": "office-formal"
+  },
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Red and magenta sit next to each other on the colour wheel, creating a vibrant, festive harmony.",
+    "silhouetteLogic": "The kurta’s sleek line complements the lehenga’s voluminous flare for a balanced silhouette.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Earthy olive tones tone down the bold red, giving a sophisticated, grounded palette.",
+    "silhouetteLogic": "Leggings provide a sleek, fitted base that lets the kurta’s silhouette remain the focal point.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "The warm peach softens the intensity of red, creating a gentle, spring‑like contrast.",
+    "silhouetteLogic": "A flared skirt adds movement while the kurta maintains a clean, tailored line.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Red and gold are classic celebratory colours that amplify each other’s richness.",
+    "silhouetteLogic": "The dhoti’s drape adds regal fluidity to the structured kurta, perfect for a grand look.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Turquoise provides a cool counterpoint to the warm red, achieving a balanced complementary scheme.",
+    "silhouetteLogic": "Tailored jodhpuri pants give a sharp silhouette that matches the kurta’s refined cut.",
+    "occasion": "office-formal"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Crisp white highlights the deep royal blue, creating a clean, high‑contrast look.",
+    "silhouetteLogic": "The fitted churidar accentuates the shirt’s straight lines for a sleek, modern silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "White against charcoal creates a timeless monochrome with subtle depth.",
+    "silhouetteLogic": "The relaxed drape of the dhoti balances the shirt’s structured silhouette for effortless style.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Pure white lets the vivid magenta of the lehenga pop, making the outfit festive and bright.",
+    "silhouetteLogic": "A flowing lehenga skirt adds drama while the shirt keeps the upper half crisp.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Neutral white pairs effortlessly with earthy olive for a relaxed, natural vibe.",
+    "silhouetteLogic": "Leggings provide a sleek, fitted foundation that lets the shirt’s pattern stand out.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Soft peach adds a gentle warmth to the clean white, creating a fresh spring palette.",
+    "silhouetteLogic": "A flared skirt adds feminine movement while the shirt maintains a structured top.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "White acts as a canvas for the luxurious gold, delivering an elegant, regal contrast.",
+    "silhouetteLogic": "The dhoti’s regal drape pairs with the shirt’s crisp lines for a balanced, sophisticated silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Turquoise adds a pop of cool colour against the neutral white, creating a lively yet refined look.",
+    "silhouetteLogic": "Tailored jodhpuri pants give a sharp silhouette that complements the shirt’s clean cut.",
+    "occasion": "office-formal"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Navy and royal blue sit next to each other on the spectrum, offering a harmonious monochrome.",
+    "silhouetteLogic": "The kurti’s relaxed fit pairs with the fitted churidar for a balanced, contemporary silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Navy contrasts beautifully with the soft cream, creating a classic yet fresh colour pairing.",
+    "silhouetteLogic": "A breezy palazzo offsets the kurti’s relaxed linen, delivering comfort and style.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Deep navy with charcoal grey yields a sophisticated, muted palette perfect for warm weather.",
+    "silhouetteLogic": "Both linen pieces drape naturally, ensuring a cohesive, airy silhouette.",
+    "occasion": "office-formal"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "The bold magenta pop against navy creates a striking, festive contrast.",
+    "silhouetteLogic": "The lehenga’s voluminous flare adds drama while the kurti stays relaxed, balancing the look.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Olive introduces an earthy tone that softens the deep navy for a natural harmony.",
+    "silhouetteLogic": "Leggings give a sleek base that lets the kurti’s relaxed silhouette shine.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Peach adds a gentle warmth to navy, creating a balanced, spring‑like palette.",
+    "silhouetteLogic": "A flared skirt adds feminine movement while the kurti maintains a laid‑back vibe.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Gold accents brighten the deep navy, delivering a regal yet breathable combination.",
+    "silhouetteLogic": "The dhoti’s fluid drape pairs with the kurti’s relaxed cut for an elegant silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Turquoise offers a cool contrast to navy, creating a refreshing, complementary duo.",
+    "silhouetteLogic": "Tailored jodhpuri pants provide structure that balances the kurti’s easy‑going drape.",
+    "occasion": "office-formal"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Emerald green and royal blue are adjacent on the colour wheel, giving a rich, cohesive look.",
+    "silhouetteLogic": "The fitted churidar grounds the plush velvet blouse, creating a sleek, elegant silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Emerald’s depth is softened by the light cream, achieving a balanced luxe palette.",
+    "silhouetteLogic": "A flowing palazzo offsets the velvet’s weight, ensuring comfort in warm weather.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Deep emerald paired with charcoal creates a sophisticated, muted contrast.",
+    "silhouetteLogic": "The dhoti’s relaxed drape balances the structured richness of the velvet blouse.",
+    "occasion": "office-formal"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Emerald and magenta are complementary, delivering a vibrant, celebratory contrast.",
+    "silhouetteLogic": "The lehenga’s airy flare lightens the velvet, creating a dynamic silhouette.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Olive’s earthiness tones down emerald’s brilliance for an understated elegance.",
+    "silhouetteLogic": "Leggings provide a sleek silhouette that lets the velvet blouse remain the focal point.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Soft peach adds a gentle warmth that contrasts nicely with deep emerald.",
+    "silhouetteLogic": "A flared skirt adds movement, balancing the structured velvet top.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Turquoise offers a cool counterpoint to emerald, creating a fresh, jewel‑tone duet.",
+    "silhouetteLogic": "Tailored jodhpuri pants give a sharp base that complements the plush blouse.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Pastel pink softens the bold royal blue, delivering a sweet yet striking contrast.",
+    "silhouetteLogic": "The fitted churidar anchors the flowy georgette top for a balanced silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Delicate pink with cream creates an ethereal, pastel harmony perfect for daytime.",
+    "silhouetteLogic": "Both pieces are airy; the palazzo’s width complements the top’s light drape.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Soft pink against charcoal offers a gentle pop of colour on a neutral base.",
+    "silhouetteLogic": "The dhoti’s relaxed drape pairs with the top’s flowy silhouette for effortless style.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Pink and magenta sit side‑by‑side, creating a vibrant, monochromatic gradient.",
+    "silhouetteLogic": "Two georgette pieces create a cohesive, floaty silhouette ideal for celebrations.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Olive grounds the pastel pink, giving an earthy balance to the look.",
+    "silhouetteLogic": "Leggings provide a sleek, fitted base that lets the airy top shine.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Pink and peach together create a soft, harmonious pastel palette.",
+    "silhouetteLogic": "A flared skirt adds gentle movement, complementing the top’s flowy drape.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Pastel pink is elevated by the luxe gold, delivering a subtle yet regal contrast.",
+    "silhouetteLogic": "The dhoti’s regal drape balances the delicate top for an elegant silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Neutral beige pairs with royal blue for a classic, understated contrast.",
+    "silhouetteLogic": "The fitted churidar sharpens the relaxed kurta, creating a balanced silhouette.",
+    "occasion": "office-formal"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Beige and cream form a soft, tonal palette perfect for warm weather.",
+    "silhouetteLogic": "Wide palazzo pants add flow to the simple kurta, ensuring comfort and style.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Earthy beige against charcoal creates a grounded, sophisticated look.",
+    "silhouetteLogic": "Both linen pieces drape naturally, giving a cohesive, relaxed silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Beige provides a neutral canvas for the vibrant magenta, making the colour pop.",
+    "silhouetteLogic": "The lehenga’s flare adds drama while the kurta stays modest, balancing the ensemble.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Beige and olive create an earthy, harmonious duo perfect for casual outings.",
+    "silhouetteLogic": "Leggings give a sleek silhouette that complements the relaxed kurta.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Beige with soft peach yields a warm, pastel‑toned palette ideal for daytime.",
+    "silhouetteLogic": "A flared skirt adds feminine movement to the simple kurta.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Neutral beige is elevated by gold, creating a subtle yet luxurious contrast.",
+    "silhouetteLogic": "The dhoti’s regal drape pairs with the understated kurta for an elegant silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Beige balances the vibrant turquoise, delivering a fresh, contemporary look.",
+    "silhouetteLogic": "Tailored jodhpuri pants give structure that complements the relaxed kurta.",
+    "occasion": "office-formal"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Turquoise and royal blue sit next to each other, forming a harmonious cool palette.",
+    "silhouetteLogic": "The fitted churidar anchors the flowing silk blouse for a sleek silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Turquoise pops against the soft cream, creating a fresh, vibrant contrast.",
+    "silhouetteLogic": "A breezy palazzo balances the silk blouse’s sheen, ensuring comfort in warm weather.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Turquoise brightens the deep charcoal, delivering a striking yet balanced look.",
+    "silhouetteLogic": "The dhoti’s relaxed drape pairs with the sleek silk blouse for an elegant silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Turquoise and magenta are complementary, creating a vivid, festive contrast.",
+    "silhouetteLogic": "The lehenga’s voluminous flare balances the fitted silk blouse for a dramatic silhouette.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Olive grounds the bright turquoise, giving an earthy balance to the outfit.",
+    "silhouetteLogic": "Leggings provide a sleek base that lets the silk blouse remain the focal point.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Turquoise contrasts gently with soft peach, creating a fresh, spring‑like palette.",
+    "silhouetteLogic": "A flared skirt adds movement, complementing the sleek silhouette of the blouse.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Turquoise paired with gold yields a regal, jewel‑tone combination perfect for evenings.",
+    "silhouetteLogic": "The dhoti’s fluid drape balances the structured silk blouse for an elegant silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Monochromatic turquoise creates a sleek, tonal look that elongates the silhouette.",
+    "silhouetteLogic": "Tailored jodhpuri pants give structure while the blouse adds fluidity, achieving balance.",
+    "occasion": "office-formal"
+  },
+  {
+    "top_label": "MaroonWoolSweater",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Deep maroon against royal blue creates a regal, high‑contrast palette.",
+    "silhouetteLogic": "The fitted churidar grounds the chunky sweater, giving a balanced silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "MaroonWoolSweater",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Warm maroon pairs softly with neutral cream for an understated elegance.",
+    "silhouetteLogic": "Flowy palazzo offsets the sweater’s bulk, keeping the look airy.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "MaroonWoolSweater",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Maroon and charcoal create a sophisticated, muted contrast.",
+    "silhouetteLogic": "The dhoti’s relaxed drape balances the sweater’s structured silhouette.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "MaroonWoolSweater",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Rich maroon with magenta yields a bold, festive harmony.",
+    "silhouetteLogic": "Lehenga’s flare lightens the sweater’s weight, giving a graceful flow.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "MaroonWoolSweater",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Earthy olive tones down the deep maroon for a grounded look.",
+    "silhouetteLogic": "Leggings provide a sleek base that lets the sweater remain the focal point.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "MaroonWoolSweater",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Soft peach adds a gentle warmth that complements maroon beautifully.",
+    "silhouetteLogic": "A flared skirt adds femininity, balancing the sweater’s bulk.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "MaroonWoolSweater",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Maroon with gold creates a luxurious, celebratory contrast.",
+    "silhouetteLogic": "The dhoti’s fluid drape softens the sweater’s structure for an elegant silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "MaroonWoolSweater",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Turquoise offers a cool counterpoint to warm maroon, achieving a balanced palette.",
+    "silhouetteLogic": "Tailored jodhpuri pants give structure that offsets the sweater’s volume.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "MaroonWoolSweater",
+    "bottom_label": "DeepPurpleVelvetPalazzo",
+    "colorLogic": "Deep purple and maroon sit next to each other on the colour wheel, creating a rich, monochromatic look.",
+    "silhouetteLogic": "The palazzo’s flow counters the sweater’s heaviness, delivering comfort and drama.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "MaroonWoolSweater",
+    "bottom_label": "LightGreyWoolTrousers",
+    "colorLogic": "Light grey softens the deep maroon, giving a subtle, sophisticated contrast.",
+    "silhouetteLogic": "Wool trousers provide a structured base that balances the sweater’s bulk.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "DeepPurpleVelvetPalazzo",
+    "colorLogic": "Red and deep purple are adjacent on the colour wheel, forming a bold, harmonious duo.",
+    "silhouetteLogic": "The fitted kurta pairs with the flowing palazzo for a balanced silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "LightGreyWoolTrousers",
+    "colorLogic": "Red against light grey creates a striking yet refined contrast.",
+    "silhouetteLogic": "Tailored wool trousers give a sleek line that complements the kurta’s drape.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "DeepPurpleVelvetPalazzo",
+    "colorLogic": "Crisp white highlights the deep purple, delivering a fresh yet regal look.",
+    "silhouetteLogic": "The structured shirt balances the palazzo’s fluidity for an elegant silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "LightGreyWoolTrousers",
+    "colorLogic": "White and light grey form a clean, minimalist palette.",
+    "silhouetteLogic": "Tailored trousers keep the look sharp while the shirt adds subtle texture.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "DeepPurpleVelvetPalazzo",
+    "colorLogic": "Navy and deep purple create a sophisticated, analogous colour scheme.",
+    "silhouetteLogic": "Relaxed kurti meets the flowing palazzo, offering comfort with style.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "LightGreyWoolTrousers",
+    "colorLogic": "Navy paired with light grey yields a classic, understated contrast.",
+    "silhouetteLogic": "The kurti’s relaxed fit is balanced by the crisp tailoring of wool trousers.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "DeepPurpleVelvetPalazzo",
+    "colorLogic": "Emerald and deep purple are complementary jewel tones, creating a luxe palette.",
+    "silhouetteLogic": "Both velvet pieces drape gracefully, giving a regal, cohesive silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "LightGreyWoolTrousers",
+    "colorLogic": "Emerald against light grey offers a fresh, balanced contrast.",
+    "silhouetteLogic": "The plush blouse is grounded by the structured wool trousers for a polished look.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "DeepPurpleVelvetPalazzo",
+    "colorLogic": "Soft pastel pink with deep purple creates a playful yet elegant contrast.",
+    "silhouetteLogic": "Flowy georgette top pairs with the voluminous palazzo for a dreamy silhouette.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "LightGreyWoolTrousers",
+    "colorLogic": "Pastel pink softened by light grey yields a gentle, contemporary palette.",
+    "silhouetteLogic": "The airy top is balanced by the crisp tailoring of wool trousers.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "DeepPurpleVelvetPalazzo",
+    "colorLogic": "Neutral beige with deep purple creates a sophisticated, earthy‑rich contrast.",
+    "silhouetteLogic": "The simple kurta lets the dramatic palazzo take centre stage.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "LightGreyWoolTrousers",
+    "colorLogic": "Beige and light grey form a soft, tonal look perfect for daytime.",
+    "silhouetteLogic": "Relaxed kurta meets tailored trousers for a balanced, comfortable silhouette.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "DeepPurpleVelvetPalazzo",
+    "colorLogic": "Turquoise and deep purple are complementary, delivering a vibrant jewel‑tone pairing.",
+    "silhouetteLogic": "Silk blouse’s sheen pairs with the plush palazzo for a luxe, fluid silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "LightGreyWoolTrousers",
+    "colorLogic": "Turquoise against light grey creates a cool, refreshing contrast.",
+    "silhouetteLogic": "The sleek blouse is anchored by structured wool trousers for a smart look.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Vibrant red against soft cream offers a warm yet airy contrast.",
+    "silhouetteLogic": "Fitted kurta with wide palazzo keeps the silhouette elegant without bulk.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Red and magenta sit side‑by‑side on the colour wheel, creating a festive harmony.",
+    "silhouetteLogic": "Kurta’s sleek line complements the lehenga’s voluminous flare for balance.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "RedSilkKurta",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Red paired with gold yields a classic celebratory palette.",
+    "silhouetteLogic": "The dhoti’s regal drape adds fluidity beneath the structured kurta.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Crisp white highlights royal blue for a clean, high‑contrast look.",
+    "silhouetteLogic": "Fitted churidar grounds the shirt’s straight silhouette for a sleek profile.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "White against charcoal creates a timeless monochrome with depth.",
+    "silhouetteLogic": "Relaxed dhoti drape balances the shirt’s structured cut for effortless style.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "White lets the vivid magenta of the lehenga pop, perfect for festivities.",
+    "silhouetteLogic": "Lehenga’s flow adds drama while the shirt stays crisp.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Neutral white with earthy olive creates a relaxed, natural vibe.",
+    "silhouetteLogic": "Leggings give a sleek base that lets the shirt’s pattern shine.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Soft peach adds a gentle warmth to the clean white, ideal for spring.",
+    "silhouetteLogic": "Flared skirt adds feminine movement to the structured shirt.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "White acts as a canvas for the luxurious gold, delivering regal contrast.",
+    "silhouetteLogic": "Dhoti’s fluid drape balances the shirt’s crisp lines.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "WhiteBandhaniShirt",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Turquoise adds a pop of cool colour against the neutral white.",
+    "silhouetteLogic": "Tailored jodhpuri pants give structure that complements the shirt’s clean cut.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Navy and royal blue sit adjacent, offering a harmonious monochrome.",
+    "silhouetteLogic": "Relaxed kurti with fitted churidar creates a balanced, contemporary silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Navy contrasts beautifully with soft cream for a classic yet fresh look.",
+    "silhouetteLogic": "Airy palazzo offsets the kurti’s relaxed linen for comfort and style.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Deep navy with charcoal grey yields a sophisticated, muted palette.",
+    "silhouetteLogic": "Both linen pieces drape naturally, ensuring a cohesive, airy silhouette.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Bold magenta against navy creates a striking, festive contrast.",
+    "silhouetteLogic": "Lehenga’s voluminous flare adds drama while the kurti stays relaxed.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Olive introduces an earthy tone that softens the deep navy.",
+    "silhouetteLogic": "Leggings give a sleek base, letting the kurti’s relaxed silhouette shine.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Peach adds a gentle warmth to navy, creating a balanced spring palette.",
+    "silhouetteLogic": "Flared skirt adds feminine movement while the kurti remains laid‑back.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Gold brightens deep navy, delivering a regal yet breathable combination.",
+    "silhouetteLogic": "Dhoti’s fluid drape pairs with the kurti’s relaxed cut for elegance.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "NavyLinenKurti",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Turquoise offers a cool contrast to navy, creating a refreshing duo.",
+    "silhouetteLogic": "Tailored jodhpuri pants provide structure that balances the kurti’s easy drape.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Emerald and royal blue sit adjacent, giving a rich, cohesive look.",
+    "silhouetteLogic": "Fitted churidar grounds the plush velvet blouse for a sleek silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Emerald’s depth is softened by light cream, achieving a balanced luxe palette.",
+    "silhouetteLogic": "Flowy palazzo offsets the velvet’s weight, ensuring comfort in warm weather.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Deep emerald paired with charcoal creates a sophisticated, muted contrast.",
+    "silhouetteLogic": "Dhoti’s relaxed drape balances the structured richness of the velvet blouse.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Emerald and magenta are complementary, delivering a vibrant, celebratory contrast.",
+    "silhouetteLogic": "Lehenga’s airy flare lightens the velvet, creating a dynamic silhouette.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Olive tones down emerald’s brilliance for an understated elegance.",
+    "silhouetteLogic": "Leggings provide a sleek silhouette that lets the velvet blouse remain the focal point.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Soft peach adds gentle warmth that contrasts nicely with deep emerald.",
+    "silhouetteLogic": "Flared skirt adds movement, balancing the structured velvet top.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "EmeraldVelvetBlouse",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Turquoise offers a cool counterpoint to emerald, creating a fresh jewel‑tone duet.",
+    "silhouetteLogic": "Tailored jodhpuri pants give a sharp base that complements the plush blouse.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Pastel pink softens bold royal blue, delivering a sweet yet striking contrast.",
+    "silhouetteLogic": "Fitted churidar anchors the flowy georgette top for a balanced silhouette.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Delicate pink with cream creates an ethereal, pastel harmony perfect for daytime.",
+    "silhouetteLogic": "Both pieces are airy; the palazzo’s width complements the top’s light drape.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Soft pink against charcoal offers a gentle pop of colour on a neutral base.",
+    "silhouetteLogic": "Dhoti’s relaxed drape pairs with the top’s flowy silhouette for effortless style.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Pink and magenta sit side‑by‑side, creating a vibrant, monochromatic gradient.",
+    "silhouetteLogic": "Two georgette pieces create a cohesive, floaty silhouette ideal for celebrations.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Olive grounds the pastel pink, giving an earthy balance to the look.",
+    "silhouetteLogic": "Leggings provide a sleek, fitted base that lets the airy top shine.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Pink and peach together create a soft, harmonious pastel palette.",
+    "silhouetteLogic": "Flared skirt adds gentle movement, complementing the top’s flowy drape.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "PastelGeorgetteTop",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Pastel pink is elevated by luxe gold, delivering a subtle yet regal contrast.",
+    "silhouetteLogic": "Dhoti’s regal drape balances the delicate top for an elegant silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Neutral beige pairs with royal blue for a classic, understated contrast.",
+    "silhouetteLogic": "Fitted churidar sharpens the relaxed kurta, creating a balanced silhouette.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Beige and cream form a soft, tonal palette perfect for warm weather.",
+    "silhouetteLogic": "Wide palazzo adds flow to the simple kurta, ensuring comfort and style.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Earthy beige against charcoal creates a grounded, sophisticated look.",
+    "silhouetteLogic": "Both linen pieces drape naturally, giving a cohesive, relaxed silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Beige provides a neutral canvas for vibrant magenta, making the colour pop.",
+    "silhouetteLogic": "Lehenga’s flare adds drama while the kurta stays modest, balancing the ensemble.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Beige and olive create an earthy, harmonious duo perfect for casual outings.",
+    "silhouetteLogic": "Leggings give a sleek silhouette that complements the relaxed kurta.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Beige with soft peach yields a warm, pastel‑toned palette ideal for daytime.",
+    "silhouetteLogic": "Flared skirt adds feminine movement to the simple kurta.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Neutral beige is elevated by gold, creating a subtle yet luxurious contrast.",
+    "silhouetteLogic": "Dhoti’s regal drape pairs with the understated kurta for an elegant silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "BeigeKhadiKurta",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Beige balances vibrant turquoise, delivering a fresh, contemporary look.",
+    "silhouetteLogic": "Tailored jodhpuri pants give structure that complements the relaxed kurta.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "RoyalBlueChuridar",
+    "colorLogic": "Turquoise and royal blue sit adjacent, forming a harmonious cool palette.",
+    "silhouetteLogic": "Fitted churidar anchors the flowing silk blouse for a sleek silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "CreamCottonPalazzo",
+    "colorLogic": "Turquoise pops against soft cream, creating a fresh, vibrant contrast.",
+    "silhouetteLogic": "Breezy palazzo balances the silk blouse’s sheen, ensuring comfort in warm weather.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "CharcoalLinenDhoti",
+    "colorLogic": "Turquoise brightens deep charcoal, delivering a striking yet balanced look.",
+    "silhouetteLogic": "Dhoti’s relaxed drape pairs with the sleek silk blouse for an elegant silhouette.",
+    "occasion": "daytime event"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "MagentaGeorgetteLehenga",
+    "colorLogic": "Turquoise and magenta are complementary, creating a vivid, festive contrast.",
+    "silhouetteLogic": "Lehenga’s voluminous flare balances the fitted silk blouse for a dramatic silhouette.",
+    "occasion": "festive wedding"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "OliveKhadiLeggings",
+    "colorLogic": "Olive grounds bright turquoise, giving an earthy balance to the outfit.",
+    "silhouetteLogic": "Leggings provide a sleek base that lets the silk blouse remain the focal point.",
+    "occasion": "casual brunch"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "SoftPeachCottonSkirt",
+    "colorLogic": "Turquoise contrasts gently with soft peach, creating a fresh, spring‑like palette.",
+    "silhouetteLogic": "Flared skirt adds movement, complementing the sleek silhouette of the blouse.",
+    "occasion": "garden party"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "GoldenSilkDhoti",
+    "colorLogic": "Turquoise paired with gold yields a regal, jewel‑tone combination perfect for evenings.",
+    "silhouetteLogic": "Dhoti’s fluid drape balances the structured silk blouse for an elegant silhouette.",
+    "occasion": "evening party"
+  },
+  {
+    "top_label": "TurquoiseSilkBlouse",
+    "bottom_label": "TurquoiseJodhpuriPants",
+    "colorLogic": "Monochromatic turquoise creates a sleek, tonal look that elongates the silhouette.",
+    "silhouetteLogic": "Tailored jodhpuri pants give structure while the blouse adds fluidity, achieving balance.",
+    "occasion": "office‑formal"
+  }
+]

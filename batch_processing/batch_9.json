@@ -1,0 +1,352 @@
+[
+  {
+    "top_label": "CherryWoolShawlKurta",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Rich cherry red against charcoal grey creates a warm, festive contrast.",
+    "silhouetteLogic": "Wool kurta and tapered wool trousers keep the silhouette fully insulated and streamlined.",
+    "occasion": "winter wedding ceremony"
+  },
+  {
+    "top_label": "CherryWoolShawlKurta",
+    "bottom_label": "CreamCorduroy Trousers",
+    "colorLogic": "Cherry red brightens the soft cream of corduroy for a cozy yet lively palette.",
+    "silhouetteLogic": "The kurta’s length pairs with the straight‑leg corduroy trousers for a balanced, smart‑casual look.",
+    "occasion": "festive brunch"
+  },
+  {
+    "top_label": "CherryWoolShawlKurta",
+    "bottom_label": "BrownTweedTrousers",
+    "colorLogic": "Cherry red and brown tweed sit next to each other on the colour wheel, giving an earthy harmony.",
+    "silhouetteLogic": "Heavy wool kurta with tweed trousers creates a heritage‑inspired, warm silhouette.",
+    "occasion": "heritage dinner"
+  },
+  {
+    "top_label": "CherryWoolShawlKurta",
+    "bottom_label": "KhakiFleeceCargos",
+    "colorLogic": "Cherry red pops against muted khaki for a vibrant yet grounded look.",
+    "silhouetteLogic": "Kurta’s relaxed fit balances the utility pockets of fleece‑lined cargos, staying warm and functional.",
+    "occasion": "outdoor gathering"
+  },
+  {
+    "top_label": "CherryWoolShawlKurta",
+    "bottom_label": "OliveFlannel Joggers",
+    "colorLogic": "Cherry red contrasts with olive green for a bold, wintry colour block.",
+    "silhouetteLogic": "Kurta drapes over soft joggers, giving a comfortable, lounge‑ready silhouette.",
+    "occasion": "casual weekend"
+  },
+  {
+    "top_label": "CherryWoolShawlKurta",
+    "bottom_label": "BlackWoolSkirt",
+    "colorLogic": "Cherry red against black wool creates a striking, elegant contrast.",
+    "silhouetteLogic": "A‑line skirt adds feminine flow while the kurta provides full‑body warmth.",
+    "occasion": "evening reception"
+  },
+  {
+    "top_label": "CherryWoolShawlKurta",
+    "bottom_label": "NavyVelvetPalazzo",
+    "colorLogic": "Cherry red with deep navy velvet offers a regal, high‑contrast palette.",
+    "silhouetteLogic": "Wide‑leg palazzo balances the kurta’s structured length for a dramatic, comfortable silhouette.",
+    "occasion": "gala dinner"
+  },
+  {
+    "top_label": "CherryWoolShawlKurta",
+    "bottom_label": "PlumSilkDhotiPants",
+    "colorLogic": "Cherry red paired with plum silk creates a rich, jewel‑tone combination.",
+    "silhouetteLogic": "Kurta’s A‑line cut and the draped dhoti pants give a fusion silhouette that stays warm.",
+    "occasion": "family dinner"
+  },
+  {
+    "top_label": "CherryWoolShawlKurta",
+    "bottom_label": "BlackFleeceLeggings",
+    "colorLogic": "Cherry red brightens the deep black fleece for a bold, cozy look.",
+    "silhouetteLogic": "Leggings keep the lower half sleek while the kurta adds full‑body insulation.",
+    "occasion": "indoor lounge"
+  },
+  {
+    "top_label": "CherryWoolShawlKurta",
+    "bottom_label": "RustWoolMidiSkirt",
+    "colorLogic": "Cherry red with rust orange yields a warm, monochromatic winter palette.",
+    "silhouetteLogic": "Midi skirt’s A‑line shape balances the kurta’s length for an elegant, weather‑proof silhouette.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "CamelCashmereBlazer",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Camel brown against charcoal grey creates a sophisticated, neutral contrast.",
+    "silhouetteLogic": "Tailored blazer over tapered wool trousers offers a polished, office‑ready silhouette.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "CamelCashmereBlazer",
+    "bottom_label": "CreamCorduroy Trousers",
+    "colorLogic": "Camel warm tones soften the light cream of corduroy for a gentle, refined look.",
+    "silhouetteLogic": "Blazer adds structure while corduroy trousers keep the outfit comfortably warm.",
+    "occasion": "business lunch"
+  },
+  {
+    "top_label": "CamelCashmereBlazer",
+    "bottom_label": "BrownTweedTrousers",
+    "colorLogic": "Camel and brown tweed sit in the same earthy family, creating a cohesive palette.",
+    "silhouetteLogic": "Both pieces are structured, delivering a heritage‑inspired formal silhouette.",
+    "occasion": "heritage event"
+  },
+  {
+    "top_label": "CamelCashmereBlazer",
+    "bottom_label": "GreyFlannelSkirt",
+    "colorLogic": "Camel contrasts softly with cool grey for an elegant, balanced combo.",
+    "silhouetteLogic": "Blazer over a pencil flannel skirt gives a sleek, feminine office silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "CamelCashmereBlazer",
+    "bottom_label": "NavyVelvetPalazzo",
+    "colorLogic": "Camel brown with deep navy velvet creates a rich, luxurious contrast.",
+    "silhouetteLogic": "Structured blazer tames the flowing palazzo, making the look formal yet comfortable.",
+    "occasion": "evening dinner"
+  },
+  {
+    "top_label": "IvoryAranKnitSweater",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Ivory brightens charcoal grey for a crisp, winter‑ready contrast.",
+    "silhouetteLogic": "Chunky sweater over tapered wool trousers offers a cozy yet refined silhouette.",
+    "occasion": "casual office"
+  },
+  {
+    "top_label": "IvoryAranKnitSweater",
+    "bottom_label": "IndigoRawDenimJeans",
+    "colorLogic": "Ivory against deep indigo creates a classic, high‑contrast look.",
+    "silhouetteLogic": "Oversized sweater with straight denim gives a relaxed, warm weekend silhouette.",
+    "occasion": "coffee run"
+  },
+  {
+    "top_label": "IvoryAranKnitSweater",
+    "bottom_label": "KhakiFleeceCargos",
+    "colorLogic": "Ivory softens the khaki fleece, delivering a muted, cozy palette.",
+    "silhouetteLogic": "Sweater’s bulk balances the relaxed cargo fit for an outdoor‑ready silhouette.",
+    "occasion": "travel day"
+  },
+  {
+    "top_label": "IvoryAranKnitSweater",
+    "bottom_label": "OliveFlannel Joggers",
+    "colorLogic": "Ivory with olive green creates a gentle, earthy contrast.",
+    "silhouetteLogic": "Sweater over joggers offers a comfortable, lounge‑ready silhouette for chilly mornings.",
+    "occasion": "lazy weekend"
+  },
+  {
+    "top_label": "IvoryAranKnitSweater",
+    "bottom_label": "BlackFleeceLeggings",
+    "colorLogic": "Ivory brightens black fleece for a subtle, modern contrast.",
+    "silhouetteLogic": "Sweater paired with fitted fleece leggings keeps the look sleek and warm.",
+    "occasion": "indoor gathering"
+  },
+  {
+    "top_label": "NavyQuilted Jacket",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Navy blue deepens charcoal grey for a sophisticated, muted palette.",
+    "silhouetteLogic": "Quilted jacket over tapered wool trousers creates a sleek, insulated silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "NavyQuilted Jacket",
+    "bottom_label": "IndigoRawDenimJeans",
+    "colorLogic": "Navy with indigo denim offers a tonal, deep‑blue look.",
+    "silhouetteLogic": "Lightweight quilted jacket over straight jeans gives a casual, weather‑proof silhouette.",
+    "occasion": "city stroll"
+  },
+  {
+    "top_label": "NavyQuilted Jacket",
+    "bottom_label": "BrownTweedTrousers",
+    "colorLogic": "Navy contrasts with warm brown tweed for a classic winter pairing.",
+    "silhouetteLogic": "Jacket’s sleek lines balance the textured tweed trousers for a refined silhouette.",
+    "occasion": "heritage dinner"
+  },
+  {
+    "top_label": "NavyQuilted Jacket",
+    "bottom_label": "OliveFlannel Joggers",
+    "colorLogic": "Navy and olive create a cool‑earthy contrast suitable for foggy days.",
+    "silhouetteLogic": "Jacket over joggers offers a relaxed yet insulated silhouette for outdoor errands.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "NavyQuilted Jacket",
+    "bottom_label": "BlackFleeceLeggings",
+    "colorLogic": "Navy deepens the black fleece for a sleek, monochrome winter look.",
+    "silhouetteLogic": "Jacket paired with fitted fleece leggings keeps the silhouette streamlined and warm.",
+    "occasion": "indoor lounge"
+  },
+  {
+    "top_label": "PlumPashmina Kurta",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Plum purple against charcoal grey creates a regal, muted contrast.",
+    "silhouetteLogic": "Luxurious pashmina kurta with tapered wool trousers offers an elegant, warm silhouette.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "PlumPashmina Kurta",
+    "bottom_label": "CreamCorduroy Trousers",
+    "colorLogic": "Plum deepens the soft cream of corduroy for a sophisticated palette.",
+    "silhouetteLogic": "Kurta’s semi‑fitted cut balances the straight corduroy trousers for a smart‑casual look.",
+    "occasion": "brunch"
+  },
+  {
+    "top_label": "PlumPashmina Kurta",
+    "bottom_label": "NavyVelvetPalazzo",
+    "colorLogic": "Plum and navy velvet sit adjacent on the colour wheel, giving a cool, luxurious duo.",
+    "silhouetteLogic": "Flowy palazzo offsets the kurta’s structured silhouette for a dramatic evening look.",
+    "occasion": "gala dinner"
+  },
+  {
+    "top_label": "PlumPashmina Kurta",
+    "bottom_label": "PlumSilkDhotiPants",
+    "colorLogic": "Monochromatic plum creates a seamless, opulent look.",
+    "silhouetteLogic": "Matching tones of kurta and dhoti pants give a cohesive, fusion formal silhouette.",
+    "occasion": "family celebration"
+  },
+  {
+    "top_label": "PlumPashmina Kurta",
+    "bottom_label": "BlackWoolSkirt",
+    "colorLogic": "Plum contrasts with deep black wool for a rich, elegant palette.",
+    "silhouetteLogic": "A‑line wool skirt adds flow while the kurta provides structured warmth.",
+    "occasion": "evening reception"
+  },
+  {
+    "top_label": "CharcoalDenimJacket",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Charcoal on charcoal creates a sleek, tonal winter look.",
+    "silhouetteLogic": "Denim jacket with wool trousers offers a rugged yet refined silhouette.",
+    "occasion": "casual office"
+  },
+  {
+    "top_label": "CharcoalDenimJacket",
+    "bottom_label": "IndigoRawDenimJeans",
+    "colorLogic": "Charcoal denim paired with indigo denim gives a modern double‑denim vibe.",
+    "silhouetteLogic": "Jacket over straight raw denim creates a sturdy, street‑ready silhouette.",
+    "occasion": "weekend outing"
+  },
+  {
+    "top_label": "CharcoalDenimJacket",
+    "bottom_label": "KhakiFleeceCargos",
+    "colorLogic": "Charcoal contrasts with khaki fleece for a balanced, utilitarian palette.",
+    "silhouetteLogic": "Jacket’s structured cut balances the relaxed cargo fit for functional style.",
+    "occasion": "travel day"
+  },
+  {
+    "top_label": "CharcoalDenimJacket",
+    "bottom_label": "OliveFlannel Joggers",
+    "colorLogic": "Charcoal with olive green creates a cool, earthy contrast.",
+    "silhouetteLogic": "Denim jacket over joggers offers a relaxed, weather‑proof silhouette.",
+    "occasion": "casual weekend"
+  },
+  {
+    "top_label": "CharcoalDenimJacket",
+    "bottom_label": "BlackFleeceLeggings",
+    "colorLogic": "Charcoal deepens the black fleece for a sleek, monochrome ensemble.",
+    "silhouetteLogic": "Jacket paired with fitted fleece leggings keeps the look streamlined and warm.",
+    "occasion": "indoor lounge"
+  },
+  {
+    "top_label": "SaffronSilkBlouse",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Vibrant saffron orange pops against charcoal grey for a festive contrast.",
+    "silhouetteLogic": "Silk blouse with tailored wool trousers creates an elegant, indoor‑ready silhouette.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "SaffronSilkBlouse",
+    "bottom_label": "CreamCorduroy Trousers",
+    "colorLogic": "Saffron brightens the soft cream of corduroy for a warm, luxurious palette.",
+    "silhouetteLogic": "Blouse’s fitted cut balances the straight corduroy trousers for a polished look.",
+    "occasion": "formal dinner"
+  },
+  {
+    "top_label": "SaffronSilkBlouse",
+    "bottom_label": "GreyFlannelSkirt",
+    "colorLogic": "Saffron against cool grey creates a striking, festive contrast.",
+    "silhouetteLogic": "Silk blouse with a pencil flannel skirt offers a sleek, office‑formal silhouette.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "SaffronSilkBlouse",
+    "bottom_label": "GoldBrocadeLehenga",
+    "colorLogic": "Saffron orange complements gold brocade for a regal, celebratory palette.",
+    "silhouetteLogic": "Blouse serves as a luxe top to the heavy lehenga, creating a grand festive silhouette.",
+    "occasion": "grand wedding"
+  },
+  {
+    "top_label": "SaffronSilkBlouse",
+    "bottom_label": "NavyVelvetPalazzo",
+    "colorLogic": "Saffron brightens deep navy velvet for a vibrant, luxurious contrast.",
+    "silhouetteLogic": "Fitted silk blouse balances the flowing velvet palazzo for an elegant evening look.",
+    "occasion": "evening gala"
+  },
+  {
+    "top_label": "MossGreenFleece Hoodie",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Moss green adds a fresh pop to charcoal grey for a balanced winter palette.",
+    "silhouetteLogic": "Fleece hoodie over tapered wool trousers offers a relaxed yet insulated silhouette.",
+    "occasion": "casual outing"
+  },
+  {
+    "top_label": "MossGreenFleece Hoodie",
+    "bottom_label": "KhakiFleeceCargos",
+    "colorLogic": "Moss green with khaki fleece creates an earthy, cozy contrast.",
+    "silhouetteLogic": "Hoodie’s relaxed fit pairs with cargo pants for a functional, warm silhouette.",
+    "occasion": "travel day"
+  },
+  {
+    "top_label": "MossGreenFleece Hoodie",
+    "bottom_label": "OliveFlannel Joggers",
+    "colorLogic": "Moss green and olive green sit adjacent, forming a harmonious, muted palette.",
+    "silhouetteLogic": "Hoodie over joggers gives a comfortable, lounge‑ready silhouette for chilly mornings.",
+    "occasion": "lazy weekend"
+  },
+  {
+    "top_label": "MossGreenFleece Hoodie",
+    "bottom_label": "BlackFleeceLeggings",
+    "colorLogic": "Moss green brightens the deep black fleece for a subtle contrast.",
+    "silhouetteLogic": "Hoodie with fitted fleece leggings keeps the look sleek and warm.",
+    "occasion": "indoor gathering"
+  },
+  {
+    "top_label": "GreyHerringboneBlazer",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Grey herringbone against charcoal creates a refined, tonal winter look.",
+    "silhouetteLogic": "Structured blazer over tapered wool trousers offers a classic, formal silhouette.",
+    "occasion": "office‑formal"
+  },
+  {
+    "top_label": "GreyHerringboneBlazer",
+    "bottom_label": "CreamCorduroy Trousers",
+    "colorLogic": "Grey herringbone softens the cream corduroy for an elegant, muted palette.",
+    "silhouetteLogic": "Blazer balances the warm corduroy trousers for a smart‑casual silhouette.",
+    "occasion": "business lunch"
+  },
+  {
+    "top_label": "GreyHerringboneBlazer",
+    "bottom_label": "GreyFlannelSkirt",
+    "colorLogic": "Grey on grey creates a sleek, monochrome ensemble.",
+    "silhouetteLogic": "Blazer over a pencil flannel skirt gives a polished, office‑appropriate silhouette.",
+    "occasion": "office‑smart‑casual"
+  },
+  {
+    "top_label": "GreyHerringboneBlazer",
+    "bottom_label": "NavyVelvetPalazzo",
+    "colorLogic": "Grey herringbone contrasts with deep navy velvet for a sophisticated duo.",
+    "silhouetteLogic": "Tailored blazer tames the flowing palazzo, creating a refined evening silhouette.",
+    "occasion": "dinner party"
+  },
+  {
+    "top_label": "MaroonVelvetKurta",
+    "bottom_label": "CharcoalWoolTrousers",
+    "colorLogic": "Maroon velvet against charcoal grey yields a deep, luxurious contrast.",
+    "silhouetteLogic": "Velvet kurta with tapered wool trousers offers a regal, warm silhouette for formal events.",
+    "occasion": "wedding reception"
+  },
+  {
+    "top_label": "MaroonVelvetKurta",
+    "bottom_label": "BlackWoolSkirt",
+    "colorLogic": "Maroon deepens the black wool for an elegant, monochrome look.",
+    "silhouetteLogic": "Kurta’s fitted silhouette pairs with the flowing wool skirt for a dramatic, festive silhouette.",
+    "occasion": "evening gala"
+  }
+]
