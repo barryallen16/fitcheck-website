@@ -60,9 +60,9 @@ export function Header({ weather, wardrobeCount }: HeaderProps) {
 
           {/* Direct APK Download in Header */}
           <a
-            href="https://github.com/barryallen16/fitcheck/releases/download/v2.0.1/FitCheck-v2.0.1.apk"
+            href="https://github.com/barryallen16/fitcheck/releases/download/v2.1.0/FitCheck-v2.1.0.apk"
             className="font-pixel text-[11px] tracking-wider bg-[#fd91cc] hover:bg-[#fd91cc]/90 text-[#09318D] font-bold px-3 sm:px-4 py-1.5 flex items-center gap-1.5 border border-white shadow-sm transition-transform active:scale-95"
-            title="Download FitCheck v2.0.1 APK directly"
+            title="Download FitCheck v2.1.0 APK directly"
           >
             <Download size={13} />
             <span className="hidden xs:inline">GET</span>

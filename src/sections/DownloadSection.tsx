@@ -21,7 +21,7 @@ export function DownloadSection() {
             </div>
 
             <h2 className="font-pixel text-3xl sm:text-4xl text-white tracking-wide">
-              Download FitCheck v2.0.1
+              Download FitCheck v2.1.0
             </h2>
 
             <p className="font-sans text-sm sm:text-base text-white/80 max-w-xl leading-relaxed">
@@ -32,7 +32,7 @@ export function DownloadSection() {
             {/* Action Buttons */}
             <div className="flex flex-wrap items-center gap-4 pt-4 w-full sm:w-auto">
               <a
-                href="https://github.com/barryallen16/fitcheck/releases/download/v2.0.1/FitCheck-v2.0.1.apk"
+                href="https://github.com/barryallen16/fitcheck/releases/download/v2.1.0/FitCheck-v2.1.0.apk"
                 className="font-pixel text-xs tracking-wider bg-[#fd91cc] hover:bg-[#fd91cc]/90 text-[#09318D] font-bold px-7 py-4 flex items-center justify-center gap-2.5 transition-transform active:scale-95 shadow-lg shadow-[#fd91cc]/25 border border-white"
               >
                 <Download size={18} />
@@ -40,7 +40,7 @@ export function DownloadSection() {
               </a>
 
               <a
-                href="https://github.com/barryallen16/fitcheck/releases/tag/v2.0.1"
+                href="https://github.com/barryallen16/fitcheck/releases/tag/v2.1.0"
                 target="_blank"
                 rel="noreferrer"
                 className="font-pixel text-xs tracking-wider border border-white/30 hover:border-white hover:bg-white/10 text-white px-5 py-4 flex items-center justify-center gap-2 transition-colors"
@@ -58,7 +58,7 @@ export function DownloadSection() {
                   <span>STEP 1: DOWNLOAD</span>
                 </div>
                 <div className="text-white/70 font-sans">
-                  Tap the download button above to save FitCheck-v2.0.1.apk to your phone.
+                  Tap the download button above to save FitCheck-v2.1.0.apk to your phone.
                 </div>
               </div>
 

@@ -48,7 +48,7 @@ export function LandingHero({ onOpenStudio }: LandingHeroProps) {
             <div className="inline-flex flex-wrap items-center gap-2 border border-[#fd91cc]/40 bg-[#fd91cc]/10 px-3 py-1.5 rounded-sm">
               <span className="w-2 h-2 rounded-full bg-[#10B981] animate-pulse" />
               <span className="font-pixel text-[11px] tracking-wider text-[#fd91cc]">
-                FITCHECK V2.0.1
+                FITCHECK V2.1.0
               </span>
               <span className="text-white/40 text-xs">·</span>
               <span className="text-white/90 text-xs font-sans font-medium">
@@ -83,11 +83,11 @@ export function LandingHero({ onOpenStudio }: LandingHeroProps) {
             {/* Primary Action Buttons */}
             <div className="flex flex-wrap items-center gap-3 sm:gap-4 w-full sm:w-auto pt-2">
               <a
-                href="https://github.com/barryallen16/fitcheck/releases/download/v2.0.1/FitCheck-v2.0.1.apk"
+                href="https://github.com/barryallen16/fitcheck/releases/download/v2.1.0/FitCheck-v2.1.0.apk"
                 className="font-pixel text-xs tracking-wider bg-[#fd91cc] hover:bg-[#fd91cc]/90 text-[#09318D] font-bold px-6 py-4 flex items-center justify-center gap-2.5 transition-transform active:scale-95 shadow-lg shadow-[#fd91cc]/20 border border-white"
               >
                 <Download size={18} />
-                <span>DOWNLOAD APK (v2.0.1)</span>
+                <span>DOWNLOAD APK (v2.1.0)</span>
               </a>
 
               <button
