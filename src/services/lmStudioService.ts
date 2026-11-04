@@ -1,11 +1,45 @@
-// LM Studio API Service for Garment Analysis
+// FitCheck API Service for Garment Analysis & Stylist Recommendations
 import type { GarmentAnalysis } from '@/types';
-// Add this import at the top if it isn't there
 import type { WeatherData } from '@/types';
 
-// ... existing analyzeGarment and checkLMStudioHealth functions ...
-
+// 24/7 Cloud endpoint powered by fitcheck-qwen3vl-2b
+export const CLOUD_API_URL = 'https://barryallen16-fitcheck.hf.space';
 const LM_STUDIO_URL = 'http://localhost:1234/v1/chat/completions';
+
+export interface CompatibilityResponse {
+  compatible: boolean;
+  probability: number;
+  score: number; // 1-5 scale
+  rationale: string;
+}
+
+export async function evaluateCompatibility(
+  anchor: string,
+  candidate: string
+): Promise<CompatibilityResponse | null> {
+  try {
+    const cloudResp = await fetch(`${CLOUD_API_URL}/evaluate-compatibility`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ anchor, candidate }),
+    });
+
+    if (cloudResp.ok) {
+      const data = await cloudResp.json();
+      return {
+        compatible: Boolean(data.compatible),
+        probability: typeof data.probability === 'number' ? data.probability : (data.compatible ? 0.9 : 0.2),
+        score: typeof data.score === 'number' ? data.score : (data.compatible ? 4.5 : 2.0),
+        rationale: data.rationale || (data.compatible ? 'Harmonious pairing.' : 'Stylistically incompatible.'),
+      };
+    }
+  } catch (err) {
+    console.warn('Cloud evaluate-compatibility endpoint unavailable:', err);
+  }
+  return null;
+}
 
 const ANALYSIS_PROMPT = `You are an expert fashion stylist. Analyze the Indian ethnic clothing in the image and determine the ideal pairing. COPY THE EXACT JSON PATTERN BELOW.
 
@@ -23,6 +57,33 @@ USER INPUT: Analyze the main garment.
 RAW JSON OUTPUT:`;
 
 export async function analyzeGarment(imageBase64: string): Promise<GarmentAnalysis> {
+  // 1. Try 24/7 Cloud endpoint powered by fine-tuned Liquid AI LFM3-VL-2B
+  try {
+    const cloudResp = await fetch(`${CLOUD_API_URL}/analyze-garment`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        image: `data:image/jpeg;base64,${imageBase64}`,
+      }),
+    });
+
+    if (cloudResp.ok) {
+      const data = await cloudResp.json();
+      if (data.analyzed_garment) {
+        return {
+          summary: data.analyzed_garment,
+          analyzed_garment: data.analyzed_garment,
+          category: data.category || 'Garment',
+        };
+      }
+    }
+  } catch (cloudErr) {
+    console.warn('Cloud LFM3-VL-2B endpoint unavailable, trying local fallback:', cloudErr);
+  }
+
+  // 2. Fallback to local LM Studio if available
   try {
     const response = await fetch(LM_STUDIO_URL, {
       method: 'POST',
@@ -77,10 +138,9 @@ export async function analyzeGarment(imageBase64: string): Promise<GarmentAnalys
 export async function generateLocalStylistRecommendation(
   wardrobeInventory: { id: string; category: string; description: string }[],
   weather: WeatherData,
-  rejectedPairs: string[] = [] // <-- Add this new parameter
+  rejectedPairs: string[] = []
 ) {
   try {
-    // Format the rejected pairs into readable text for the LLM
     const rejectedText = rejectedPairs.length > 0 
       ? `\nPREVIOUSLY SUGGESTED PAIRS TO AVOID:\n${rejectedPairs.map(p => {
           const [top, bottom] = p.split('|');
@@ -109,26 +169,44 @@ REQUIRED JSON FORMAT:
 
 RAW JSON OUTPUT:`;
 
+    const requestBody = {
+      model: 'barryallen16/fitcheck-qwen3vl-2b',
+      messages: [
+        {
+          role: 'system',
+          content: 'You are a JSON-only fashion stylist AI. You only output valid JSON.',
+        },
+        {
+          role: 'user',
+          content: prompt,
+        },
+      ],
+      temperature: 0.3,
+      max_tokens: 500,
+    };
+
+    // Try cloud endpoint first
+    try {
+      const cloudResp = await fetch(`${CLOUD_API_URL}/v1/chat/completions`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(requestBody),
+      });
+      if (cloudResp.ok) {
+        const cloudData = await cloudResp.json();
+        const content = cloudData.choices[0]?.message?.content || '';
+        const jsonMatch = content.match(/\{[\s\S]*\}/);
+        if (jsonMatch) return JSON.parse(jsonMatch[0]);
+      }
+    } catch {}
+
+    // Fallback to local
     const response = await fetch(LM_STUDIO_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({
-        model: 'lmstudio-community/qwen3-vl-4b-instruct', // Or whatever model you have loaded in LM Studio
-        messages: [
-          {
-            role: 'system',
-            content: 'You are a JSON-only fashion stylist AI. You only output valid JSON.',
-          },
-          {
-            role: 'user',
-            content: prompt,
-          },
-        ],
-        temperature: 0.3, // Keep low for more deterministic JSON output
-        max_tokens: 500,
-      }),
+      body: JSON.stringify(requestBody),
     });
 
     if (!response.ok) {
@@ -138,9 +216,7 @@ RAW JSON OUTPUT:`;
     const data = await response.json();
     const content = data.choices[0]?.message?.content || '';
     
-    // Use Regex to extract just the JSON part, in case the local model hallucinates extra text
     const jsonMatch = content.match(/\{[\s\S]*\}/);
-    
     if (jsonMatch) {
       return JSON.parse(jsonMatch[0]);
     }
@@ -151,8 +227,18 @@ RAW JSON OUTPUT:`;
     return null;
   }
 }
-// Health check for LM Studio
+
+// Health check for model API (Cloud 24/7 or Local LM Studio)
 export async function checkLMStudioHealth(): Promise<boolean> {
+  try {
+    const cloudResp = await fetch(`${CLOUD_API_URL}/health`, {
+      method: 'GET',
+    });
+    if (cloudResp.ok) {
+      return true;
+    }
+  } catch {}
+
   try {
     const response = await fetch(LM_STUDIO_URL.replace('/chat/completions', '/models'), {
       method: 'GET',

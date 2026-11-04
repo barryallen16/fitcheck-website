@@ -1,23 +1,31 @@
 import { useState, useEffect } from 'react';
-import { Sparkles, RefreshCw, Calendar, ThermometerSun, History } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Alert, AlertDescription } from '@/components/ui/alert';
-import { Separator } from '@/components/ui/separator';
+import { PixelIcon } from '@/components/icons/PixelIcons';
 import type { WardrobeItem, OutfitRecommendation, WeatherData } from '@/types';
-import { generateDailyRecommendation, saveRecommendationToHistory, getAllRecommendations } from '@/services/recommendationService';
+import { 
+  generateDailyRecommendation, 
+  saveRecommendationToHistory, 
+  getAllRecommendations,
+  clearAllRecommendations,
+  BASE_TOP_CATEGORIES,
+  BOTTOM_CATEGORIES,
+} from '@/services/recommendationService';
+import { toast } from 'sonner';
 
 interface DailyRecommendationProps {
   wardrobe: WardrobeItem[];
   weather: WeatherData | null;
+  onStyleOutfitInStudio?: (top?: WardrobeItem, bottom?: WardrobeItem, layer?: WardrobeItem, onePiece?: WardrobeItem) => void;
 }
 
-export function DailyRecommendation({ wardrobe, weather }: DailyRecommendationProps) {
+export function DailyRecommendation({ wardrobe, weather, onStyleOutfitInStudio }: DailyRecommendationProps) {
   const [recommendation, setRecommendation] = useState<OutfitRecommendation | null>(null);
   const [history, setHistory] = useState<OutfitRecommendation[]>([]);
   const [isGenerating, setIsGenerating] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [isWornToday, setIsWornToday] = useState(false);
+  const [targetOccasion, setTargetOccasion] = useState<string>('All Occasions');
+
+  const todayDateStr = new Date().toDateString();
 
   // Load today's recommendation and history on mount
   useEffect(() => {
@@ -25,17 +33,94 @@ export function DailyRecommendation({ wardrobe, weather }: DailyRecommendationPr
       const loadedHistory = getAllRecommendations(wardrobe);
       setHistory(loadedHistory);
 
-      const today = new Date().toDateString();
-      const savedId = localStorage.getItem(`fitcheck-today-id-${today}`);
+      const savedId = localStorage.getItem(`fitcheck-today-id-${todayDateStr}`);
+      const wornStatus = localStorage.getItem(`fitcheck-today-worn-${todayDateStr}`) === 'true';
+      setIsWornToday(wornStatus);
       
       if (savedId) {
         const found = loadedHistory.find(h => h.id === savedId);
         if (found) {
           setRecommendation(found);
+        } else {
+          localStorage.removeItem(`fitcheck-today-id-${todayDateStr}`);
+          setRecommendation(null);
         }
       }
     }
-  }, [wardrobe]);
+  }, [wardrobe, todayDateStr]);
+
+  const handleClearHistory = () => {
+    clearAllRecommendations();
+    setHistory([]);
+    setRecommendation(null);
+    setIsWornToday(false);
+    toast.success('Recommendation history cleared');
+  };
+
+  const handleToggleWorn = () => {
+    const nextState = !isWornToday;
+    setIsWornToday(nextState);
+    localStorage.setItem(`fitcheck-today-worn-${todayDateStr}`, String(nextState));
+    if (nextState) {
+      toast.success('Marked as worn today', {
+        description: 'Saved to your wear log for today.',
+      });
+    } else {
+      toast.info('Marked as unworn for today');
+    }
+  };
+
+  const handleCopyStylistNotes = () => {
+    if (!recommendation) return;
+    const pieces = [
+      recommendation.standaloneGarment ? `Standalone: ${recommendation.standaloneGarment.analysis.summary}` : null,
+      recommendation.topGarment ? `Top: ${recommendation.topGarment.analysis.summary}` : null,
+      recommendation.bottomGarment ? `Bottom: ${recommendation.bottomGarment.analysis.summary}` : null,
+      recommendation.layerGarment ? `Layer: ${recommendation.layerGarment.analysis.summary}` : null,
+    ].filter(Boolean).join('\n');
+
+    const text = `FITCHECK OUTFIT - ${recommendation.occasion}\n${pieces}\n\nColor: ${recommendation.colorLogic}\nSilhouette: ${recommendation.silhouetteLogic}`;
+    navigator.clipboard.writeText(text);
+    toast.success('Stylist notes copied to clipboard!');
+  };
+
+  const handleShuffleTop = () => {
+    if (!recommendation?.bottomGarment) return;
+    const currentTopId = recommendation.topGarment?.id;
+    const otherTops = wardrobe.filter(w => BASE_TOP_CATEGORIES.has(w.analysis.category) && w.id !== currentTopId);
+    if (otherTops.length === 0) {
+      toast.info('No other top garments available in wardrobe.');
+      return;
+    }
+    const nextTop = otherTops[Math.floor(Math.random() * otherTops.length)];
+    const updated: OutfitRecommendation = {
+      ...recommendation,
+      topGarment: nextTop,
+      colorLogic: `Refreshed dialogue pairing ${nextTop.analysis.summary} with ${recommendation.bottomGarment.analysis.summary}.`,
+    };
+    setRecommendation(updated);
+    saveRecommendationToHistory(updated);
+    toast.success(`Swapped top to: ${nextTop.analysis.summary}`);
+  };
+
+  const handleShuffleBottom = () => {
+    if (!recommendation?.topGarment) return;
+    const currentBottomId = recommendation.bottomGarment?.id;
+    const otherBottoms = wardrobe.filter(w => BOTTOM_CATEGORIES.has(w.analysis.category) && w.id !== currentBottomId);
+    if (otherBottoms.length === 0) {
+      toast.info('No other bottom garments available in wardrobe.');
+      return;
+    }
+    const nextBottom = otherBottoms[Math.floor(Math.random() * otherBottoms.length)];
+    const updated: OutfitRecommendation = {
+      ...recommendation,
+      bottomGarment: nextBottom,
+      colorLogic: `Refreshed dialogue pairing ${recommendation.topGarment.analysis.summary} with ${nextBottom.analysis.summary}.`,
+    };
+    setRecommendation(updated);
+    saveRecommendationToHistory(updated);
+    toast.success(`Swapped bottom to: ${nextBottom.analysis.summary}`);
+  };
 
   const generateRecommendation = async () => {
     if (wardrobe.length < 2) {
@@ -52,19 +137,15 @@ export function DailyRecommendation({ wardrobe, weather }: DailyRecommendationPr
         temperature: 32,
         condition: 'Sunny',
         humidity: 75,
-        recommendation: 'Light cotton fabrics recommended',
+        recommendation: 'Light breathable fabrics recommended',
       });
 
       if (rec) {
         setRecommendation(rec);
-        
         saveRecommendationToHistory(rec);
-        
-        const today = new Date().toDateString();
-        localStorage.setItem(`fitcheck-today-id-${today}`, rec.id);
-
-        // Instantly refresh history state so the UI updates
+        localStorage.setItem(`fitcheck-today-id-${todayDateStr}`, rec.id);
         setHistory(getAllRecommendations(wardrobe));
+        toast.success('Curated your daily outfit suggestion!');
       }
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to generate recommendation');
@@ -79,209 +160,395 @@ export function DailyRecommendation({ wardrobe, weather }: DailyRecommendationPr
     month: 'long',
   });
 
-  // Exclude current outfit from history and reverse to show newest first
   const displayHistory = history.filter(h => h.id !== recommendation?.id).reverse();
 
   return (
     <div className="space-y-8">
-      <Card className="border-2 border-rose-100 shadow-sm">
-        <CardHeader>
-          <div className="flex items-center justify-between">
-            <CardTitle className="flex items-center gap-2 text-lg sm:text-xl">
-              <Sparkles className="h-5 w-5 text-rose-500" />
-              Today's Outfit
-            </CardTitle>
-            <Badge variant="outline" className="gap-1 hidden sm:flex">
-              <Calendar className="h-3 w-3" />
-              {today}
-            </Badge>
+      {/* Main Recommendation Box */}
+      <div className="border-2 border-white bg-[#09318D] p-4 sm:p-6 space-y-6">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pb-4 border-b border-white/20 gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
+            <PixelIcon name="sparkles" size={18} className="text-[#fd91cc]" />
+            <h2 className="font-pixel text-sm sm:text-base text-white">TODAY'S OUTFIT</h2>
+            {recommendation && (
+              <span className="font-pixel text-[10px] bg-[#fd91cc] text-[#09318D] px-2 py-0.5 ml-2 uppercase">
+                {recommendation.outfitType === 'one_piece' ? '1-Piece Ensemble' : (recommendation.outfitType === 'three_piece' ? '3-Piece Layered' : '2-Piece Classic')}
+              </span>
+            )}
+            {isWornToday && (
+              <span className="font-pixel text-[10px] bg-green-500 text-black px-2 py-0.5 uppercase flex items-center gap-1">
+                <PixelIcon name="check" size={12} />
+                <span>WORN TODAY</span>
+              </span>
+            )}
           </div>
-        </CardHeader>
-        
-        <CardContent className="space-y-6">
-          {error && (
-            <Alert className="bg-red-50 border-red-200">
-              <AlertDescription className="text-red-800">{error}</AlertDescription>
-            </Alert>
-          )}
+          <div className="font-pixel text-xs text-white/80 border border-white/30 px-2 py-1 hidden sm:block">
+            {today}
+          </div>
+        </div>
 
-          {!recommendation ? (
-            <div className="text-center py-12">
-              <div className="p-4 rounded-full bg-rose-50 inline-flex mb-4">
-                <Sparkles className="h-8 w-8 text-rose-500" />
-              </div>
-              <h3 className="text-lg font-medium mb-2">Get Your Daily Recommendation</h3>
-              <p className="text-sm text-muted-foreground mb-6 max-w-sm mx-auto">
-                Our AI will analyze your wardrobe and suggest the perfect outfit for today based on the weather and your style.
-              </p>
-              <Button
-                onClick={generateRecommendation}
-                disabled={isGenerating || wardrobe.length < 2}
-                className="bg-gradient-to-r from-rose-500 to-orange-500 text-white w-full sm:w-auto px-8"
-              >
-                {isGenerating ? (
-                  <>
-                    <RefreshCw className="h-4 w-4 mr-2 animate-spin" />
-                    Generating...
-                  </>
-                ) : (
-                  <>
-                    <Sparkles className="h-4 w-4 mr-2" />
-                    Generate Outfit
-                  </>
-                )}
-              </Button>
+        {error && (
+          <div className="border border-[#fd91cc] p-3 text-xs text-[#fd91cc] bg-[#fd91cc]/10">
+            {error}
+          </div>
+        )}
+
+        {!recommendation ? (
+          <div className="text-center py-12 border border-dashed border-white/30 p-8 space-y-6">
+            <div className="w-12 h-12 border border-white/40 flex items-center justify-center mx-auto text-[#fd91cc]">
+              <PixelIcon name="sparkles" size={24} />
             </div>
-          ) : (
-            <div className="space-y-6">
-              
-              {/* RESPONSIVE OUTFIT DISPLAY: 1 col (Top stacked over Bottom) on mobile, 2 cols on medium screens */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="space-y-2 order-1">
-                  <Badge className="bg-rose-100 text-rose-700 hover:bg-rose-200">Top</Badge>
-                  <img
-                    src={recommendation.topGarment.imageUrl}
-                    alt={recommendation.topGarment.analysis.summary || recommendation.topGarment.analysis.analyzed_garment}
-                    className="w-full  sm:h-64 object-contain rounded-lg bg-muted border border-border/50"
-                  />
-                  <p className="text-sm font-medium text-foreground">
-                    {recommendation.topGarment.analysis.summary}
-                  </p>
-                </div>
-                
-                <div className="space-y-2 order-2">
-                  <Badge className="bg-blue-100 text-blue-700 hover:bg-blue-200">Bottom</Badge>
-                  <img
-                    src={recommendation.bottomGarment.imageUrl}
-                    alt={recommendation.bottomGarment.analysis.summary || recommendation.bottomGarment.analysis.analyzed_garment}
-                    className="w-full  sm:h-64 object-contain rounded-lg bg-muted border border-border/50"
-                  />
-                  <p className="text-sm font-medium text-foreground">
-                    {recommendation.bottomGarment.analysis.summary}
-                  </p>
-                </div>
-              </div>
+            <div>
+              <h3 className="font-pixel text-sm text-white mb-2">RUN STYLIST INFERENCE</h3>
+              <p className="text-xs text-white/80 max-w-md mx-auto">
+                Evaluate wardrobe items and curate balanced color harmony, silhouette contrast, and cultural alignment.
+              </p>
+            </div>
 
-              {/* Recommendation Logic */}
-              <div className="space-y-3 bg-muted/50 p-4 rounded-xl border border-border/50">
-                <div>
-                  <h4 className="text-sm font-semibold flex items-center gap-2 text-foreground">
-                    <Sparkles className="h-4 w-4 text-amber-500" />
-                    Color Coordination
-                  </h4>
-                  <p className="text-sm text-muted-foreground mt-1 leading-relaxed">
-                    {recommendation.colorLogic}
+            {/* Occasion Filter Buttons */}
+            <div className="flex items-center justify-center gap-2 flex-wrap">
+              {['All Occasions', 'Formal Office', 'Festive Soirée', 'Casual Daily'].map((occ) => (
+                <button
+                  key={occ}
+                  onClick={() => setTargetOccasion(occ)}
+                  className={`px-3 py-1 text-[11px] font-pixel transition-colors ${
+                    targetOccasion === occ
+                      ? 'bg-[#fd91cc] text-[#09318D]'
+                      : 'border border-white/30 text-white/80 hover:border-white'
+                  }`}
+                >
+                  {occ}
+                </button>
+              ))}
+            </div>
+
+            <button
+              data-testid="generate-outfit-btn"
+              onClick={generateRecommendation}
+              disabled={isGenerating || wardrobe.length < 2}
+              className="w-full sm:w-auto px-8 py-4 font-pixel text-xs sm:text-sm tracking-wider bg-[#fd91cc] hover:bg-white text-[#09318D] font-bold border-2 border-white transition-all active:scale-[0.98] shadow-lg shadow-[#fd91cc]/25 flex items-center justify-center gap-2.5 mx-auto cursor-pointer"
+            >
+              <PixelIcon name="sparkles" size={16} />
+              <span>{isGenerating ? 'ANALYZING WARDROBE ROTATION...' : 'CURATE TODAY\'S OUTFIT WITH AI'}</span>
+            </button>
+          </div>
+        ) : (
+          <div className="space-y-6">
+            {/* Outfits Display */}
+            {recommendation.outfitType === 'one_piece' && recommendation.standaloneGarment ? (
+              <div className={`grid grid-cols-1 ${recommendation.layerGarment ? 'md:grid-cols-2' : 'max-w-md mx-auto'} gap-6`}>
+                {/* Standalone Card */}
+                <div className="border border-white/20 p-4 space-y-3 bg-[#09318D]">
+                  <div className="flex items-center justify-between">
+                    <span className="font-pixel text-[11px] text-[#fd91cc] flex items-center gap-1.5">
+                      <PixelIcon name="sparkles" size={14} />
+                      <span>STANDALONE ENSEMBLE</span>
+                    </span>
+                    <span className="text-[10px] text-white/70 font-mono">
+                      {recommendation.standaloneGarment.analysis.category}
+                    </span>
+                  </div>
+                  <div className="aspect-[4/3] w-full overflow-hidden bg-black/20 border border-white/10">
+                    <img
+                      src={recommendation.standaloneGarment.imageUrl}
+                      alt={recommendation.standaloneGarment.analysis.summary}
+                      className="w-full h-full object-contain p-2"
+                    />
+                  </div>
+                  <p className="font-pixel text-xs text-white truncate">
+                    {recommendation.standaloneGarment.analysis.summary}
                   </p>
                 </div>
-                
-                <Separator />
-                
-                <div>
-                  <h4 className="text-sm font-semibold flex items-center gap-2 text-foreground">
-                    <Sparkles className="h-4 w-4 text-violet-500" />
-                    Silhouette Harmony
-                  </h4>
-                  <p className="text-sm text-muted-foreground mt-1 leading-relaxed">
-                    {recommendation.silhouetteLogic}
-                  </p>
-                </div>
-                
-                <Separator />
-                
-                <div className="flex flex-col sm:flex-row justify-between gap-4">
-                  <div>
-                    <h4 className="text-sm font-semibold flex items-center gap-2 text-foreground">
-                      <ThermometerSun className="h-4 w-4 text-orange-500" />
-                      Weather Context
-                    </h4>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      {recommendation.weather}
+
+                {recommendation.layerGarment && (
+                  <div className="border border-white/20 p-4 space-y-3 bg-[#09318D]">
+                    <div className="flex items-center justify-between">
+                      <span className="font-pixel text-[11px] text-[#fd91cc] flex items-center gap-1.5">
+                        <PixelIcon name="sparkles" size={14} />
+                        <span>RECOMMENDED LAYER</span>
+                      </span>
+                      <span className="text-[10px] text-white/70 font-mono">
+                        {recommendation.layerGarment.analysis.category}
+                      </span>
+                    </div>
+                    <div className="aspect-[4/3] w-full overflow-hidden bg-black/20 border border-white/10">
+                      <img
+                        src={recommendation.layerGarment.imageUrl}
+                        alt={recommendation.layerGarment.analysis.summary}
+                        className="w-full h-full object-contain p-2"
+                      />
+                    </div>
+                    <p className="font-pixel text-xs text-white truncate">
+                      {recommendation.layerGarment.analysis.summary}
                     </p>
                   </div>
-                  <div className="sm:text-right">
-                    <h4 className="text-sm font-semibold text-foreground mb-1">Perfect For</h4>
-                    <Badge variant="secondary" className="bg-background text-wrap">
-                      {recommendation.occasion}
-                    </Badge>
+                )}
+              </div>
+            ) : (
+              <div className={`grid grid-cols-1 ${recommendation.layerGarment ? 'md:grid-cols-3' : 'md:grid-cols-2'} gap-6`}>
+                {/* Upper Garment */}
+                {recommendation.topGarment && (
+                  <div className="border border-white/20 p-4 space-y-3 bg-[#09318D]">
+                    <div className="flex items-center justify-between">
+                      <span className="font-pixel text-[11px] text-[#fd91cc] flex items-center gap-1.5">
+                        <PixelIcon name="shirt" size={14} />
+                        <span>UPPER GARMENT</span>
+                      </span>
+                      <button
+                        onClick={handleShuffleTop}
+                        className="text-[10px] border border-white/30 text-white/80 hover:border-[#fd91cc] hover:text-[#fd91cc] px-1.5 py-0.5 font-pixel flex items-center gap-1 transition-colors"
+                        title="Swap for another top in wardrobe"
+                      >
+                        <PixelIcon name="redo" size={10} />
+                        <span>SWAP</span>
+                      </button>
+                    </div>
+                    <div className="aspect-[4/3] w-full overflow-hidden bg-black/20 border border-white/10">
+                      <img
+                        src={recommendation.topGarment.imageUrl}
+                        alt={recommendation.topGarment.analysis.summary}
+                        className="w-full h-full object-contain p-2"
+                      />
+                    </div>
+                    <p className="font-pixel text-xs text-white truncate">
+                      {recommendation.topGarment.analysis.summary}
+                    </p>
                   </div>
+                )}
+
+                {/* Lower Garment */}
+                {recommendation.bottomGarment && (
+                  <div className="border border-white/20 p-4 space-y-3 bg-[#09318D]">
+                    <div className="flex items-center justify-between">
+                      <span className="font-pixel text-[11px] text-[#fd91cc] flex items-center gap-1.5">
+                        <PixelIcon name="jeans" size={14} />
+                        <span>LOWER GARMENT</span>
+                      </span>
+                      <button
+                        onClick={handleShuffleBottom}
+                        className="text-[10px] border border-white/30 text-white/80 hover:border-[#fd91cc] hover:text-[#fd91cc] px-1.5 py-0.5 font-pixel flex items-center gap-1 transition-colors"
+                        title="Swap for another bottom in wardrobe"
+                      >
+                        <PixelIcon name="redo" size={10} />
+                        <span>SWAP</span>
+                      </button>
+                    </div>
+                    <div className="aspect-[4/3] w-full overflow-hidden bg-black/20 border border-white/10">
+                      <img
+                        src={recommendation.bottomGarment.imageUrl}
+                        alt={recommendation.bottomGarment.analysis.summary}
+                        className="w-full h-full object-contain p-2"
+                      />
+                    </div>
+                    <p className="font-pixel text-xs text-white truncate">
+                      {recommendation.bottomGarment.analysis.summary}
+                    </p>
+                  </div>
+                )}
+
+                {/* Layer Garment */}
+                {recommendation.layerGarment && (
+                  <div className="border border-white/20 p-4 space-y-3 bg-[#09318D]">
+                    <div className="flex items-center justify-between">
+                      <span className="font-pixel text-[11px] text-[#fd91cc] flex items-center gap-1.5">
+                        <PixelIcon name="sparkles" size={14} />
+                        <span>RECOMMENDED LAYER</span>
+                      </span>
+                      <span className="text-[10px] text-white/70 font-mono">
+                        {recommendation.layerGarment.analysis.category}
+                      </span>
+                    </div>
+                    <div className="aspect-[4/3] w-full overflow-hidden bg-black/20 border border-white/10">
+                      <img
+                        src={recommendation.layerGarment.imageUrl}
+                        alt={recommendation.layerGarment.analysis.summary}
+                        className="w-full h-full object-contain p-2"
+                      />
+                    </div>
+                    <p className="font-pixel text-xs text-white truncate">
+                      {recommendation.layerGarment.analysis.summary}
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Stylist Breakdown */}
+            <div className="border border-white/20 p-5 space-y-4 bg-white/5">
+              <div className="space-y-1">
+                <div className="font-pixel text-[11px] text-[#fd91cc] flex items-center gap-1.5">
+                  <PixelIcon name="eye" size={14} />
+                  <span>COLOR COORDINATION</span>
                 </div>
+                <p className="text-xs text-white/90 leading-relaxed">
+                  {recommendation.colorLogic}
+                </p>
               </div>
 
-              {/* Actions */}
-              <div className="pt-2">
-                <Button
-                  onClick={generateRecommendation}
-                  disabled={isGenerating}
-                  variant="outline"
-                  className="w-full h-12 text-base"
-                >
-                  <RefreshCw className={`h-4 w-4 mr-2 ${isGenerating ? 'animate-spin' : ''}`} />
-                  {isGenerating ? 'Styling New Outfit...' : 'New Suggestion'}
-                </Button>
+              <div className="pt-3 border-t border-white/10 space-y-1">
+                <div className="font-pixel text-[11px] text-[#fd91cc] flex items-center gap-1.5">
+                  <PixelIcon name="sparkles" size={14} />
+                  <span>SILHOUETTE HARMONY</span>
+                </div>
+                <p className="text-xs text-white/90 leading-relaxed">
+                  {recommendation.silhouetteLogic}
+                </p>
+              </div>
+
+              <div className="pt-3 border-t border-white/10 flex flex-col sm:flex-row justify-between gap-4">
+                <div>
+                  <div className="font-pixel text-[11px] text-[#fd91cc] flex items-center gap-1.5">
+                    <PixelIcon name="sun" size={14} />
+                    <span>WEATHER CONTEXT</span>
+                  </div>
+                  <p className="text-xs text-white/80 mt-1">
+                    {recommendation.weather}
+                  </p>
+                </div>
+                <div className="sm:text-right">
+                  <div className="font-pixel text-[11px] text-white/70">RECOMMENDED SETTING</div>
+                  <div className="font-pixel text-xs text-[#fd91cc] mt-1">
+                    {recommendation.occasion}
+                  </div>
+                </div>
               </div>
             </div>
-          )}
-        </CardContent>
-      </Card>
 
-      {/* HISTORY SECTION */}
+            {/* Interactive Action Row */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              {/* Wear Today Toggle */}
+              <button
+                onClick={handleToggleWorn}
+                className={`p-3 font-pixel text-xs tracking-wider flex items-center justify-center gap-2 transition-colors border ${
+                  isWornToday
+                    ? 'bg-green-500 text-black border-green-400 font-bold'
+                    : 'border-white/40 hover:border-green-400 hover:text-green-400 text-white'
+                }`}
+              >
+                <PixelIcon name="check" size={16} />
+                <span>{isWornToday ? 'WORN TODAY (LOGGED)' : 'MARK AS WORN TODAY'}</span>
+              </button>
+
+              {/* Style in Studio */}
+              {onStyleOutfitInStudio && (
+                <button
+                  onClick={() => onStyleOutfitInStudio(
+                    recommendation.topGarment,
+                    recommendation.bottomGarment,
+                    recommendation.layerGarment,
+                    recommendation.standaloneGarment
+                  )}
+                  className="border border-white/40 hover:border-[#fd91cc] hover:text-[#fd91cc] p-3 font-pixel text-xs tracking-wider flex items-center justify-center gap-2 transition-colors text-white"
+                >
+                  <PixelIcon name="zap" size={16} />
+                  <span>STYLE IN STUDIO</span>
+                </button>
+              )}
+
+              {/* Copy Notes */}
+              <button
+                onClick={handleCopyStylistNotes}
+                className="border border-white/40 hover:border-white p-3 font-pixel text-xs tracking-wider flex items-center justify-center gap-2 transition-colors text-white/80"
+              >
+                <PixelIcon name="sliders" size={16} />
+                <span>COPY NOTES</span>
+              </button>
+            </div>
+
+            {/* Re-generate Action */}
+            <button
+              data-testid="generate-outfit-btn"
+              onClick={generateRecommendation}
+              disabled={isGenerating}
+              className="w-full bg-[#fd91cc] text-[#09318D] hover:bg-white p-3 font-pixel text-xs tracking-wider flex items-center justify-center gap-2 transition-colors"
+            >
+              <PixelIcon name="redo" size={16} className={isGenerating ? 'animate-spin' : ''} />
+              <span>{isGenerating ? 'STYLING NEW ENSEMBLE...' : 'GENERATE NEXT SUGGESTION'}</span>
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* History Grid */}
       {displayHistory.length > 0 && (
         <div className="space-y-4">
-          <div className="flex items-center justify-between border-b pb-2">
-            <h3 className="text-lg font-semibold flex items-center gap-2">
-              <History className="h-5 w-5 text-muted-foreground" />
-              History
-            </h3>
-            <span className="text-xs text-muted-foreground">{displayHistory.length} Outfits</span>
+          <div className="flex items-center justify-between pb-2 border-b border-white/20">
+            <span className="font-pixel text-xs text-[#fd91cc] flex items-center gap-2">
+              <PixelIcon name="grid" size={16} />
+              <span>PREVIOUS STYLES</span>
+            </span>
+            <div className="flex items-center gap-3">
+              <span className="font-mono text-xs text-white/70">{displayHistory.length} OUTFITS</span>
+              <button
+                onClick={handleClearHistory}
+                className="font-pixel text-[11px] border border-white/30 text-white/80 hover:border-[#fd91cc] hover:text-[#fd91cc] px-2 py-0.5 transition-colors flex items-center gap-1"
+                title="Wipe previous suggestions"
+              >
+                <PixelIcon name="close" size={12} />
+                <span>CLEAR HISTORY</span>
+              </button>
+            </div>
           </div>
-          
-          {/* HISTORY GRID: 1 col on mobile, 2 on tablet, 3 on desktop */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {displayHistory.map((item, index) => (
-              <Card key={item.id} className="overflow-hidden border-border/50 shadow-sm flex flex-col group hover:border-rose-200 transition-colors">
-                
-                {/* Header Strip */}
-                <div className="bg-muted px-3 py-2 flex justify-between items-center border-b">
-                  <span className="text-xs font-bold text-foreground">
-                    Outfit #{displayHistory.length - index}
-                  </span>
-                  <Badge variant="secondary" className="text-[10px] px-1.5 py-0">
-                    {item.occasion}
-                  </Badge>
-                </div>
-                
-                {/* Dual Image Display */}
-                <div className="grid grid-cols-2 gap-px bg-muted flex-1">
-                  <div className="relative aspect-square bg-background">
-                    <div className="absolute top-1 left-1 z-10">
-                      <Badge className="text-[9px] py-0 px-1 bg-white/80 text-black shadow-sm pointer-events-none backdrop-blur-sm">TOP</Badge>
-                    </div>
-                    <img 
-                      src={item.topGarment.imageUrl} 
-                      className="w-full h-full object-cover" 
-                      alt="Top"
-                    />
-                  </div>
-                  <div className="relative aspect-square bg-background">
-                    <div className="absolute top-1 left-1 z-10">
-                      <Badge className="text-[9px] py-0 px-1 bg-white/80 text-black shadow-sm pointer-events-none backdrop-blur-sm">BTM</Badge>
-                    </div>
-                    <img 
-                      src={item.bottomGarment.imageUrl} 
-                      className="w-full h-full object-cover" 
-                      alt="Bottom"
-                    />
-                  </div>
-                </div>
-                
-                {/* Mini Description */}
-                <CardContent className="p-3">
-                  <p className="text-xs text-muted-foreground line-clamp-2">
-                    {item.colorLogic}
-                  </p>
-                </CardContent>
 
-              </Card>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {displayHistory.map((item) => (
+              <div 
+                key={item.id} 
+                className="border border-white/20 hover:border-[#fd91cc] p-3 space-y-3 bg-[#09318D] transition-colors"
+              >
+                <div className="flex justify-between items-center text-[10px] font-pixel text-white/80 pb-2 border-b border-white/10">
+                  <span>{item.occasion}</span>
+                  <span className="text-white/50">{item.createdAt.toLocaleDateString()}</span>
+                </div>
+
+                {/* Outfit Visual Preview */}
+                <div className="grid grid-cols-2 gap-2">
+                  {item.standaloneGarment ? (
+                    <div className="col-span-2 aspect-[16/9] bg-black/20 border border-white/10 overflow-hidden">
+                      <img
+                        src={item.standaloneGarment.imageUrl}
+                        alt="Standalone"
+                        className="w-full h-full object-contain p-1"
+                      />
+                    </div>
+                  ) : (
+                    <>
+                      {item.topGarment && (
+                        <div className="aspect-square bg-black/20 border border-white/10 overflow-hidden">
+                          <img
+                            src={item.topGarment.imageUrl}
+                            alt="Top"
+                            className="w-full h-full object-contain p-1"
+                          />
+                        </div>
+                      )}
+                      {item.bottomGarment && (
+                        <div className="aspect-square bg-black/20 border border-white/10 overflow-hidden">
+                          <img
+                            src={item.bottomGarment.imageUrl}
+                            alt="Bottom"
+                            className="w-full h-full object-contain p-1"
+                          />
+                        </div>
+                      )}
+                    </>
+                  )}
+                </div>
+
+                <div className="pt-2 flex items-center justify-between">
+                  <span className="text-[10px] text-white/70 truncate flex-1 pr-2">
+                    {item.topGarment?.analysis.summary || item.standaloneGarment?.analysis.summary}
+                  </span>
+                  {onStyleOutfitInStudio && (
+                    <button
+                      onClick={() => onStyleOutfitInStudio(item.topGarment, item.bottomGarment, item.layerGarment, item.standaloneGarment)}
+                      className="border border-white/30 hover:border-[#fd91cc] hover:text-[#fd91cc] text-[10px] font-pixel px-2 py-0.5 text-white/80 transition-colors"
+                    >
+                      LOAD
+                    </button>
+                  )}
+                </div>
+              </div>
             ))}
           </div>
         </div>

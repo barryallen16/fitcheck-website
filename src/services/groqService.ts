@@ -25,7 +25,6 @@ async function fetchWithKeySpinning(
   while (attempts < API_KEYS.length) {
     const key = API_KEYS[currentKeyIndex];
 
-    // Groq uses Bearer token authorization in the headers
     const headers = new Headers(options.headers);
     headers.set("Authorization", `Bearer ${key}`);
 
@@ -34,7 +33,6 @@ async function fetchWithKeySpinning(
       headers,
     });
 
-    // If we hit a rate limit (429), spin to the next key
     if (response.status === 429) {
       console.warn(
         `Groq API Key at index ${currentKeyIndex} rate-limited. Spinning to next key...`,
@@ -44,30 +42,28 @@ async function fetchWithKeySpinning(
       continue;
     }
 
-    // Return immediately on success or other errors
     return response;
   }
 
   throw new Error("All Groq API keys have exceeded their rate limits.");
 }
 
-// Helper to wait randomly between 12-18 seconds
-const waitRandomly = (): Promise<void> => {
-  const minMs = 12000;
-  const maxMs = 18000;
-  const delay = Math.floor(Math.random() * (maxMs - minMs + 1)) + minMs;
-
-  console.log(`Waiting for ${(delay / 1000).toFixed(2)} seconds...`);
-
-  return new Promise((resolve) => setTimeout(resolve, delay));
-};
+export interface StylistInventoryPayload {
+  tops: { id: string; category: string; description: string }[];
+  bottoms: { id: string; category: string; description: string }[];
+}
 
 // LLM Stylist Recommendation powered by Groq (openai/gpt-oss-120b)
 export async function generateStylistRecommendationGroq(
-  wardrobeInventory: { id: string; category: string; description: string }[],
+  inventory: StylistInventoryPayload | { id: string; category: string; description: string }[],
   weather: WeatherData,
   rejectedPairs: string[] = [],
 ) {
+  // Groq is optional. When unconfigured, silently return null so FitCheck's fine-tuned model and rotation engine take over.
+  if (API_KEYS.length === 0) {
+    return null;
+  }
+
   try {
     const rejectedText =
       rejectedPairs.length > 0
@@ -81,13 +77,13 @@ export async function generateStylistRecommendationGroq(
             )}\nCRITICAL RULE: You MUST NOT suggest any of the exact pairs listed above. Pick a new, unique combination.`
         : "";
 
-    const systemInstruction = `You are an elite fashion stylist specializing in Indian ethnic wear. 
-Your task is to review a user's exact wardrobe inventory and current weather conditions, and select the perfect 2-piece outfit combinations strictly using the provided item IDs.
+    const systemInstruction = `You are an elite fashion stylist specializing in Indian ethnic wear and modern fusion. 
+Your task is to review the separate TOPS and BOTTOMS inventories and current weather, and select a balanced 2-piece outfit combination strictly using the provided item IDs.
 
-RULES:
-1. You MUST select exactly one 'top_id' and exactly one 'bottom_id' from the provided JSON inventory.
-2. The combination must make sense aesthetically (color, fabric) and functionally.
-3. The outfit must be appropriate for the current weather: ${weather.temperature}°C, ${weather.condition}.
+STRICT RULES:
+1. You MUST select exactly one 'top_id' STRICTLY from the provided TOPS list. Never pick a dress, blazer, or lower garment as top.
+2. You MUST select exactly one 'bottom_id' STRICTLY from the provided BOTTOMS list. Never pick another kurti, top, dress, or blazer as bottom.
+3. The combination must create pleasing color and fabric harmony suited for ${weather.temperature}°C, ${weather.condition}.
 4. Provide short, engaging explanations for your choices.
 5. Return ONLY valid, raw JSON. No markdown formatting.
 
@@ -100,8 +96,19 @@ JSON FORMAT:
   "occasion": "string"
 }`;
 
+    let inventoryPromptText = '';
+    if ('tops' in inventory && 'bottoms' in inventory) {
+      inventoryPromptText = `AVAILABLE TOPS (Select top_id strictly from this list):
+${JSON.stringify(inventory.tops)}
+
+AVAILABLE BOTTOMS (Select bottom_id strictly from this list):
+${JSON.stringify(inventory.bottoms)}`;
+    } else {
+      inventoryPromptText = `WARDROBE INVENTORY: ${JSON.stringify(inventory)}`;
+    }
+
     const prompt = `CURRENT WEATHER: ${weather.temperature}°C, ${weather.condition}. 
-WARDROBE INVENTORY: ${JSON.stringify(wardrobeInventory)}${rejectedText}`;
+${inventoryPromptText}${rejectedText}`;
 
     const response = await fetchWithKeySpinning(GROQ_API_URL, {
       method: "POST",
@@ -112,8 +119,8 @@ WARDROBE INVENTORY: ${JSON.stringify(wardrobeInventory)}${rejectedText}`;
           { role: "system", content: systemInstruction },
           { role: "user", content: prompt },
         ],
-        temperature: 1.0,
-        response_format: { type: "json_object" }, // Enforces pure JSON output on Groq
+        temperature: 0.8,
+        response_format: { type: "json_object" },
       }),
     });
 
@@ -122,11 +129,6 @@ WARDROBE INVENTORY: ${JSON.stringify(wardrobeInventory)}${rejectedText}`;
     const content = data.choices?.[0]?.message?.content;
 
     if (!content) throw new Error("Empty response from Groq");
-
-    // PROPERLY AWAIT THE DELAY HERE
-    console.log("Process started. Calling Groq...");
-    await waitRandomly();
-    console.log("Process resumed! Returning data to UI.");
 
     return JSON.parse(content);
   } catch (error) {

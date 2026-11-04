@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Server, CheckCircle2, XCircle, Loader2 } from 'lucide-react';
-import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
+import { PixelIcon } from '@/components/icons/PixelIcons';
 import { checkLMStudioHealth } from '@/services/lmStudioService';
 
 export function LMStudioStatus() {
@@ -17,40 +15,31 @@ export function LMStudioStatus() {
 
   useEffect(() => {
     checkStatus();
-    // Check every 30 seconds
     const interval = setInterval(checkStatus, 30000);
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className="flex items-center gap-2">
-      <Badge 
-        variant={isReady === null ? 'outline' : isReady ? 'default' : 'destructive'}
-        className="gap-1.5"
-      >
-        {isChecking ? (
-          <Loader2 className="h-3 w-3 animate-spin" />
-        ) : isReady === null ? (
-          <Loader2 className="h-3 w-3 animate-spin" />
-        ) : isReady ? (
-          <CheckCircle2 className="h-3 w-3" />
-        ) : (
-          <XCircle className="h-3 w-3" />
-        )}
-        <Server className="h-3 w-3" />
-        LM Studio
-        {isReady === null ? '' : isReady ? ' (Ready)' : ' (Offline)'}
-      </Badge>
+      <div className="border border-white/30 px-2.5 py-1 flex items-center gap-2 text-xs">
+        <span 
+          className={`w-2 h-2 ${isReady ? 'bg-[#fd91cc]' : 'bg-white/40'}`} 
+          aria-hidden="true" 
+        />
+        <span className="font-pixel text-[11px] text-white">
+          AI MODEL: {isReady === null ? 'CHECKING...' : isReady ? 'ONLINE (24/7 LFM)' : 'CLIENT-SIDE FALLBACK'}
+        </span>
+      </div>
       
       {isReady === false && (
-        <Button 
-          variant="ghost" 
-          size="sm" 
+        <button 
           onClick={checkStatus}
-          className="h-6 text-xs"
+          disabled={isChecking}
+          className="border border-white/30 px-2 py-0.5 text-[11px] font-pixel text-white/80 hover:text-[#fd91cc] hover:border-[#fd91cc] transition-colors flex items-center gap-1"
         >
-          Retry
-        </Button>
+          <PixelIcon name="redo" size={12} className={isChecking ? 'animate-spin' : ''} />
+          <span>RETRY</span>
+        </button>
       )}
     </div>
   );

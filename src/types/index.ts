@@ -5,6 +5,7 @@ export interface GarmentAnalysis {
   analyzed_garment: string;
   category: string;
 }
+
 export interface WardrobeItem {
   id: string;
   imageUrl: string;
@@ -12,10 +13,15 @@ export interface WardrobeItem {
   uploadedAt: Date;
 }
 
+export type OutfitType = 'two_piece' | 'three_piece' | 'one_piece';
+
 export interface OutfitRecommendation {
   id: string;
-  topGarment: WardrobeItem;
-  bottomGarment: WardrobeItem;
+  outfitType: OutfitType;
+  topGarment?: WardrobeItem;
+  bottomGarment?: WardrobeItem;
+  standaloneGarment?: WardrobeItem;
+  layerGarment?: WardrobeItem;
   colorLogic: string;
   silhouetteLogic: string;
   occasion: string;
@@ -46,14 +52,21 @@ export interface PersonaData {
 
 export type GarmentCategory = 
   | 'Kurti' 
+  | 'Kurta'
   | 'Lehenga' 
   | 'Dupatta' 
   | 'Palazzo' 
   | 'Churidar' 
   | 'Salwar'
+  | 'Pajama'
   | 'Saree'
   | 'Dhoti'
   | 'Sherwani'
+  | 'Shirt'
+  | 'Jeans'
+  | 'Pants'
+  | 'Jacket'
+  | 'Blazer'
   | 'Top'
   | 'Bottom'
   | 'Accessory';
